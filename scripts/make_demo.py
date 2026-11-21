@@ -117,6 +117,9 @@ for k, run in enumerate(RUNS):
         ans = "no answer" if r < 0.05 else "yes" if strength[p] + random.uniform(-0.03, 0.03) < 0.10 + 0.02 * k else "no"
         ai.append({"run_date": run.isoformat(), "platform": "Google AI Overview", "prompt": p, "in_answer": ans,
                    "organic_pos": random.choice(["", "", 1, 3, 4, 6, 9]), "snippet": "Acme Cloud offers client dashboards for agencies." if ans == "yes" else ""})
+    for p in PROMPTS[:7]:
+        ai.append({"run_date": run.isoformat(), "platform": "ChatGPT", "prompt": p,
+                   "in_answer": "yes" if strength[p] < 0.08 + 0.03 * k else "no", "organic_pos": "", "snippet": ""})
     if k in (1, 5):
         for p in PROMPTS[:5]:
             ai.append({"run_date": run.isoformat(), "platform": "Gemini", "prompt": p, "in_answer": "yes" if strength[p] < 0.15 + 0.04 * k else "no",

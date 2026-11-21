@@ -1,8 +1,12 @@
-"""Pull the latest successful run of each Apify task and append it to data/raw/*.json.
+"""Collect this week's data and append it to data/raw/*.json.
 
-Needs APIFY_TOKEN plus one task ID per source (see config/sources.json -> env_task_id),
-set as environment variables or GitHub Actions secrets. Sources without a task ID are
-skipped; with no token at all the build falls back to the demo data.
+- Apify: the latest successful run of each task (APIFY_TOKEN + one task ID per source,
+  see config/sources.json -> env_task_id). Google, Reddit, X, LinkedIn, Google AI Overview, Gemini.
+- ChatGPT: asks the prompts in config/sources.json -> ai_prompts through the OpenAI API
+  with web search (OPENAI_API_KEY, optional OPENAI_MODEL).
+
+Everything is optional: a source without its secret is skipped, and with nothing set
+the build falls back to the demo data.
 """
 import json
 import os
@@ -51,15 +55,51 @@ def norm_aio(item, run, brand_re, own_domain):
              "organic_pos": pos, "snippet": ""}]
 
 
+def norm_gemini(item, run, brand_re, own_domain):
+    import re
+    if not item.get("text"):
+        return [{"run_date": run, "platform": "Gemini", "prompt": item.get("query", ""), "in_answer": "no answer", "organic_pos": "", "snippet": ""}]
+    cited = [s.get("url", "") for s in item.get("sources", [])]
+    named = re.search(brand_re, item["text"], re.I) or any(own_domain in u for u in cited)
+    return [{"run_date": run, "platform": "Gemini", "prompt": item.get("query", ""), "in_answer": "yes" if named else "no",
+             "organic_pos": "", "snippet": ""}]
+
+
+def ask_chatgpt(prompt, run, key, model, brand_re, own_domain):
+    """One prompt through the OpenAI Responses API with the web_search tool."""
+    import re
+    body = {"model": model, "tools": [{"type": "web_search"}], "input": prompt}
+    req = urllib.request.Request("https://api.openai.com/v1/responses", data=json.dumps(body).encode(),
+                                 headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"})
+    with urllib.request.urlopen(req, timeout=180) as r:
+        resp = json.load(r)
+    text, urls = "", []
+    for out in resp.get("output", []):
+        for part in out.get("content", []) or []:
+            if part.get("type") == "output_text":
+                text += part.get("text", "")
+                urls += [a.get("url", "") for a in part.get("annotations", []) if a.get("type") == "url_citation"]
+    if not text:
+        return {"run_date": run, "platform": "ChatGPT", "prompt": prompt, "in_answer": "no answer", "organic_pos": "", "snippet": ""}
+    named = re.search(brand_re, text, re.I) or any(own_domain in u for u in urls)
+    pos = next((i + 1 for i, u in enumerate(urls) if own_domain in u), "")
+    return {"run_date": run, "platform": "ChatGPT", "prompt": prompt, "in_answer": "yes" if named else "no", "organic_pos": pos, "snippet": ""}
+
+
 def main():
-    token = os.environ.get("APIFY_TOKEN")
-    if not token:
-        print("APIFY_TOKEN not set: skipping fetch, build uses demo data.")
+    token, okey = os.environ.get("APIFY_TOKEN"), os.environ.get("OPENAI_API_KEY")
+    if not token and not okey:
+        print("No APIFY_TOKEN or OPENAI_API_KEY: skipping fetch, build uses demo data.")
         return
     RAW.mkdir(parents=True, exist_ok=True)
     run = date.today().isoformat()
     buckets = {"mentions": [], "pains": [], "ai": []}
-    for name, src in CFG["sources"].items():
+    if okey:
+        model = os.environ.get("OPENAI_MODEL") or "gpt-5.5"
+        for p in CFG.get("ai_prompts", []):
+            buckets["ai"].append(ask_chatgpt(p, run, okey, model, CFG["brand_regex"], CFG["own_domain"]))
+        print(f"chatgpt: {len(CFG.get('ai_prompts', []))} prompts")
+    for name, src in (CFG["sources"].items() if token else []):
         task = os.environ.get(src["env_task_id"])
         if not task:
             continue
@@ -69,6 +109,8 @@ def main():
         for it in items:
             if name == "ai_aio":
                 buckets["ai"] += norm_aio(it, run, CFG["brand_regex"], CFG["own_domain"])
+            elif name == "ai_gemini":
+                buckets["ai"] += norm_gemini(it, run, CFG["brand_regex"], CFG["own_domain"])
             elif name == "google":
                 buckets["mentions"] += norm_google(it, run)
             elif name.startswith("pains_"):
