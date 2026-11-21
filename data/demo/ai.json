@@ -4,7 +4,7 @@
 "platform": "Google AI Overview",
 "prompt": "best reporting tool for marketing agencies",
 "in_answer": "no",
-"organic_pos": 1,
+"organic_pos": "",
 "snippet": ""
 },
 {
@@ -12,45 +12,13 @@
 "platform": "Google AI Overview",
 "prompt": "client dashboard software for small agencies",
 "in_answer": "no",
-"organic_pos": 3,
-"snippet": ""
-},
-{
-"run_date": "2026-10-13",
-"platform": "Google AI Overview",
-"prompt": "Competitor A alternatives",
-"in_answer": "no answer",
 "organic_pos": 9,
 "snippet": ""
 },
 {
 "run_date": "2026-10-13",
 "platform": "Google AI Overview",
-"prompt": "Competitor B vs Competitor C",
-"in_answer": "no",
-"organic_pos": 1,
-"snippet": ""
-},
-{
-"run_date": "2026-10-13",
-"platform": "Google AI Overview",
-"prompt": "best analytics tool for online stores",
-"in_answer": "no",
-"organic_pos": 3,
-"snippet": ""
-},
-{
-"run_date": "2026-10-13",
-"platform": "Google AI Overview",
-"prompt": "reporting tool with chat integration",
-"in_answer": "no answer",
-"organic_pos": 3,
-"snippet": ""
-},
-{
-"run_date": "2026-10-13",
-"platform": "Google AI Overview",
-"prompt": "cheapest team dashboard tool",
+"prompt": "Competitor A alternatives",
 "in_answer": "no",
 "organic_pos": 4,
 "snippet": ""
@@ -58,7 +26,23 @@
 {
 "run_date": "2026-10-13",
 "platform": "Google AI Overview",
-"prompt": "dashboard tool for university courses",
+"prompt": "Competitor B vs Competitor C",
+"in_answer": "yes",
+"organic_pos": "",
+"snippet": "Acme Cloud offers client dashboards for agencies."
+},
+{
+"run_date": "2026-10-13",
+"platform": "Google AI Overview",
+"prompt": "best analytics tool for online stores",
+"in_answer": "no",
+"organic_pos": "",
+"snippet": ""
+},
+{
+"run_date": "2026-10-13",
+"platform": "Google AI Overview",
+"prompt": "reporting tool with chat integration",
 "in_answer": "no",
 "organic_pos": 9,
 "snippet": ""
@@ -66,9 +50,25 @@
 {
 "run_date": "2026-10-13",
 "platform": "Google AI Overview",
-"prompt": "how to automate client reports",
+"prompt": "cheapest team dashboard tool",
 "in_answer": "no",
 "organic_pos": 9,
+"snippet": ""
+},
+{
+"run_date": "2026-10-13",
+"platform": "Google AI Overview",
+"prompt": "dashboard tool for university courses",
+"in_answer": "no",
+"organic_pos": 6,
+"snippet": ""
+},
+{
+"run_date": "2026-10-13",
+"platform": "Google AI Overview",
+"prompt": "how to automate client reports",
+"in_answer": "no",
+"organic_pos": "",
 "snippet": ""
 },
 {
@@ -92,31 +92,31 @@
 "platform": "Google AI Overview",
 "prompt": "tool to combine web analytics and ads data",
 "in_answer": "no",
-"organic_pos": 4,
-"snippet": ""
-},
-{
-"run_date": "2026-10-13",
-"platform": "Google AI Overview",
-"prompt": "self-serve BI for small teams",
-"in_answer": "no",
-"organic_pos": 9,
-"snippet": ""
-},
-{
-"run_date": "2026-10-13",
-"platform": "Google AI Overview",
-"prompt": "free BI tool alternatives",
-"in_answer": "no",
 "organic_pos": "",
 "snippet": ""
 },
 {
 "run_date": "2026-10-13",
 "platform": "Google AI Overview",
+"prompt": "self-serve BI for small teams",
+"in_answer": "no",
+"organic_pos": 4,
+"snippet": ""
+},
+{
+"run_date": "2026-10-13",
+"platform": "Google AI Overview",
+"prompt": "free BI tool alternatives",
+"in_answer": "no",
+"organic_pos": 3,
+"snippet": ""
+},
+{
+"run_date": "2026-10-13",
+"platform": "Google AI Overview",
 "prompt": "client reporting automation",
 "in_answer": "no",
-"organic_pos": 6,
+"organic_pos": 1,
 "snippet": ""
 },
 {
@@ -132,7 +132,7 @@
 "platform": "Google AI Overview",
 "prompt": "client dashboard software for small agencies",
 "in_answer": "no",
-"organic_pos": 1,
+"organic_pos": 9,
 "snippet": ""
 },
 {
@@ -147,16 +147,16 @@
 "run_date": "2026-10-20",
 "platform": "Google AI Overview",
 "prompt": "Competitor B vs Competitor C",
-"in_answer": "no",
-"organic_pos": 4,
-"snippet": ""
+"in_answer": "yes",
+"organic_pos": 6,
+"snippet": "Acme Cloud offers client dashboards for agencies."
 },
 {
 "run_date": "2026-10-20",
 "platform": "Google AI Overview",
 "prompt": "best analytics tool for online stores",
 "in_answer": "no",
-"organic_pos": 6,
+"organic_pos": 4,
 "snippet": ""
 },
 {
@@ -164,7 +164,7 @@
 "platform": "Google AI Overview",
 "prompt": "reporting tool with chat integration",
 "in_answer": "no",
-"organic_pos": 4,
+"organic_pos": "",
 "snippet": ""
 },
 {
@@ -172,7 +172,7 @@
 "platform": "Google AI Overview",
 "prompt": "cheapest team dashboard tool",
 "in_answer": "no",
-"organic_pos": 1,
+"organic_pos": "",
 "snippet": ""
 },
 {
@@ -180,7 +180,7 @@
 "platform": "Google AI Overview",
 "prompt": "dashboard tool for university courses",
 "in_answer": "no",
-"organic_pos": 6,
+"organic_pos": 4,
 "snippet": ""
 },
 {
@@ -188,39 +188,39 @@
 "platform": "Google AI Overview",
 "prompt": "how to automate client reports",
 "in_answer": "no",
-"organic_pos": 3,
+"organic_pos": "",
 "snippet": ""
 },
 {
 "run_date": "2026-10-20",
 "platform": "Google AI Overview",
 "prompt": "white-label reporting for agencies",
-"in_answer": "yes",
-"organic_pos": 3,
-"snippet": "Acme Cloud offers client dashboards for agencies."
+"in_answer": "no",
+"organic_pos": 1,
+"snippet": ""
 },
 {
 "run_date": "2026-10-20",
 "platform": "Google AI Overview",
 "prompt": "KPI dashboard for startups",
-"in_answer": "no",
-"organic_pos": 3,
+"in_answer": "no answer",
+"organic_pos": 4,
 "snippet": ""
 },
 {
 "run_date": "2026-10-20",
 "platform": "Google AI Overview",
 "prompt": "tool to combine web analytics and ads data",
-"in_answer": "yes",
-"organic_pos": 6,
-"snippet": "Acme Cloud offers client dashboards for agencies."
+"in_answer": "no",
+"organic_pos": "",
+"snippet": ""
 },
 {
 "run_date": "2026-10-20",
 "platform": "Google AI Overview",
 "prompt": "self-serve BI for small teams",
 "in_answer": "no",
-"organic_pos": "",
+"organic_pos": 9,
 "snippet": ""
 },
 {
@@ -235,8 +235,8 @@
 "run_date": "2026-10-20",
 "platform": "Google AI Overview",
 "prompt": "client reporting automation",
-"in_answer": "no answer",
-"organic_pos": 6,
+"in_answer": "no",
+"organic_pos": 4,
 "snippet": ""
 },
 {
@@ -267,7 +267,7 @@
 "run_date": "2026-10-20",
 "platform": "Gemini",
 "prompt": "Competitor B vs Competitor C",
-"in_answer": "no",
+"in_answer": "yes",
 "organic_pos": "",
 "snippet": ""
 },
@@ -292,31 +292,31 @@
 "platform": "Google AI Overview",
 "prompt": "client dashboard software for small agencies",
 "in_answer": "no",
-"organic_pos": "",
+"organic_pos": 4,
 "snippet": ""
 },
 {
 "run_date": "2026-10-27",
 "platform": "Google AI Overview",
 "prompt": "Competitor A alternatives",
-"in_answer": "no",
-"organic_pos": 9,
-"snippet": ""
+"in_answer": "yes",
+"organic_pos": 6,
+"snippet": "Acme Cloud offers client dashboards for agencies."
 },
 {
 "run_date": "2026-10-27",
 "platform": "Google AI Overview",
 "prompt": "Competitor B vs Competitor C",
-"in_answer": "no",
-"organic_pos": 9,
-"snippet": ""
+"in_answer": "yes",
+"organic_pos": "",
+"snippet": "Acme Cloud offers client dashboards for agencies."
 },
 {
 "run_date": "2026-10-27",
 "platform": "Google AI Overview",
 "prompt": "best analytics tool for online stores",
 "in_answer": "no",
-"organic_pos": 3,
+"organic_pos": 6,
 "snippet": ""
 },
 {
@@ -324,7 +324,7 @@
 "platform": "Google AI Overview",
 "prompt": "reporting tool with chat integration",
 "in_answer": "no",
-"organic_pos": "",
+"organic_pos": 9,
 "snippet": ""
 },
 {
@@ -340,7 +340,7 @@
 "platform": "Google AI Overview",
 "prompt": "dashboard tool for university courses",
 "in_answer": "no",
-"organic_pos": 3,
+"organic_pos": "",
 "snippet": ""
 },
 {
@@ -348,7 +348,7 @@
 "platform": "Google AI Overview",
 "prompt": "how to automate client reports",
 "in_answer": "no",
-"organic_pos": "",
+"organic_pos": 9,
 "snippet": ""
 },
 {
@@ -356,77 +356,45 @@
 "platform": "Google AI Overview",
 "prompt": "white-label reporting for agencies",
 "in_answer": "no",
-"organic_pos": 4,
+"organic_pos": 1,
 "snippet": ""
 },
 {
 "run_date": "2026-10-27",
 "platform": "Google AI Overview",
 "prompt": "KPI dashboard for startups",
-"in_answer": "yes",
+"in_answer": "no",
 "organic_pos": "",
-"snippet": "Acme Cloud offers client dashboards for agencies."
+"snippet": ""
 },
 {
 "run_date": "2026-10-27",
 "platform": "Google AI Overview",
 "prompt": "tool to combine web analytics and ads data",
-"in_answer": "no",
-"organic_pos": "",
-"snippet": ""
+"in_answer": "yes",
+"organic_pos": 6,
+"snippet": "Acme Cloud offers client dashboards for agencies."
 },
 {
 "run_date": "2026-10-27",
 "platform": "Google AI Overview",
 "prompt": "self-serve BI for small teams",
 "in_answer": "no",
-"organic_pos": "",
+"organic_pos": 3,
 "snippet": ""
 },
 {
 "run_date": "2026-10-27",
 "platform": "Google AI Overview",
 "prompt": "free BI tool alternatives",
-"in_answer": "yes",
-"organic_pos": 1,
-"snippet": "Acme Cloud offers client dashboards for agencies."
-},
-{
-"run_date": "2026-10-27",
-"platform": "Google AI Overview",
-"prompt": "client reporting automation",
 "in_answer": "no",
 "organic_pos": "",
 "snippet": ""
 },
 {
-"run_date": "2026-11-03",
+"run_date": "2026-10-27",
 "platform": "Google AI Overview",
-"prompt": "best reporting tool for marketing agencies",
-"in_answer": "no answer",
-"organic_pos": 6,
-"snippet": ""
-},
-{
-"run_date": "2026-11-03",
-"platform": "Google AI Overview",
-"prompt": "client dashboard software for small agencies",
-"in_answer": "no",
-"organic_pos": 1,
-"snippet": ""
-},
-{
-"run_date": "2026-11-03",
-"platform": "Google AI Overview",
-"prompt": "Competitor A alternatives",
-"in_answer": "no answer",
-"organic_pos": 4,
-"snippet": ""
-},
-{
-"run_date": "2026-11-03",
-"platform": "Google AI Overview",
-"prompt": "Competitor B vs Competitor C",
+"prompt": "client reporting automation",
 "in_answer": "no",
 "organic_pos": 3,
 "snippet": ""
@@ -434,8 +402,40 @@
 {
 "run_date": "2026-11-03",
 "platform": "Google AI Overview",
-"prompt": "best analytics tool for online stores",
+"prompt": "best reporting tool for marketing agencies",
 "in_answer": "no",
+"organic_pos": "",
+"snippet": ""
+},
+{
+"run_date": "2026-11-03",
+"platform": "Google AI Overview",
+"prompt": "client dashboard software for small agencies",
+"in_answer": "no",
+"organic_pos": 9,
+"snippet": ""
+},
+{
+"run_date": "2026-11-03",
+"platform": "Google AI Overview",
+"prompt": "Competitor A alternatives",
+"in_answer": "yes",
+"organic_pos": "",
+"snippet": "Acme Cloud offers client dashboards for agencies."
+},
+{
+"run_date": "2026-11-03",
+"platform": "Google AI Overview",
+"prompt": "Competitor B vs Competitor C",
+"in_answer": "yes",
+"organic_pos": "",
+"snippet": "Acme Cloud offers client dashboards for agencies."
+},
+{
+"run_date": "2026-11-03",
+"platform": "Google AI Overview",
+"prompt": "best analytics tool for online stores",
+"in_answer": "no answer",
 "organic_pos": 6,
 "snippet": ""
 },
@@ -444,7 +444,7 @@
 "platform": "Google AI Overview",
 "prompt": "reporting tool with chat integration",
 "in_answer": "no",
-"organic_pos": 1,
+"organic_pos": 4,
 "snippet": ""
 },
 {
@@ -452,31 +452,31 @@
 "platform": "Google AI Overview",
 "prompt": "cheapest team dashboard tool",
 "in_answer": "no",
-"organic_pos": 6,
+"organic_pos": "",
 "snippet": ""
 },
 {
 "run_date": "2026-11-03",
 "platform": "Google AI Overview",
 "prompt": "dashboard tool for university courses",
-"in_answer": "yes",
-"organic_pos": 1,
-"snippet": "Acme Cloud offers client dashboards for agencies."
+"in_answer": "no",
+"organic_pos": 4,
+"snippet": ""
 },
 {
 "run_date": "2026-11-03",
 "platform": "Google AI Overview",
 "prompt": "how to automate client reports",
-"in_answer": "yes",
-"organic_pos": 3,
-"snippet": "Acme Cloud offers client dashboards for agencies."
+"in_answer": "no answer",
+"organic_pos": "",
+"snippet": ""
 },
 {
 "run_date": "2026-11-03",
 "platform": "Google AI Overview",
 "prompt": "white-label reporting for agencies",
 "in_answer": "no",
-"organic_pos": 9,
+"organic_pos": 1,
 "snippet": ""
 },
 {
@@ -491,17 +491,17 @@
 "run_date": "2026-11-03",
 "platform": "Google AI Overview",
 "prompt": "tool to combine web analytics and ads data",
-"in_answer": "yes",
-"organic_pos": "",
-"snippet": "Acme Cloud offers client dashboards for agencies."
+"in_answer": "no",
+"organic_pos": 4,
+"snippet": ""
 },
 {
 "run_date": "2026-11-03",
 "platform": "Google AI Overview",
 "prompt": "self-serve BI for small teams",
-"in_answer": "no",
-"organic_pos": "",
-"snippet": ""
+"in_answer": "yes",
+"organic_pos": 4,
+"snippet": "Acme Cloud offers client dashboards for agencies."
 },
 {
 "run_date": "2026-11-03",
@@ -524,7 +524,7 @@
 "platform": "Google AI Overview",
 "prompt": "best reporting tool for marketing agencies",
 "in_answer": "no",
-"organic_pos": "",
+"organic_pos": 6,
 "snippet": ""
 },
 {
@@ -532,46 +532,46 @@
 "platform": "Google AI Overview",
 "prompt": "client dashboard software for small agencies",
 "in_answer": "no",
-"organic_pos": "",
+"organic_pos": 9,
 "snippet": ""
 },
 {
 "run_date": "2026-11-10",
 "platform": "Google AI Overview",
 "prompt": "Competitor A alternatives",
-"in_answer": "no",
-"organic_pos": 3,
-"snippet": ""
+"in_answer": "yes",
+"organic_pos": "",
+"snippet": "Acme Cloud offers client dashboards for agencies."
 },
 {
 "run_date": "2026-11-10",
 "platform": "Google AI Overview",
 "prompt": "Competitor B vs Competitor C",
-"in_answer": "no",
-"organic_pos": 4,
-"snippet": ""
+"in_answer": "yes",
+"organic_pos": 6,
+"snippet": "Acme Cloud offers client dashboards for agencies."
 },
 {
 "run_date": "2026-11-10",
 "platform": "Google AI Overview",
 "prompt": "best analytics tool for online stores",
 "in_answer": "no",
-"organic_pos": 4,
+"organic_pos": 1,
 "snippet": ""
 },
 {
 "run_date": "2026-11-10",
 "platform": "Google AI Overview",
 "prompt": "reporting tool with chat integration",
-"in_answer": "no answer",
-"organic_pos": "",
+"in_answer": "no",
+"organic_pos": 1,
 "snippet": ""
 },
 {
 "run_date": "2026-11-10",
 "platform": "Google AI Overview",
 "prompt": "cheapest team dashboard tool",
-"in_answer": "no",
+"in_answer": "no answer",
 "organic_pos": 1,
 "snippet": ""
 },
@@ -580,7 +580,7 @@
 "platform": "Google AI Overview",
 "prompt": "dashboard tool for university courses",
 "in_answer": "no",
-"organic_pos": 9,
+"organic_pos": 3,
 "snippet": ""
 },
 {
@@ -588,71 +588,71 @@
 "platform": "Google AI Overview",
 "prompt": "how to automate client reports",
 "in_answer": "no",
-"organic_pos": 3,
+"organic_pos": 1,
 "snippet": ""
 },
 {
 "run_date": "2026-11-10",
 "platform": "Google AI Overview",
 "prompt": "white-label reporting for agencies",
+"in_answer": "no",
+"organic_pos": 1,
+"snippet": ""
+},
+{
+"run_date": "2026-11-10",
+"platform": "Google AI Overview",
+"prompt": "KPI dashboard for startups",
+"in_answer": "no",
+"organic_pos": 1,
+"snippet": ""
+},
+{
+"run_date": "2026-11-10",
+"platform": "Google AI Overview",
+"prompt": "tool to combine web analytics and ads data",
+"in_answer": "yes",
+"organic_pos": "",
+"snippet": "Acme Cloud offers client dashboards for agencies."
+},
+{
+"run_date": "2026-11-10",
+"platform": "Google AI Overview",
+"prompt": "self-serve BI for small teams",
+"in_answer": "yes",
+"organic_pos": "",
+"snippet": "Acme Cloud offers client dashboards for agencies."
+},
+{
+"run_date": "2026-11-10",
+"platform": "Google AI Overview",
+"prompt": "free BI tool alternatives",
+"in_answer": "no",
+"organic_pos": 6,
+"snippet": ""
+},
+{
+"run_date": "2026-11-10",
+"platform": "Google AI Overview",
+"prompt": "client reporting automation",
+"in_answer": "no",
+"organic_pos": 3,
+"snippet": ""
+},
+{
+"run_date": "2026-11-17",
+"platform": "Google AI Overview",
+"prompt": "best reporting tool for marketing agencies",
 "in_answer": "no",
 "organic_pos": 4,
 "snippet": ""
 },
 {
-"run_date": "2026-11-10",
-"platform": "Google AI Overview",
-"prompt": "KPI dashboard for startups",
-"in_answer": "no",
-"organic_pos": 1,
-"snippet": ""
-},
-{
-"run_date": "2026-11-10",
-"platform": "Google AI Overview",
-"prompt": "tool to combine web analytics and ads data",
-"in_answer": "no",
-"organic_pos": 9,
-"snippet": ""
-},
-{
-"run_date": "2026-11-10",
-"platform": "Google AI Overview",
-"prompt": "self-serve BI for small teams",
-"in_answer": "no",
-"organic_pos": 1,
-"snippet": ""
-},
-{
-"run_date": "2026-11-10",
-"platform": "Google AI Overview",
-"prompt": "free BI tool alternatives",
-"in_answer": "no",
-"organic_pos": 6,
-"snippet": ""
-},
-{
-"run_date": "2026-11-10",
-"platform": "Google AI Overview",
-"prompt": "client reporting automation",
-"in_answer": "no",
-"organic_pos": "",
-"snippet": ""
-},
-{
-"run_date": "2026-11-17",
-"platform": "Google AI Overview",
-"prompt": "best reporting tool for marketing agencies",
-"in_answer": "no",
-"organic_pos": 6,
-"snippet": ""
-},
-{
 "run_date": "2026-11-17",
 "platform": "Google AI Overview",
 "prompt": "client dashboard software for small agencies",
 "in_answer": "no",
-"organic_pos": 1,
+"organic_pos": 6,
 "snippet": ""
 },
 {
@@ -660,7 +660,7 @@
 "platform": "Google AI Overview",
 "prompt": "Competitor A alternatives",
 "in_answer": "yes",
-"organic_pos": "",
+"organic_pos": 6,
 "snippet": "Acme Cloud offers client dashboards for agencies."
 },
 {
@@ -668,23 +668,23 @@
 "platform": "Google AI Overview",
 "prompt": "Competitor B vs Competitor C",
 "in_answer": "yes",
-"organic_pos": 3,
+"organic_pos": 4,
 "snippet": "Acme Cloud offers client dashboards for agencies."
 },
 {
 "run_date": "2026-11-17",
 "platform": "Google AI Overview",
 "prompt": "best analytics tool for online stores",
-"in_answer": "yes",
-"organic_pos": 6,
-"snippet": "Acme Cloud offers client dashboards for agencies."
+"in_answer": "no",
+"organic_pos": 9,
+"snippet": ""
 },
 {
 "run_date": "2026-11-17",
 "platform": "Google AI Overview",
 "prompt": "reporting tool with chat integration",
-"in_answer": "no answer",
-"organic_pos": "",
+"in_answer": "no",
+"organic_pos": 6,
 "snippet": ""
 },
 {
@@ -692,7 +692,7 @@
 "platform": "Google AI Overview",
 "prompt": "cheapest team dashboard tool",
 "in_answer": "no",
-"organic_pos": 3,
+"organic_pos": 1,
 "snippet": ""
 },
 {
@@ -700,7 +700,7 @@
 "platform": "Google AI Overview",
 "prompt": "dashboard tool for university courses",
 "in_answer": "no",
-"organic_pos": 3,
+"organic_pos": 6,
 "snippet": ""
 },
 {
@@ -708,7 +708,7 @@
 "platform": "Google AI Overview",
 "prompt": "how to automate client reports",
 "in_answer": "no",
-"organic_pos": 9,
+"organic_pos": "",
 "snippet": ""
 },
 {
@@ -723,32 +723,32 @@
 "run_date": "2026-11-17",
 "platform": "Google AI Overview",
 "prompt": "KPI dashboard for startups",
-"in_answer": "no answer",
-"organic_pos": 6,
+"in_answer": "no",
+"organic_pos": 4,
 "snippet": ""
 },
 {
 "run_date": "2026-11-17",
 "platform": "Google AI Overview",
 "prompt": "tool to combine web analytics and ads data",
-"in_answer": "no",
-"organic_pos": 6,
-"snippet": ""
+"in_answer": "yes",
+"organic_pos": 1,
+"snippet": "Acme Cloud offers client dashboards for agencies."
 },
 {
 "run_date": "2026-11-17",
 "platform": "Google AI Overview",
 "prompt": "self-serve BI for small teams",
-"in_answer": "no",
-"organic_pos": 6,
-"snippet": ""
+"in_answer": "yes",
+"organic_pos": 3,
+"snippet": "Acme Cloud offers client dashboards for agencies."
 },
 {
 "run_date": "2026-11-17",
 "platform": "Google AI Overview",
 "prompt": "free BI tool alternatives",
 "in_answer": "no",
-"organic_pos": "",
+"organic_pos": 1,
 "snippet": ""
 },
 {
@@ -756,14 +756,14 @@
 "platform": "Google AI Overview",
 "prompt": "client reporting automation",
 "in_answer": "no",
-"organic_pos": 1,
+"organic_pos": 3,
 "snippet": ""
 },
 {
 "run_date": "2026-11-17",
 "platform": "Gemini",
 "prompt": "best reporting tool for marketing agencies",
-"in_answer": "yes",
+"in_answer": "no",
 "organic_pos": "",
 "snippet": ""
 },
@@ -795,7 +795,7 @@
 "run_date": "2026-11-17",
 "platform": "Gemini",
 "prompt": "best analytics tool for online stores",
-"in_answer": "yes",
+"in_answer": "no",
 "organic_pos": "",
 "snippet": ""
 }
