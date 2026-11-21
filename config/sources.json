@@ -37,6 +37,10 @@
     "ai_aio": {
       "actor": "apify/google-search-scraper",
       "env_task_id": "TASK_AI_AIO"
+    },
+    "ai_gemini": {
+      "actor": "apify/gemini-search-scraper",
+      "env_task_id": "TASK_AI_GEMINI"
     }
   },
   "query_templates": {
@@ -50,11 +54,6 @@
       "{{COMPETITOR}} price increase",
       "{{COMPETITOR}} outage again",
       "tool for <your category> recommendations"
-    ],
-    "ai_prompts": [
-      "best <your category> tool for small teams",
-      "<your category> software comparison",
-      "{{COMPETITOR}} alternatives"
     ]
   },
   "noise": {
@@ -150,5 +149,14 @@
       "Data migration",
       "export|migrat|lock-?in"
     ]
+  ],
+  "ai_prompts": [
+    "best reporting tool for marketing agencies",
+    "client dashboard software for small agencies",
+    "Competitor A alternatives",
+    "best analytics tool for online stores",
+    "how to automate client reports",
+    "white-label reporting for agencies",
+    "KPI dashboard for startups"
   ]
 }
