@@ -1,0 +1,1028 @@
+[
+{
+"date": "2025-06-15",
+"rating": 5,
+"title": "Reliable dashboards",
+"text": "Reports load fast and never break.",
+"country": "GB",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/0"
+},
+{
+"date": "2025-06-12",
+"rating": 4,
+"title": "Reliable dashboards",
+"text": "Reports load fast and never break.",
+"country": "CA",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/1"
+},
+{
+"date": "2025-06-06",
+"rating": 2,
+"title": "Price hike",
+"text": "Plan price went up with no warning, expensive now.",
+"country": "FR",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/2"
+},
+{
+"date": "2025-06-05",
+"rating": 5,
+"title": "Reliable dashboards",
+"text": "Reports load fast and never break.",
+"country": "DE",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/3"
+},
+{
+"date": "2025-06-09",
+"rating": 5,
+"title": "Easy onboarding",
+"text": "Set up in an afternoon, support helpful.",
+"country": "DE",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/4"
+},
+{
+"date": "2025-06-24",
+"rating": 5,
+"title": "Reliable dashboards",
+"text": "Reports load fast and never break.",
+"country": "GB",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/5"
+},
+{
+"date": "2025-07-06",
+"rating": 5,
+"title": "Reliable dashboards",
+"text": "Reports load fast and never break.",
+"country": "GB",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/6"
+},
+{
+"date": "2025-07-06",
+"rating": 1,
+"title": "Export is a pain",
+"text": "Cannot export data properly, migration is a nightmare.",
+"country": "AU",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/7"
+},
+{
+"date": "2025-07-24",
+"rating": 5,
+"title": "Easy onboarding",
+"text": "Set up in an afternoon, support helpful.",
+"country": "DE",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/8"
+},
+{
+"date": "2025-07-09",
+"rating": 1,
+"title": "Export is a pain",
+"text": "Cannot export data properly, migration is a nightmare.",
+"country": "GB",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/9"
+},
+{
+"date": "2025-07-28",
+"rating": 3,
+"title": "Easy onboarding",
+"text": "Set up in an afternoon, support helpful.",
+"country": "FR",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/10"
+},
+{
+"date": "2025-07-15",
+"rating": 5,
+"title": "Reliable dashboards",
+"text": "Reports load fast and never break.",
+"country": "US",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/11"
+},
+{
+"date": "2025-07-24",
+"rating": 4,
+"title": "Great integrations",
+"text": "Integration with our chat and CRM works well, pricing fair.",
+"country": "GB",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/12"
+},
+{
+"date": "2025-07-28",
+"rating": 3,
+"title": "Reliable dashboards",
+"text": "Reports load fast and never break.",
+"country": "GB",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/13"
+},
+{
+"date": "2025-08-22",
+"rating": 5,
+"title": "Reliable dashboards",
+"text": "Reports load fast and never break.",
+"country": "GB",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/14"
+},
+{
+"date": "2025-08-21",
+"rating": 5,
+"title": "Great integrations",
+"text": "Integration with our chat and CRM works well, pricing fair.",
+"country": "AU",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/15"
+},
+{
+"date": "2025-08-09",
+"rating": 5,
+"title": "Great integrations",
+"text": "Integration with our chat and CRM works well, pricing fair.",
+"country": "FR",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/16"
+},
+{
+"date": "2025-08-21",
+"rating": 1,
+"title": "Price hike",
+"text": "Plan price went up with no warning, expensive now.",
+"country": "DE",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/17"
+},
+{
+"date": "2025-08-02",
+"rating": 4,
+"title": "Great integrations",
+"text": "Integration with our chat and CRM works well, pricing fair.",
+"country": "DE",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/18"
+},
+{
+"date": "2025-08-04",
+"rating": 2,
+"title": "Outages every week",
+"text": "Dashboards down again, support slow to reply.",
+"country": "CA",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/19"
+},
+{
+"date": "2025-08-21",
+"rating": 1,
+"title": "Price hike",
+"text": "Plan price went up with no warning, expensive now.",
+"country": "DE",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/20"
+},
+{
+"date": "2025-08-22",
+"rating": 5,
+"title": "Great integrations",
+"text": "Integration with our chat and CRM works well, pricing fair.",
+"country": "GB",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/21"
+},
+{
+"date": "2025-09-21",
+"rating": 5,
+"title": "Reliable dashboards",
+"text": "Reports load fast and never break.",
+"country": "US",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/22"
+},
+{
+"date": "2025-09-03",
+"rating": 4,
+"title": "Easy onboarding",
+"text": "Set up in an afternoon, support helpful.",
+"country": "FR",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/23"
+},
+{
+"date": "2025-09-19",
+"rating": 5,
+"title": "Reliable dashboards",
+"text": "Reports load fast and never break.",
+"country": "DE",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/24"
+},
+{
+"date": "2025-09-26",
+"rating": 5,
+"title": "Great integrations",
+"text": "Integration with our chat and CRM works well, pricing fair.",
+"country": "FR",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/25"
+},
+{
+"date": "2025-09-16",
+"rating": 1,
+"title": "Outages every week",
+"text": "Dashboards down again, support slow to reply.",
+"country": "AU",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/26"
+},
+{
+"date": "2025-09-22",
+"rating": 2,
+"title": "Outages every week",
+"text": "Dashboards down again, support slow to reply.",
+"country": "AU",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/27"
+},
+{
+"date": "2025-09-10",
+"rating": 3,
+"title": "Great integrations",
+"text": "Integration with our chat and CRM works well, pricing fair.",
+"country": "CA",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/28"
+},
+{
+"date": "2025-09-26",
+"rating": 5,
+"title": "Great integrations",
+"text": "Integration with our chat and CRM works well, pricing fair.",
+"country": "GB",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/29"
+},
+{
+"date": "2025-09-22",
+"rating": 3,
+"title": "Great integrations",
+"text": "Integration with our chat and CRM works well, pricing fair.",
+"country": "GB",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/30"
+},
+{
+"date": "2025-10-08",
+"rating": 5,
+"title": "Great integrations",
+"text": "Integration with our chat and CRM works well, pricing fair.",
+"country": "AU",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/31"
+},
+{
+"date": "2025-10-22",
+"rating": 4,
+"title": "Great integrations",
+"text": "Integration with our chat and CRM works well, pricing fair.",
+"country": "DE",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/32"
+},
+{
+"date": "2025-10-03",
+"rating": 4,
+"title": "Great integrations",
+"text": "Integration with our chat and CRM works well, pricing fair.",
+"country": "CA",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/33"
+},
+{
+"date": "2025-10-21",
+"rating": 5,
+"title": "Easy onboarding",
+"text": "Set up in an afternoon, support helpful.",
+"country": "CA",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/34"
+},
+{
+"date": "2025-10-09",
+"rating": 2,
+"title": "Outages every week",
+"text": "Dashboards down again, support slow to reply.",
+"country": "CA",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/35"
+},
+{
+"date": "2025-10-25",
+"rating": 1,
+"title": "Outages every week",
+"text": "Dashboards down again, support slow to reply.",
+"country": "FR",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/36"
+},
+{
+"date": "2025-10-20",
+"rating": 1,
+"title": "Price hike",
+"text": "Plan price went up with no warning, expensive now.",
+"country": "AU",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/37"
+},
+{
+"date": "2025-10-07",
+"rating": 5,
+"title": "Reliable dashboards",
+"text": "Reports load fast and never break.",
+"country": "FR",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/38"
+},
+{
+"date": "2025-10-22",
+"rating": 3,
+"title": "Reliable dashboards",
+"text": "Reports load fast and never break.",
+"country": "US",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/39"
+},
+{
+"date": "2025-11-16",
+"rating": 3,
+"title": "Easy onboarding",
+"text": "Set up in an afternoon, support helpful.",
+"country": "CA",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/40"
+},
+{
+"date": "2025-11-08",
+"rating": 3,
+"title": "Easy onboarding",
+"text": "Set up in an afternoon, support helpful.",
+"country": "FR",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/41"
+},
+{
+"date": "2025-11-06",
+"rating": 4,
+"title": "Reliable dashboards",
+"text": "Reports load fast and never break.",
+"country": "DE",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/42"
+},
+{
+"date": "2025-11-27",
+"rating": 5,
+"title": "Reliable dashboards",
+"text": "Reports load fast and never break.",
+"country": "FR",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/43"
+},
+{
+"date": "2025-11-06",
+"rating": 4,
+"title": "Reliable dashboards",
+"text": "Reports load fast and never break.",
+"country": "AU",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/44"
+},
+{
+"date": "2025-12-22",
+"rating": 1,
+"title": "Export is a pain",
+"text": "Cannot export data properly, migration is a nightmare.",
+"country": "AU",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/45"
+},
+{
+"date": "2025-12-16",
+"rating": 2,
+"title": "Outages every week",
+"text": "Dashboards down again, support slow to reply.",
+"country": "GB",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/46"
+},
+{
+"date": "2025-12-11",
+"rating": 1,
+"title": "Export is a pain",
+"text": "Cannot export data properly, migration is a nightmare.",
+"country": "US",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/47"
+},
+{
+"date": "2025-12-10",
+"rating": 1,
+"title": "Price hike",
+"text": "Plan price went up with no warning, expensive now.",
+"country": "FR",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/48"
+},
+{
+"date": "2025-12-10",
+"rating": 2,
+"title": "Outages every week",
+"text": "Dashboards down again, support slow to reply.",
+"country": "DE",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/49"
+},
+{
+"date": "2025-12-28",
+"rating": 2,
+"title": "Export is a pain",
+"text": "Cannot export data properly, migration is a nightmare.",
+"country": "CA",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/50"
+},
+{
+"date": "2025-12-11",
+"rating": 1,
+"title": "Price hike",
+"text": "Plan price went up with no warning, expensive now.",
+"country": "GB",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/51"
+},
+{
+"date": "2025-12-26",
+"rating": 1,
+"title": "Export is a pain",
+"text": "Cannot export data properly, migration is a nightmare.",
+"country": "US",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/52"
+},
+{
+"date": "2026-01-13",
+"rating": 4,
+"title": "Reliable dashboards",
+"text": "Reports load fast and never break.",
+"country": "DE",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/53"
+},
+{
+"date": "2026-01-26",
+"rating": 1,
+"title": "Price hike",
+"text": "Plan price went up with no warning, expensive now.",
+"country": "CA",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/54"
+},
+{
+"date": "2026-01-21",
+"rating": 5,
+"title": "Reliable dashboards",
+"text": "Reports load fast and never break.",
+"country": "AU",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/55"
+},
+{
+"date": "2026-01-07",
+"rating": 4,
+"title": "Reliable dashboards",
+"text": "Reports load fast and never break.",
+"country": "US",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/56"
+},
+{
+"date": "2026-01-22",
+"rating": 4,
+"title": "Easy onboarding",
+"text": "Set up in an afternoon, support helpful.",
+"country": "GB",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/57"
+},
+{
+"date": "2026-01-12",
+"rating": 4,
+"title": "Easy onboarding",
+"text": "Set up in an afternoon, support helpful.",
+"country": "GB",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/58"
+},
+{
+"date": "2026-01-06",
+"rating": 5,
+"title": "Great integrations",
+"text": "Integration with our chat and CRM works well, pricing fair.",
+"country": "FR",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/59"
+},
+{
+"date": "2026-02-16",
+"rating": 4,
+"title": "Reliable dashboards",
+"text": "Reports load fast and never break.",
+"country": "CA",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/60"
+},
+{
+"date": "2026-02-15",
+"rating": 3,
+"title": "Great integrations",
+"text": "Integration with our chat and CRM works well, pricing fair.",
+"country": "US",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/61"
+},
+{
+"date": "2026-02-16",
+"rating": 5,
+"title": "Reliable dashboards",
+"text": "Reports load fast and never break.",
+"country": "FR",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/62"
+},
+{
+"date": "2026-03-21",
+"rating": 5,
+"title": "Easy onboarding",
+"text": "Set up in an afternoon, support helpful.",
+"country": "US",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/63"
+},
+{
+"date": "2026-03-28",
+"rating": 1,
+"title": "Export is a pain",
+"text": "Cannot export data properly, migration is a nightmare.",
+"country": "US",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/64"
+},
+{
+"date": "2026-03-09",
+"rating": 1,
+"title": "Price hike",
+"text": "Plan price went up with no warning, expensive now.",
+"country": "AU",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/65"
+},
+{
+"date": "2026-04-12",
+"rating": 4,
+"title": "Easy onboarding",
+"text": "Set up in an afternoon, support helpful.",
+"country": "AU",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/66"
+},
+{
+"date": "2026-04-10",
+"rating": 4,
+"title": "Reliable dashboards",
+"text": "Reports load fast and never break.",
+"country": "AU",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/67"
+},
+{
+"date": "2026-04-02",
+"rating": 5,
+"title": "Reliable dashboards",
+"text": "Reports load fast and never break.",
+"country": "AU",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/68"
+},
+{
+"date": "2026-04-13",
+"rating": 1,
+"title": "Export is a pain",
+"text": "Cannot export data properly, migration is a nightmare.",
+"country": "DE",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/69"
+},
+{
+"date": "2026-04-11",
+"rating": 4,
+"title": "Great integrations",
+"text": "Integration with our chat and CRM works well, pricing fair.",
+"country": "DE",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/70"
+},
+{
+"date": "2026-04-05",
+"rating": 5,
+"title": "Great integrations",
+"text": "Integration with our chat and CRM works well, pricing fair.",
+"country": "US",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/71"
+},
+{
+"date": "2026-05-13",
+"rating": 2,
+"title": "Price hike",
+"text": "Plan price went up with no warning, expensive now.",
+"country": "FR",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/72"
+},
+{
+"date": "2026-05-10",
+"rating": 5,
+"title": "Reliable dashboards",
+"text": "Reports load fast and never break.",
+"country": "DE",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/73"
+},
+{
+"date": "2026-05-28",
+"rating": 5,
+"title": "Reliable dashboards",
+"text": "Reports load fast and never break.",
+"country": "CA",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/74"
+},
+{
+"date": "2026-05-19",
+"rating": 2,
+"title": "Outages every week",
+"text": "Dashboards down again, support slow to reply.",
+"country": "FR",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/75"
+},
+{
+"date": "2026-05-20",
+"rating": 2,
+"title": "Price hike",
+"text": "Plan price went up with no warning, expensive now.",
+"country": "GB",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/76"
+},
+{
+"date": "2026-05-09",
+"rating": 5,
+"title": "Easy onboarding",
+"text": "Set up in an afternoon, support helpful.",
+"country": "DE",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/77"
+},
+{
+"date": "2026-05-27",
+"rating": 5,
+"title": "Easy onboarding",
+"text": "Set up in an afternoon, support helpful.",
+"country": "GB",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/78"
+},
+{
+"date": "2026-05-09",
+"rating": 5,
+"title": "Reliable dashboards",
+"text": "Reports load fast and never break.",
+"country": "CA",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/79"
+},
+{
+"date": "2026-06-26",
+"rating": 3,
+"title": "Easy onboarding",
+"text": "Set up in an afternoon, support helpful.",
+"country": "FR",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/80"
+},
+{
+"date": "2026-06-20",
+"rating": 5,
+"title": "Easy onboarding",
+"text": "Set up in an afternoon, support helpful.",
+"country": "US",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/81"
+},
+{
+"date": "2026-06-19",
+"rating": 5,
+"title": "Easy onboarding",
+"text": "Set up in an afternoon, support helpful.",
+"country": "US",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/82"
+},
+{
+"date": "2026-06-25",
+"rating": 5,
+"title": "Easy onboarding",
+"text": "Set up in an afternoon, support helpful.",
+"country": "US",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/83"
+},
+{
+"date": "2026-06-16",
+"rating": 5,
+"title": "Great integrations",
+"text": "Integration with our chat and CRM works well, pricing fair.",
+"country": "CA",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/84"
+},
+{
+"date": "2026-06-06",
+"rating": 1,
+"title": "Outages every week",
+"text": "Dashboards down again, support slow to reply.",
+"country": "AU",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/85"
+},
+{
+"date": "2026-07-08",
+"rating": 1,
+"title": "Price hike",
+"text": "Plan price went up with no warning, expensive now.",
+"country": "US",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/86"
+},
+{
+"date": "2026-07-21",
+"rating": 2,
+"title": "Outages every week",
+"text": "Dashboards down again, support slow to reply.",
+"country": "FR",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/87"
+},
+{
+"date": "2026-07-12",
+"rating": 1,
+"title": "Export is a pain",
+"text": "Cannot export data properly, migration is a nightmare.",
+"country": "DE",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/88"
+},
+{
+"date": "2026-07-28",
+"rating": 1,
+"title": "Outages every week",
+"text": "Dashboards down again, support slow to reply.",
+"country": "CA",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/89"
+},
+{
+"date": "2026-07-14",
+"rating": 2,
+"title": "Price hike",
+"text": "Plan price went up with no warning, expensive now.",
+"country": "US",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/90"
+},
+{
+"date": "2026-07-09",
+"rating": 5,
+"title": "Reliable dashboards",
+"text": "Reports load fast and never break.",
+"country": "US",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/91"
+},
+{
+"date": "2026-07-01",
+"rating": 4,
+"title": "Great integrations",
+"text": "Integration with our chat and CRM works well, pricing fair.",
+"country": "US",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/92"
+},
+{
+"date": "2026-08-28",
+"rating": 3,
+"title": "Great integrations",
+"text": "Integration with our chat and CRM works well, pricing fair.",
+"country": "US",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/93"
+},
+{
+"date": "2026-08-09",
+"rating": 4,
+"title": "Easy onboarding",
+"text": "Set up in an afternoon, support helpful.",
+"country": "DE",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/94"
+},
+{
+"date": "2026-08-06",
+"rating": 3,
+"title": "Reliable dashboards",
+"text": "Reports load fast and never break.",
+"country": "FR",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/95"
+},
+{
+"date": "2026-08-06",
+"rating": 5,
+"title": "Easy onboarding",
+"text": "Set up in an afternoon, support helpful.",
+"country": "US",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/96"
+},
+{
+"date": "2026-08-27",
+"rating": 4,
+"title": "Easy onboarding",
+"text": "Set up in an afternoon, support helpful.",
+"country": "US",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/97"
+},
+{
+"date": "2026-09-02",
+"rating": 3,
+"title": "Reliable dashboards",
+"text": "Reports load fast and never break.",
+"country": "US",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/98"
+},
+{
+"date": "2026-09-19",
+"rating": 5,
+"title": "Easy onboarding",
+"text": "Set up in an afternoon, support helpful.",
+"country": "CA",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/99"
+},
+{
+"date": "2026-09-12",
+"rating": 5,
+"title": "Great integrations",
+"text": "Integration with our chat and CRM works well, pricing fair.",
+"country": "DE",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/100"
+},
+{
+"date": "2026-09-15",
+"rating": 5,
+"title": "Great integrations",
+"text": "Integration with our chat and CRM works well, pricing fair.",
+"country": "GB",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/101"
+},
+{
+"date": "2026-09-23",
+"rating": 3,
+"title": "Easy onboarding",
+"text": "Set up in an afternoon, support helpful.",
+"country": "GB",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/102"
+},
+{
+"date": "2026-09-20",
+"rating": 1,
+"title": "Outages every week",
+"text": "Dashboards down again, support slow to reply.",
+"country": "DE",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/103"
+},
+{
+"date": "2026-09-13",
+"rating": 1,
+"title": "Price hike",
+"text": "Plan price went up with no warning, expensive now.",
+"country": "US",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/104"
+},
+{
+"date": "2026-10-16",
+"rating": 5,
+"title": "Great integrations",
+"text": "Integration with our chat and CRM works well, pricing fair.",
+"country": "US",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/105"
+},
+{
+"date": "2026-10-06",
+"rating": 1,
+"title": "Outages every week",
+"text": "Dashboards down again, support slow to reply.",
+"country": "AU",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/106"
+},
+{
+"date": "2026-10-09",
+"rating": 5,
+"title": "Great integrations",
+"text": "Integration with our chat and CRM works well, pricing fair.",
+"country": "FR",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/107"
+},
+{
+"date": "2026-10-11",
+"rating": 2,
+"title": "Price hike",
+"text": "Plan price went up with no warning, expensive now.",
+"country": "GB",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/108"
+},
+{
+"date": "2026-10-04",
+"rating": 2,
+"title": "Price hike",
+"text": "Plan price went up with no warning, expensive now.",
+"country": "GB",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/109"
+},
+{
+"date": "2026-10-18",
+"rating": 1,
+"title": "Export is a pain",
+"text": "Cannot export data properly, migration is a nightmare.",
+"country": "FR",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/110"
+},
+{
+"date": "2026-11-14",
+"rating": 5,
+"title": "Easy onboarding",
+"text": "Set up in an afternoon, support helpful.",
+"country": "DE",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/111"
+},
+{
+"date": "2026-11-10",
+"rating": 3,
+"title": "Easy onboarding",
+"text": "Set up in an afternoon, support helpful.",
+"country": "FR",
+"reply": "no",
+"url": "https://reviews.example/acmecloud/112"
+},
+{
+"date": "2026-11-05",
+"rating": 2,
+"title": "Export is a pain",
+"text": "Cannot export data properly, migration is a nightmare.",
+"country": "AU",
+"reply": "yes",
+"url": "https://reviews.example/acmecloud/113"
+}
+]

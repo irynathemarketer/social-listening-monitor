@@ -1,0 +1,1652 @@
+[
+{
+"run_date": "2026-10-13",
+"source": "LinkedIn",
+"title": "Acme Cloud down again this morning",
+"text": "Second outage this month, dashboards broken for two hours. Still waiting on a status update.",
+"url": "https://linkedin.example/posts/1",
+"posted": "2026-10-13",
+"author": "user174",
+"query": "brand"
+},
+{
+"run_date": "2026-10-13",
+"source": "Google",
+"title": "CSV export in Acme Cloud is limited",
+"text": "Export only gives CSV, no API for bulk migration. Annoying lock-in.",
+"url": "https://blog.example/2",
+"posted": "2026-10-08",
+"author": "user696",
+"query": "brand"
+},
+{
+"run_date": "2026-10-13",
+"source": "Reddit",
+"title": "Acme Cloud review after six months at our agency",
+"text": "We run all client reporting in Acme Cloud now. Support is responsive and onboarding was easy.",
+"url": "https://reddit.example/r/saas/3",
+"posted": "2026-10-13",
+"author": "user188",
+"query": "brand"
+},
+{
+"run_date": "2026-10-13",
+"source": "LinkedIn",
+"title": "Using Acme Cloud with 40 students",
+"text": "Teacher here: set up Acme Cloud for my university course, students picked it up fast.",
+"url": "https://linkedin.example/posts/4",
+"posted": "2026-10-12",
+"author": "user346",
+"query": "brand"
+},
+{
+"run_date": "2026-10-13",
+"source": "LinkedIn",
+"title": "Is Acme Cloud worth it for a small online store?",
+"text": "Looking into Acme Cloud for our shop. Anyone using it with e-commerce?",
+"url": "https://linkedin.example/posts/5",
+"posted": "2026-10-13",
+"author": "user946",
+"query": "brand"
+},
+{
+"run_date": "2026-10-13",
+"source": "Google",
+"title": "Acme Cloud support fixed our API issue in a day",
+"text": "API sync was failing, a manager from Acme Cloud sorted it the next morning. Helpful support.",
+"url": "https://blog.example/6",
+"posted": "2026-10-10",
+"author": "user745",
+"query": "brand"
+},
+{
+"run_date": "2026-10-13",
+"source": "Google",
+"title": "Acme Cloud support fixed our API issue in a day",
+"text": "API sync was failing, a manager from Acme Cloud sorted it the next morning. Helpful support.",
+"url": "https://blog.example/7",
+"posted": "2026-10-07",
+"author": "user150",
+"query": "brand"
+},
+{
+"run_date": "2026-10-13",
+"source": "Google",
+"title": "Acme Cloud vs Competitor B for startups",
+"text": "Comparing Acme Cloud and Competitor B on pricing and integrations for a seed-stage startup.",
+"url": "https://blog.example/8",
+"posted": "2026-10-11",
+"author": "user396",
+"query": "brand"
+},
+{
+"run_date": "2026-10-13",
+"source": "Reddit",
+"title": "Using Acme Cloud with 40 students",
+"text": "Teacher here: set up Acme Cloud for my university course, students picked it up fast.",
+"url": "https://reddit.example/r/saas/9",
+"posted": "2026-10-12",
+"author": "user684",
+"query": "brand"
+},
+{
+"run_date": "2026-10-13",
+"source": "Reddit",
+"title": "Acme Cloud chat integration is great",
+"text": "The new chat integration from Acme Cloud saves us an hour a day.",
+"url": "https://reddit.example/r/saas/10",
+"posted": "2026-10-12",
+"author": "user695",
+"query": "brand"
+},
+{
+"run_date": "2026-10-13",
+"source": "Reddit",
+"title": "Acme Cloud support fixed our API issue in a day",
+"text": "API sync was failing, a manager from Acme Cloud sorted it the next morning. Helpful support.",
+"url": "https://reddit.example/r/saas/11",
+"posted": "2026-10-08",
+"author": "user199",
+"query": "brand"
+},
+{
+"run_date": "2026-10-13",
+"source": "Google",
+"title": "CSV export in Acme Cloud is limited",
+"text": "Export only gives CSV, no API for bulk migration. Annoying lock-in.",
+"url": "https://blog.example/12",
+"posted": "2026-10-13",
+"author": "user733",
+"query": "brand"
+},
+{
+"run_date": "2026-10-13",
+"source": "LinkedIn",
+"title": "Acme Cloud vs Competitor B for startups",
+"text": "Comparing Acme Cloud and Competitor B on pricing and integrations for a seed-stage startup.",
+"url": "https://linkedin.example/posts/13",
+"posted": "2026-10-07",
+"author": "user895",
+"query": "brand"
+},
+{
+"run_date": "2026-10-13",
+"source": "LinkedIn",
+"title": "Acme Cloud price increase",
+"text": "Our plan went up 30% with two weeks notice. Considering a cancel and refund.",
+"url": "https://linkedin.example/posts/14",
+"posted": "2026-10-06",
+"author": "user470",
+"query": "brand"
+},
+{
+"run_date": "2026-10-13",
+"source": "Reddit",
+"title": "Acme Cloud chat integration is great",
+"text": "The new chat integration from Acme Cloud saves us an hour a day.",
+"url": "https://reddit.example/r/saas/15",
+"posted": "2026-10-11",
+"author": "user815",
+"query": "brand"
+},
+{
+"run_date": "2026-10-13",
+"source": "Google",
+"title": "Acme Cloud vs Competitor B for startups",
+"text": "Comparing Acme Cloud and Competitor B on pricing and integrations for a seed-stage startup.",
+"url": "https://blog.example/16",
+"posted": "2026-10-09",
+"author": "user637",
+"query": "brand"
+},
+{
+"run_date": "2026-10-13",
+"source": "X",
+"title": "Top 10 reporting tools for agencies",
+"text": "List includes Acme Cloud, Competitor A and Competitor C for agencies with many clients.",
+"url": "https://x.example/status/17",
+"posted": "2026-10-06",
+"author": "user394",
+"query": "brand"
+},
+{
+"run_date": "2026-10-13",
+"source": "Google",
+"title": "Acme Cloud support fixed our API issue in a day",
+"text": "API sync was failing, a manager from Acme Cloud sorted it the next morning. Helpful support.",
+"url": "https://blog.example/18",
+"posted": "2026-10-12",
+"author": "user624",
+"query": "brand"
+},
+{
+"run_date": "2026-10-13",
+"source": "Reddit",
+"title": "Using Acme Cloud with 40 students",
+"text": "Teacher here: set up Acme Cloud for my university course, students picked it up fast.",
+"url": "https://reddit.example/r/saas/19",
+"posted": "2026-10-08",
+"author": "user255",
+"query": "brand"
+},
+{
+"run_date": "2026-10-13",
+"source": "LinkedIn",
+"title": "We are hiring: product designer at Acme Cloud",
+"text": "Join Acme Cloud and build tools for small teams.",
+"url": "https://linkedin.example/posts/20",
+"posted": "2026-10-13",
+"author": "acmecloud",
+"query": "brand"
+},
+{
+"run_date": "2026-10-13",
+"source": "LinkedIn",
+"title": "My first three months at Acme Cloud",
+"text": "What I learned in my first three months at Acme Cloud.",
+"url": "https://linkedin.example/posts/21",
+"posted": "2026-10-12",
+"author": "jane-doe-example",
+"query": "brand"
+},
+{
+"run_date": "2026-10-13",
+"source": "Google",
+"title": "App directory: tools that integrate with Acme Cloud",
+"text": "List of apps that integrate with Acme Cloud.",
+"url": "https://blog.example/22",
+"posted": "2026-10-08",
+"author": "",
+"query": "brand"
+},
+{
+"run_date": "2026-10-13",
+"source": "Google",
+"title": "Acme Cloud partner directory: agencies",
+"text": "Certified agencies in the Acme Cloud partner directory.",
+"url": "https://blog.example/23",
+"posted": "2026-10-08",
+"author": "",
+"query": "brand"
+},
+{
+"run_date": "2026-10-13",
+"source": "Google",
+"title": "Acme Cloud Bakery opens second location",
+"text": "Local bakery news, unrelated.",
+"url": "https://blog.example/24",
+"posted": "2026-10-08",
+"author": "",
+"query": "brand"
+},
+{
+"run_date": "2026-10-13",
+"source": "Google",
+"title": "Hiring now: cashier at Acme Cloud Storage Units",
+"text": "Apply now for a cashier job.",
+"url": "https://blog.example/25",
+"posted": "2026-10-06",
+"author": "",
+"query": "brand"
+},
+{
+"run_date": "2026-10-20",
+"source": "LinkedIn",
+"title": "Using Acme Cloud with 40 students",
+"text": "Teacher here: set up Acme Cloud for my university course, students picked it up fast.",
+"url": "https://linkedin.example/posts/65",
+"posted": "2026-10-14",
+"author": "user861",
+"query": "brand"
+},
+{
+"run_date": "2026-10-20",
+"source": "Reddit",
+"title": "Is Acme Cloud worth it for a small online store?",
+"text": "Looking into Acme Cloud for our shop. Anyone using it with e-commerce?",
+"url": "https://reddit.example/r/saas/66",
+"posted": "2026-10-18",
+"author": "user230",
+"query": "brand"
+},
+{
+"run_date": "2026-10-20",
+"source": "Reddit",
+"title": "Acme Cloud review after six months at our agency",
+"text": "We run all client reporting in Acme Cloud now. Support is responsive and onboarding was easy.",
+"url": "https://reddit.example/r/saas/67",
+"posted": "2026-10-13",
+"author": "user925",
+"query": "brand"
+},
+{
+"run_date": "2026-10-20",
+"source": "LinkedIn",
+"title": "Acme Cloud down again this morning",
+"text": "Second outage this month, dashboards broken for two hours. Still waiting on a status update.",
+"url": "https://linkedin.example/posts/68",
+"posted": "2026-10-15",
+"author": "user259",
+"query": "brand"
+},
+{
+"run_date": "2026-10-20",
+"source": "Reddit",
+"title": "CSV export in Acme Cloud is limited",
+"text": "Export only gives CSV, no API for bulk migration. Annoying lock-in.",
+"url": "https://reddit.example/r/saas/69",
+"posted": "2026-10-20",
+"author": "user114",
+"query": "brand"
+},
+{
+"run_date": "2026-10-20",
+"source": "Reddit",
+"title": "Is Acme Cloud worth it for a small online store?",
+"text": "Looking into Acme Cloud for our shop. Anyone using it with e-commerce?",
+"url": "https://reddit.example/r/saas/70",
+"posted": "2026-10-14",
+"author": "user992",
+"query": "brand"
+},
+{
+"run_date": "2026-10-20",
+"source": "Reddit",
+"title": "Acme Cloud vs Competitor B for startups",
+"text": "Comparing Acme Cloud and Competitor B on pricing and integrations for a seed-stage startup.",
+"url": "https://reddit.example/r/saas/71",
+"posted": "2026-10-20",
+"author": "user357",
+"query": "brand"
+},
+{
+"run_date": "2026-10-20",
+"source": "X",
+"title": "Acme Cloud vs Competitor B for startups",
+"text": "Comparing Acme Cloud and Competitor B on pricing and integrations for a seed-stage startup.",
+"url": "https://x.example/status/72",
+"posted": "2026-10-17",
+"author": "user882",
+"query": "brand"
+},
+{
+"run_date": "2026-10-20",
+"source": "X",
+"title": "Acme Cloud support fixed our API issue in a day",
+"text": "API sync was failing, a manager from Acme Cloud sorted it the next morning. Helpful support.",
+"url": "https://x.example/status/73",
+"posted": "2026-10-16",
+"author": "user657",
+"query": "brand"
+},
+{
+"run_date": "2026-10-20",
+"source": "Reddit",
+"title": "Using Acme Cloud with 40 students",
+"text": "Teacher here: set up Acme Cloud for my university course, students picked it up fast.",
+"url": "https://reddit.example/r/saas/74",
+"posted": "2026-10-20",
+"author": "user857",
+"query": "brand"
+},
+{
+"run_date": "2026-10-20",
+"source": "LinkedIn",
+"title": "Acme Cloud price increase",
+"text": "Our plan went up 30% with two weeks notice. Considering a cancel and refund.",
+"url": "https://linkedin.example/posts/75",
+"posted": "2026-10-14",
+"author": "user946",
+"query": "brand"
+},
+{
+"run_date": "2026-10-20",
+"source": "Reddit",
+"title": "CSV export in Acme Cloud is limited",
+"text": "Export only gives CSV, no API for bulk migration. Annoying lock-in.",
+"url": "https://reddit.example/r/saas/76",
+"posted": "2026-10-18",
+"author": "user636",
+"query": "brand"
+},
+{
+"run_date": "2026-10-20",
+"source": "Google",
+"title": "CSV export in Acme Cloud is limited",
+"text": "Export only gives CSV, no API for bulk migration. Annoying lock-in.",
+"url": "https://blog.example/77",
+"posted": "2026-10-13",
+"author": "user895",
+"query": "brand"
+},
+{
+"run_date": "2026-10-20",
+"source": "Google",
+"title": "Acme Cloud down again this morning",
+"text": "Second outage this month, dashboards broken for two hours. Still waiting on a status update.",
+"url": "https://blog.example/78",
+"posted": "2026-10-18",
+"author": "user276",
+"query": "brand"
+},
+{
+"run_date": "2026-10-20",
+"source": "LinkedIn",
+"title": "Acme Cloud down again this morning",
+"text": "Second outage this month, dashboards broken for two hours. Still waiting on a status update.",
+"url": "https://linkedin.example/posts/79",
+"posted": "2026-10-19",
+"author": "user669",
+"query": "brand"
+},
+{
+"run_date": "2026-10-20",
+"source": "X",
+"title": "Acme Cloud review after six months at our agency",
+"text": "We run all client reporting in Acme Cloud now. Support is responsive and onboarding was easy.",
+"url": "https://x.example/status/80",
+"posted": "2026-10-13",
+"author": "user903",
+"query": "brand"
+},
+{
+"run_date": "2026-10-20",
+"source": "Google",
+"title": "Is Acme Cloud worth it for a small online store?",
+"text": "Looking into Acme Cloud for our shop. Anyone using it with e-commerce?",
+"url": "https://blog.example/81",
+"posted": "2026-10-17",
+"author": "user295",
+"query": "brand"
+},
+{
+"run_date": "2026-10-20",
+"source": "LinkedIn",
+"title": "We are hiring: product designer at Acme Cloud",
+"text": "Join Acme Cloud and build tools for small teams.",
+"url": "https://linkedin.example/posts/82",
+"posted": "2026-10-19",
+"author": "acmecloud",
+"query": "brand"
+},
+{
+"run_date": "2026-10-20",
+"source": "LinkedIn",
+"title": "Meet the Acme Cloud team at SaaS Conference",
+"text": "Booth 12. Come say hi to the Acme Cloud team.",
+"url": "https://linkedin.example/posts/83",
+"posted": "2026-10-13",
+"author": "acmecloud",
+"query": "brand"
+},
+{
+"run_date": "2026-10-20",
+"source": "Google",
+"title": "App directory: tools that integrate with Acme Cloud",
+"text": "List of apps that integrate with Acme Cloud.",
+"url": "https://blog.example/84",
+"posted": "2026-10-20",
+"author": "",
+"query": "brand"
+},
+{
+"run_date": "2026-10-20",
+"source": "Google",
+"title": "Acme Cloud partner directory: agencies",
+"text": "Certified agencies in the Acme Cloud partner directory.",
+"url": "https://blog.example/85",
+"posted": "2026-10-19",
+"author": "",
+"query": "brand"
+},
+{
+"run_date": "2026-10-20",
+"source": "Google",
+"title": "Acme Cloud Bakery opens second location",
+"text": "Local bakery news, unrelated.",
+"url": "https://blog.example/86",
+"posted": "2026-10-13",
+"author": "",
+"query": "brand"
+},
+{
+"run_date": "2026-10-20",
+"source": "Google",
+"title": "Hiring now: cashier at Acme Cloud Storage Units",
+"text": "Apply now for a cashier job.",
+"url": "https://blog.example/87",
+"posted": "2026-10-15",
+"author": "",
+"query": "brand"
+},
+{
+"run_date": "2026-10-27",
+"source": "LinkedIn",
+"title": "Acme Cloud chat integration is great",
+"text": "The new chat integration from Acme Cloud saves us an hour a day.",
+"url": "https://linkedin.example/posts/122",
+"posted": "2026-10-25",
+"author": "user156",
+"query": "brand"
+},
+{
+"run_date": "2026-10-27",
+"source": "LinkedIn",
+"title": "Is Acme Cloud worth it for a small online store?",
+"text": "Looking into Acme Cloud for our shop. Anyone using it with e-commerce?",
+"url": "https://linkedin.example/posts/123",
+"posted": "2026-10-23",
+"author": "user713",
+"query": "brand"
+},
+{
+"run_date": "2026-10-27",
+"source": "X",
+"title": "Acme Cloud vs Competitor B for startups",
+"text": "Comparing Acme Cloud and Competitor B on pricing and integrations for a seed-stage startup.",
+"url": "https://x.example/status/124",
+"posted": "2026-10-27",
+"author": "user570",
+"query": "brand"
+},
+{
+"run_date": "2026-10-27",
+"source": "Reddit",
+"title": "Acme Cloud down again this morning",
+"text": "Second outage this month, dashboards broken for two hours. Still waiting on a status update.",
+"url": "https://reddit.example/r/saas/125",
+"posted": "2026-10-23",
+"author": "user556",
+"query": "brand"
+},
+{
+"run_date": "2026-10-27",
+"source": "X",
+"title": "Acme Cloud review after six months at our agency",
+"text": "We run all client reporting in Acme Cloud now. Support is responsive and onboarding was easy.",
+"url": "https://x.example/status/126",
+"posted": "2026-10-22",
+"author": "user436",
+"query": "brand"
+},
+{
+"run_date": "2026-10-27",
+"source": "X",
+"title": "CSV export in Acme Cloud is limited",
+"text": "Export only gives CSV, no API for bulk migration. Annoying lock-in.",
+"url": "https://x.example/status/127",
+"posted": "2026-10-24",
+"author": "user135",
+"query": "brand"
+},
+{
+"run_date": "2026-10-27",
+"source": "Reddit",
+"title": "Acme Cloud chat integration is great",
+"text": "The new chat integration from Acme Cloud saves us an hour a day.",
+"url": "https://reddit.example/r/saas/128",
+"posted": "2026-10-22",
+"author": "user287",
+"query": "brand"
+},
+{
+"run_date": "2026-10-27",
+"source": "X",
+"title": "Acme Cloud review after six months at our agency",
+"text": "We run all client reporting in Acme Cloud now. Support is responsive and onboarding was easy.",
+"url": "https://x.example/status/129",
+"posted": "2026-10-21",
+"author": "user185",
+"query": "brand"
+},
+{
+"run_date": "2026-10-27",
+"source": "X",
+"title": "Top 10 reporting tools for agencies",
+"text": "List includes Acme Cloud, Competitor A and Competitor C for agencies with many clients.",
+"url": "https://x.example/status/130",
+"posted": "2026-10-24",
+"author": "user354",
+"query": "brand"
+},
+{
+"run_date": "2026-10-27",
+"source": "Google",
+"title": "CSV export in Acme Cloud is limited",
+"text": "Export only gives CSV, no API for bulk migration. Annoying lock-in.",
+"url": "https://blog.example/131",
+"posted": "2026-10-26",
+"author": "user370",
+"query": "brand"
+},
+{
+"run_date": "2026-10-27",
+"source": "Reddit",
+"title": "Is Acme Cloud worth it for a small online store?",
+"text": "Looking into Acme Cloud for our shop. Anyone using it with e-commerce?",
+"url": "https://reddit.example/r/saas/132",
+"posted": "2026-10-21",
+"author": "user700",
+"query": "brand"
+},
+{
+"run_date": "2026-10-27",
+"source": "LinkedIn",
+"title": "Acme Cloud review after six months at our agency",
+"text": "We run all client reporting in Acme Cloud now. Support is responsive and onboarding was easy.",
+"url": "https://linkedin.example/posts/133",
+"posted": "2026-10-27",
+"author": "user406",
+"query": "brand"
+},
+{
+"run_date": "2026-10-27",
+"source": "Reddit",
+"title": "Acme Cloud chat integration is great",
+"text": "The new chat integration from Acme Cloud saves us an hour a day.",
+"url": "https://reddit.example/r/saas/134",
+"posted": "2026-10-26",
+"author": "user699",
+"query": "brand"
+},
+{
+"run_date": "2026-10-27",
+"source": "Reddit",
+"title": "CSV export in Acme Cloud is limited",
+"text": "Export only gives CSV, no API for bulk migration. Annoying lock-in.",
+"url": "https://reddit.example/r/saas/135",
+"posted": "2026-10-21",
+"author": "user882",
+"query": "brand"
+},
+{
+"run_date": "2026-10-27",
+"source": "LinkedIn",
+"title": "Acme Cloud price increase",
+"text": "Our plan went up 30% with two weeks notice. Considering a cancel and refund.",
+"url": "https://linkedin.example/posts/136",
+"posted": "2026-10-25",
+"author": "user390",
+"query": "brand"
+},
+{
+"run_date": "2026-10-27",
+"source": "Reddit",
+"title": "Acme Cloud support fixed our API issue in a day",
+"text": "API sync was failing, a manager from Acme Cloud sorted it the next morning. Helpful support.",
+"url": "https://reddit.example/r/saas/137",
+"posted": "2026-10-27",
+"author": "user944",
+"query": "brand"
+},
+{
+"run_date": "2026-10-27",
+"source": "LinkedIn",
+"title": "CSV export in Acme Cloud is limited",
+"text": "Export only gives CSV, no API for bulk migration. Annoying lock-in.",
+"url": "https://linkedin.example/posts/138",
+"posted": "2026-10-25",
+"author": "user636",
+"query": "brand"
+},
+{
+"run_date": "2026-10-27",
+"source": "Google",
+"title": "CSV export in Acme Cloud is limited",
+"text": "Export only gives CSV, no API for bulk migration. Annoying lock-in.",
+"url": "https://blog.example/139",
+"posted": "2026-10-24",
+"author": "user187",
+"query": "brand"
+},
+{
+"run_date": "2026-10-27",
+"source": "Google",
+"title": "Acme Cloud review after six months at our agency",
+"text": "We run all client reporting in Acme Cloud now. Support is responsive and onboarding was easy.",
+"url": "https://blog.example/140",
+"posted": "2026-10-25",
+"author": "user752",
+"query": "brand"
+},
+{
+"run_date": "2026-10-27",
+"source": "LinkedIn",
+"title": "We are hiring: product designer at Acme Cloud",
+"text": "Join Acme Cloud and build tools for small teams.",
+"url": "https://linkedin.example/posts/141",
+"posted": "2026-10-21",
+"author": "acmecloud",
+"query": "brand"
+},
+{
+"run_date": "2026-10-27",
+"source": "LinkedIn",
+"title": "Meet the Acme Cloud team at SaaS Conference",
+"text": "Booth 12. Come say hi to the Acme Cloud team.",
+"url": "https://linkedin.example/posts/142",
+"posted": "2026-10-20",
+"author": "acmecloud",
+"query": "brand"
+},
+{
+"run_date": "2026-10-27",
+"source": "Google",
+"title": "App directory: tools that integrate with Acme Cloud",
+"text": "List of apps that integrate with Acme Cloud.",
+"url": "https://blog.example/143",
+"posted": "2026-10-27",
+"author": "",
+"query": "brand"
+},
+{
+"run_date": "2026-10-27",
+"source": "Google",
+"title": "Acme Cloud partner directory: agencies",
+"text": "Certified agencies in the Acme Cloud partner directory.",
+"url": "https://blog.example/144",
+"posted": "2026-10-27",
+"author": "",
+"query": "brand"
+},
+{
+"run_date": "2026-10-27",
+"source": "Google",
+"title": "Acme Cloud Bakery opens second location",
+"text": "Local bakery news, unrelated.",
+"url": "https://blog.example/145",
+"posted": "2026-10-24",
+"author": "",
+"query": "brand"
+},
+{
+"run_date": "2026-10-27",
+"source": "Google",
+"title": "Hiring now: cashier at Acme Cloud Storage Units",
+"text": "Apply now for a cashier job.",
+"url": "https://blog.example/146",
+"posted": "2026-10-20",
+"author": "",
+"query": "brand"
+},
+{
+"run_date": "2026-10-27",
+"source": "Google",
+"title": "Free Acme Cloud premium license generator",
+"text": "Cracked Acme Cloud premium, promo code generator.",
+"url": "https://blog.example/147",
+"posted": "2026-10-23",
+"author": "",
+"query": "brand"
+},
+{
+"run_date": "2026-11-03",
+"source": "Reddit",
+"title": "CSV export in Acme Cloud is limited",
+"text": "Export only gives CSV, no API for bulk migration. Annoying lock-in.",
+"url": "https://reddit.example/r/saas/179",
+"posted": "2026-11-01",
+"author": "user583",
+"query": "brand"
+},
+{
+"run_date": "2026-11-03",
+"source": "X",
+"title": "Using Acme Cloud with 40 students",
+"text": "Teacher here: set up Acme Cloud for my university course, students picked it up fast.",
+"url": "https://x.example/status/180",
+"posted": "2026-10-30",
+"author": "user404",
+"query": "brand"
+},
+{
+"run_date": "2026-11-03",
+"source": "X",
+"title": "Acme Cloud chat integration is great",
+"text": "The new chat integration from Acme Cloud saves us an hour a day.",
+"url": "https://x.example/status/181",
+"posted": "2026-10-28",
+"author": "user771",
+"query": "brand"
+},
+{
+"run_date": "2026-11-03",
+"source": "X",
+"title": "Acme Cloud vs Competitor B for startups",
+"text": "Comparing Acme Cloud and Competitor B on pricing and integrations for a seed-stage startup.",
+"url": "https://x.example/status/182",
+"posted": "2026-10-27",
+"author": "user670",
+"query": "brand"
+},
+{
+"run_date": "2026-11-03",
+"source": "Google",
+"title": "Using Acme Cloud with 40 students",
+"text": "Teacher here: set up Acme Cloud for my university course, students picked it up fast.",
+"url": "https://blog.example/183",
+"posted": "2026-11-01",
+"author": "user758",
+"query": "brand"
+},
+{
+"run_date": "2026-11-03",
+"source": "Google",
+"title": "Acme Cloud down again this morning",
+"text": "Second outage this month, dashboards broken for two hours. Still waiting on a status update.",
+"url": "https://blog.example/184",
+"posted": "2026-10-31",
+"author": "user612",
+"query": "brand"
+},
+{
+"run_date": "2026-11-03",
+"source": "Reddit",
+"title": "Top 10 reporting tools for agencies",
+"text": "List includes Acme Cloud, Competitor A and Competitor C for agencies with many clients.",
+"url": "https://reddit.example/r/saas/185",
+"posted": "2026-10-27",
+"author": "user440",
+"query": "brand"
+},
+{
+"run_date": "2026-11-03",
+"source": "LinkedIn",
+"title": "Top 10 reporting tools for agencies",
+"text": "List includes Acme Cloud, Competitor A and Competitor C for agencies with many clients.",
+"url": "https://linkedin.example/posts/186",
+"posted": "2026-11-01",
+"author": "user660",
+"query": "brand"
+},
+{
+"run_date": "2026-11-03",
+"source": "Reddit",
+"title": "Acme Cloud vs Competitor B for startups",
+"text": "Comparing Acme Cloud and Competitor B on pricing and integrations for a seed-stage startup.",
+"url": "https://reddit.example/r/saas/187",
+"posted": "2026-11-02",
+"author": "user278",
+"query": "brand"
+},
+{
+"run_date": "2026-11-03",
+"source": "Google",
+"title": "Acme Cloud price increase",
+"text": "Our plan went up 30% with two weeks notice. Considering a cancel and refund.",
+"url": "https://blog.example/188",
+"posted": "2026-10-29",
+"author": "user344",
+"query": "brand"
+},
+{
+"run_date": "2026-11-03",
+"source": "X",
+"title": "Acme Cloud price increase",
+"text": "Our plan went up 30% with two weeks notice. Considering a cancel and refund.",
+"url": "https://x.example/status/189",
+"posted": "2026-10-31",
+"author": "user120",
+"query": "brand"
+},
+{
+"run_date": "2026-11-03",
+"source": "LinkedIn",
+"title": "Using Acme Cloud with 40 students",
+"text": "Teacher here: set up Acme Cloud for my university course, students picked it up fast.",
+"url": "https://linkedin.example/posts/190",
+"posted": "2026-10-28",
+"author": "user863",
+"query": "brand"
+},
+{
+"run_date": "2026-11-03",
+"source": "Reddit",
+"title": "CSV export in Acme Cloud is limited",
+"text": "Export only gives CSV, no API for bulk migration. Annoying lock-in.",
+"url": "https://reddit.example/r/saas/191",
+"posted": "2026-10-28",
+"author": "user376",
+"query": "brand"
+},
+{
+"run_date": "2026-11-03",
+"source": "Google",
+"title": "Acme Cloud price increase",
+"text": "Our plan went up 30% with two weeks notice. Considering a cancel and refund.",
+"url": "https://blog.example/192",
+"posted": "2026-10-27",
+"author": "user384",
+"query": "brand"
+},
+{
+"run_date": "2026-11-03",
+"source": "X",
+"title": "Acme Cloud support fixed our API issue in a day",
+"text": "API sync was failing, a manager from Acme Cloud sorted it the next morning. Helpful support.",
+"url": "https://x.example/status/193",
+"posted": "2026-11-01",
+"author": "user803",
+"query": "brand"
+},
+{
+"run_date": "2026-11-03",
+"source": "Reddit",
+"title": "CSV export in Acme Cloud is limited",
+"text": "Export only gives CSV, no API for bulk migration. Annoying lock-in.",
+"url": "https://reddit.example/r/saas/194",
+"posted": "2026-11-02",
+"author": "user377",
+"query": "brand"
+},
+{
+"run_date": "2026-11-03",
+"source": "LinkedIn",
+"title": "Acme Cloud vs Competitor B for startups",
+"text": "Comparing Acme Cloud and Competitor B on pricing and integrations for a seed-stage startup.",
+"url": "https://linkedin.example/posts/195",
+"posted": "2026-10-28",
+"author": "user761",
+"query": "brand"
+},
+{
+"run_date": "2026-11-03",
+"source": "LinkedIn",
+"title": "Top 10 reporting tools for agencies",
+"text": "List includes Acme Cloud, Competitor A and Competitor C for agencies with many clients.",
+"url": "https://linkedin.example/posts/196",
+"posted": "2026-10-30",
+"author": "user969",
+"query": "brand"
+},
+{
+"run_date": "2026-11-03",
+"source": "Reddit",
+"title": "Acme Cloud review after six months at our agency",
+"text": "We run all client reporting in Acme Cloud now. Support is responsive and onboarding was easy.",
+"url": "https://reddit.example/r/saas/197",
+"posted": "2026-11-03",
+"author": "user535",
+"query": "brand"
+},
+{
+"run_date": "2026-11-03",
+"source": "LinkedIn",
+"title": "Top 10 reporting tools for agencies",
+"text": "List includes Acme Cloud, Competitor A and Competitor C for agencies with many clients.",
+"url": "https://linkedin.example/posts/198",
+"posted": "2026-11-03",
+"author": "user174",
+"query": "brand"
+},
+{
+"run_date": "2026-11-03",
+"source": "LinkedIn",
+"title": "We are hiring: product designer at Acme Cloud",
+"text": "Join Acme Cloud and build tools for small teams.",
+"url": "https://linkedin.example/posts/199",
+"posted": "2026-10-27",
+"author": "acmecloud",
+"query": "brand"
+},
+{
+"run_date": "2026-11-03",
+"source": "LinkedIn",
+"title": "My first three months at Acme Cloud",
+"text": "What I learned in my first three months at Acme Cloud.",
+"url": "https://linkedin.example/posts/200",
+"posted": "2026-10-31",
+"author": "jane-doe-example",
+"query": "brand"
+},
+{
+"run_date": "2026-11-03",
+"source": "Google",
+"title": "App directory: tools that integrate with Acme Cloud",
+"text": "List of apps that integrate with Acme Cloud.",
+"url": "https://blog.example/201",
+"posted": "2026-11-02",
+"author": "",
+"query": "brand"
+},
+{
+"run_date": "2026-11-03",
+"source": "Google",
+"title": "Acme Cloud partner directory: agencies",
+"text": "Certified agencies in the Acme Cloud partner directory.",
+"url": "https://blog.example/202",
+"posted": "2026-10-31",
+"author": "",
+"query": "brand"
+},
+{
+"run_date": "2026-11-03",
+"source": "Google",
+"title": "Acme Cloud Bakery opens second location",
+"text": "Local bakery news, unrelated.",
+"url": "https://blog.example/203",
+"posted": "2026-11-01",
+"author": "",
+"query": "brand"
+},
+{
+"run_date": "2026-11-03",
+"source": "Google",
+"title": "Hiring now: cashier at Acme Cloud Storage Units",
+"text": "Apply now for a cashier job.",
+"url": "https://blog.example/204",
+"posted": "2026-11-01",
+"author": "",
+"query": "brand"
+},
+{
+"run_date": "2026-11-10",
+"source": "Google",
+"title": "Acme Cloud review after six months at our agency",
+"text": "We run all client reporting in Acme Cloud now. Support is responsive and onboarding was easy.",
+"url": "https://blog.example/242",
+"posted": "2026-11-10",
+"author": "user945",
+"query": "brand"
+},
+{
+"run_date": "2026-11-10",
+"source": "Google",
+"title": "Acme Cloud vs Competitor B for startups",
+"text": "Comparing Acme Cloud and Competitor B on pricing and integrations for a seed-stage startup.",
+"url": "https://blog.example/243",
+"posted": "2026-11-03",
+"author": "user832",
+"query": "brand"
+},
+{
+"run_date": "2026-11-10",
+"source": "LinkedIn",
+"title": "Top 10 reporting tools for agencies",
+"text": "List includes Acme Cloud, Competitor A and Competitor C for agencies with many clients.",
+"url": "https://linkedin.example/posts/244",
+"posted": "2026-11-06",
+"author": "user540",
+"query": "brand"
+},
+{
+"run_date": "2026-11-10",
+"source": "Reddit",
+"title": "Top 10 reporting tools for agencies",
+"text": "List includes Acme Cloud, Competitor A and Competitor C for agencies with many clients.",
+"url": "https://reddit.example/r/saas/245",
+"posted": "2026-11-03",
+"author": "user287",
+"query": "brand"
+},
+{
+"run_date": "2026-11-10",
+"source": "X",
+"title": "Acme Cloud review after six months at our agency",
+"text": "We run all client reporting in Acme Cloud now. Support is responsive and onboarding was easy.",
+"url": "https://x.example/status/246",
+"posted": "2026-11-08",
+"author": "user721",
+"query": "brand"
+},
+{
+"run_date": "2026-11-10",
+"source": "X",
+"title": "Acme Cloud vs Competitor B for startups",
+"text": "Comparing Acme Cloud and Competitor B on pricing and integrations for a seed-stage startup.",
+"url": "https://x.example/status/247",
+"posted": "2026-11-05",
+"author": "user571",
+"query": "brand"
+},
+{
+"run_date": "2026-11-10",
+"source": "Google",
+"title": "Acme Cloud price increase",
+"text": "Our plan went up 30% with two weeks notice. Considering a cancel and refund.",
+"url": "https://blog.example/248",
+"posted": "2026-11-07",
+"author": "user501",
+"query": "brand"
+},
+{
+"run_date": "2026-11-10",
+"source": "Reddit",
+"title": "Acme Cloud down again this morning",
+"text": "Second outage this month, dashboards broken for two hours. Still waiting on a status update.",
+"url": "https://reddit.example/r/saas/249",
+"posted": "2026-11-04",
+"author": "user166",
+"query": "brand"
+},
+{
+"run_date": "2026-11-10",
+"source": "LinkedIn",
+"title": "Acme Cloud review after six months at our agency",
+"text": "We run all client reporting in Acme Cloud now. Support is responsive and onboarding was easy.",
+"url": "https://linkedin.example/posts/250",
+"posted": "2026-11-05",
+"author": "user264",
+"query": "brand"
+},
+{
+"run_date": "2026-11-10",
+"source": "Google",
+"title": "Using Acme Cloud with 40 students",
+"text": "Teacher here: set up Acme Cloud for my university course, students picked it up fast.",
+"url": "https://blog.example/251",
+"posted": "2026-11-09",
+"author": "user371",
+"query": "brand"
+},
+{
+"run_date": "2026-11-10",
+"source": "Google",
+"title": "Acme Cloud support fixed our API issue in a day",
+"text": "API sync was failing, a manager from Acme Cloud sorted it the next morning. Helpful support.",
+"url": "https://blog.example/252",
+"posted": "2026-11-07",
+"author": "user198",
+"query": "brand"
+},
+{
+"run_date": "2026-11-10",
+"source": "LinkedIn",
+"title": "Using Acme Cloud with 40 students",
+"text": "Teacher here: set up Acme Cloud for my university course, students picked it up fast.",
+"url": "https://linkedin.example/posts/253",
+"posted": "2026-11-03",
+"author": "user277",
+"query": "brand"
+},
+{
+"run_date": "2026-11-10",
+"source": "Reddit",
+"title": "Acme Cloud vs Competitor B for startups",
+"text": "Comparing Acme Cloud and Competitor B on pricing and integrations for a seed-stage startup.",
+"url": "https://reddit.example/r/saas/254",
+"posted": "2026-11-04",
+"author": "user571",
+"query": "brand"
+},
+{
+"run_date": "2026-11-10",
+"source": "Reddit",
+"title": "Acme Cloud support fixed our API issue in a day",
+"text": "API sync was failing, a manager from Acme Cloud sorted it the next morning. Helpful support.",
+"url": "https://reddit.example/r/saas/255",
+"posted": "2026-11-09",
+"author": "user898",
+"query": "brand"
+},
+{
+"run_date": "2026-11-10",
+"source": "X",
+"title": "Acme Cloud chat integration is great",
+"text": "The new chat integration from Acme Cloud saves us an hour a day.",
+"url": "https://x.example/status/256",
+"posted": "2026-11-06",
+"author": "user680",
+"query": "brand"
+},
+{
+"run_date": "2026-11-10",
+"source": "X",
+"title": "Acme Cloud chat integration is great",
+"text": "The new chat integration from Acme Cloud saves us an hour a day.",
+"url": "https://x.example/status/257",
+"posted": "2026-11-06",
+"author": "user855",
+"query": "brand"
+},
+{
+"run_date": "2026-11-10",
+"source": "Reddit",
+"title": "Acme Cloud chat integration is great",
+"text": "The new chat integration from Acme Cloud saves us an hour a day.",
+"url": "https://reddit.example/r/saas/258",
+"posted": "2026-11-03",
+"author": "user353",
+"query": "brand"
+},
+{
+"run_date": "2026-11-10",
+"source": "Reddit",
+"title": "Acme Cloud down again this morning",
+"text": "Second outage this month, dashboards broken for two hours. Still waiting on a status update.",
+"url": "https://reddit.example/r/saas/259",
+"posted": "2026-11-07",
+"author": "user257",
+"query": "brand"
+},
+{
+"run_date": "2026-11-10",
+"source": "Reddit",
+"title": "Acme Cloud chat integration is great",
+"text": "The new chat integration from Acme Cloud saves us an hour a day.",
+"url": "https://reddit.example/r/saas/260",
+"posted": "2026-11-05",
+"author": "user166",
+"query": "brand"
+},
+{
+"run_date": "2026-11-10",
+"source": "X",
+"title": "Using Acme Cloud with 40 students",
+"text": "Teacher here: set up Acme Cloud for my university course, students picked it up fast.",
+"url": "https://x.example/status/261",
+"posted": "2026-11-07",
+"author": "user619",
+"query": "brand"
+},
+{
+"run_date": "2026-11-10",
+"source": "Reddit",
+"title": "CSV export in Acme Cloud is limited",
+"text": "Export only gives CSV, no API for bulk migration. Annoying lock-in.",
+"url": "https://reddit.example/r/saas/262",
+"posted": "2026-11-09",
+"author": "user769",
+"query": "brand"
+},
+{
+"run_date": "2026-11-10",
+"source": "Google",
+"title": "Top 10 reporting tools for agencies",
+"text": "List includes Acme Cloud, Competitor A and Competitor C for agencies with many clients.",
+"url": "https://blog.example/263",
+"posted": "2026-11-09",
+"author": "user104",
+"query": "brand"
+},
+{
+"run_date": "2026-11-10",
+"source": "Reddit",
+"title": "Top 10 reporting tools for agencies",
+"text": "List includes Acme Cloud, Competitor A and Competitor C for agencies with many clients.",
+"url": "https://reddit.example/r/saas/264",
+"posted": "2026-11-03",
+"author": "user482",
+"query": "brand"
+},
+{
+"run_date": "2026-11-10",
+"source": "X",
+"title": "Acme Cloud review after six months at our agency",
+"text": "We run all client reporting in Acme Cloud now. Support is responsive and onboarding was easy.",
+"url": "https://x.example/status/265",
+"posted": "2026-11-07",
+"author": "user222",
+"query": "brand"
+},
+{
+"run_date": "2026-11-10",
+"source": "Reddit",
+"title": "Acme Cloud review after six months at our agency",
+"text": "We run all client reporting in Acme Cloud now. Support is responsive and onboarding was easy.",
+"url": "https://reddit.example/r/saas/266",
+"posted": "2026-11-07",
+"author": "user176",
+"query": "brand"
+},
+{
+"run_date": "2026-11-10",
+"source": "Reddit",
+"title": "Acme Cloud price increase",
+"text": "Our plan went up 30% with two weeks notice. Considering a cancel and refund.",
+"url": "https://reddit.example/r/saas/267",
+"posted": "2026-11-03",
+"author": "user717",
+"query": "brand"
+},
+{
+"run_date": "2026-11-10",
+"source": "LinkedIn",
+"title": "We are hiring: product designer at Acme Cloud",
+"text": "Join Acme Cloud and build tools for small teams.",
+"url": "https://linkedin.example/posts/268",
+"posted": "2026-11-09",
+"author": "acmecloud",
+"query": "brand"
+},
+{
+"run_date": "2026-11-10",
+"source": "LinkedIn",
+"title": "Meet the Acme Cloud team at SaaS Conference",
+"text": "Booth 12. Come say hi to the Acme Cloud team.",
+"url": "https://linkedin.example/posts/269",
+"posted": "2026-11-05",
+"author": "acmecloud",
+"query": "brand"
+},
+{
+"run_date": "2026-11-10",
+"source": "Google",
+"title": "App directory: tools that integrate with Acme Cloud",
+"text": "List of apps that integrate with Acme Cloud.",
+"url": "https://blog.example/270",
+"posted": "2026-11-07",
+"author": "",
+"query": "brand"
+},
+{
+"run_date": "2026-11-10",
+"source": "Google",
+"title": "Acme Cloud partner directory: agencies",
+"text": "Certified agencies in the Acme Cloud partner directory.",
+"url": "https://blog.example/271",
+"posted": "2026-11-10",
+"author": "",
+"query": "brand"
+},
+{
+"run_date": "2026-11-10",
+"source": "Google",
+"title": "Acme Cloud Bakery opens second location",
+"text": "Local bakery news, unrelated.",
+"url": "https://blog.example/272",
+"posted": "2026-11-05",
+"author": "",
+"query": "brand"
+},
+{
+"run_date": "2026-11-10",
+"source": "Google",
+"title": "Hiring now: cashier at Acme Cloud Storage Units",
+"text": "Apply now for a cashier job.",
+"url": "https://blog.example/273",
+"posted": "2026-11-05",
+"author": "",
+"query": "brand"
+},
+{
+"run_date": "2026-11-17",
+"source": "LinkedIn",
+"title": "Acme Cloud chat integration is great",
+"text": "The new chat integration from Acme Cloud saves us an hour a day.",
+"url": "https://linkedin.example/posts/315",
+"posted": "2026-11-14",
+"author": "user706",
+"query": "brand"
+},
+{
+"run_date": "2026-11-17",
+"source": "Reddit",
+"title": "Acme Cloud chat integration is great",
+"text": "The new chat integration from Acme Cloud saves us an hour a day.",
+"url": "https://reddit.example/r/saas/316",
+"posted": "2026-11-12",
+"author": "user481",
+"query": "brand"
+},
+{
+"run_date": "2026-11-17",
+"source": "Reddit",
+"title": "Acme Cloud review after six months at our agency",
+"text": "We run all client reporting in Acme Cloud now. Support is responsive and onboarding was easy.",
+"url": "https://reddit.example/r/saas/317",
+"posted": "2026-11-15",
+"author": "user513",
+"query": "brand"
+},
+{
+"run_date": "2026-11-17",
+"source": "X",
+"title": "Acme Cloud down again this morning",
+"text": "Second outage this month, dashboards broken for two hours. Still waiting on a status update.",
+"url": "https://x.example/status/318",
+"posted": "2026-11-12",
+"author": "user485",
+"query": "brand"
+},
+{
+"run_date": "2026-11-17",
+"source": "X",
+"title": "Acme Cloud down again this morning",
+"text": "Second outage this month, dashboards broken for two hours. Still waiting on a status update.",
+"url": "https://x.example/status/319",
+"posted": "2026-11-16",
+"author": "user886",
+"query": "brand"
+},
+{
+"run_date": "2026-11-17",
+"source": "Google",
+"title": "CSV export in Acme Cloud is limited",
+"text": "Export only gives CSV, no API for bulk migration. Annoying lock-in.",
+"url": "https://blog.example/320",
+"posted": "2026-11-12",
+"author": "user993",
+"query": "brand"
+},
+{
+"run_date": "2026-11-17",
+"source": "Google",
+"title": "Top 10 reporting tools for agencies",
+"text": "List includes Acme Cloud, Competitor A and Competitor C for agencies with many clients.",
+"url": "https://blog.example/321",
+"posted": "2026-11-13",
+"author": "user648",
+"query": "brand"
+},
+{
+"run_date": "2026-11-17",
+"source": "X",
+"title": "Using Acme Cloud with 40 students",
+"text": "Teacher here: set up Acme Cloud for my university course, students picked it up fast.",
+"url": "https://x.example/status/322",
+"posted": "2026-11-13",
+"author": "user484",
+"query": "brand"
+},
+{
+"run_date": "2026-11-17",
+"source": "Reddit",
+"title": "Acme Cloud price increase",
+"text": "Our plan went up 30% with two weeks notice. Considering a cancel and refund.",
+"url": "https://reddit.example/r/saas/323",
+"posted": "2026-11-12",
+"author": "user438",
+"query": "brand"
+},
+{
+"run_date": "2026-11-17",
+"source": "LinkedIn",
+"title": "Is Acme Cloud worth it for a small online store?",
+"text": "Looking into Acme Cloud for our shop. Anyone using it with e-commerce?",
+"url": "https://linkedin.example/posts/324",
+"posted": "2026-11-14",
+"author": "user280",
+"query": "brand"
+},
+{
+"run_date": "2026-11-17",
+"source": "Google",
+"title": "Acme Cloud support fixed our API issue in a day",
+"text": "API sync was failing, a manager from Acme Cloud sorted it the next morning. Helpful support.",
+"url": "https://blog.example/325",
+"posted": "2026-11-13",
+"author": "user939",
+"query": "brand"
+},
+{
+"run_date": "2026-11-17",
+"source": "X",
+"title": "CSV export in Acme Cloud is limited",
+"text": "Export only gives CSV, no API for bulk migration. Annoying lock-in.",
+"url": "https://x.example/status/326",
+"posted": "2026-11-13",
+"author": "user754",
+"query": "brand"
+},
+{
+"run_date": "2026-11-17",
+"source": "X",
+"title": "Acme Cloud support fixed our API issue in a day",
+"text": "API sync was failing, a manager from Acme Cloud sorted it the next morning. Helpful support.",
+"url": "https://x.example/status/327",
+"posted": "2026-11-17",
+"author": "user865",
+"query": "brand"
+},
+{
+"run_date": "2026-11-17",
+"source": "Reddit",
+"title": "Acme Cloud review after six months at our agency",
+"text": "We run all client reporting in Acme Cloud now. Support is responsive and onboarding was easy.",
+"url": "https://reddit.example/r/saas/328",
+"posted": "2026-11-15",
+"author": "user397",
+"query": "brand"
+},
+{
+"run_date": "2026-11-17",
+"source": "LinkedIn",
+"title": "Acme Cloud support fixed our API issue in a day",
+"text": "API sync was failing, a manager from Acme Cloud sorted it the next morning. Helpful support.",
+"url": "https://linkedin.example/posts/329",
+"posted": "2026-11-11",
+"author": "user624",
+"query": "brand"
+},
+{
+"run_date": "2026-11-17",
+"source": "Google",
+"title": "Acme Cloud price increase",
+"text": "Our plan went up 30% with two weeks notice. Considering a cancel and refund.",
+"url": "https://blog.example/330",
+"posted": "2026-11-15",
+"author": "user600",
+"query": "brand"
+},
+{
+"run_date": "2026-11-17",
+"source": "Google",
+"title": "Acme Cloud vs Competitor B for startups",
+"text": "Comparing Acme Cloud and Competitor B on pricing and integrations for a seed-stage startup.",
+"url": "https://blog.example/331",
+"posted": "2026-11-17",
+"author": "user155",
+"query": "brand"
+},
+{
+"run_date": "2026-11-17",
+"source": "X",
+"title": "Acme Cloud review after six months at our agency",
+"text": "We run all client reporting in Acme Cloud now. Support is responsive and onboarding was easy.",
+"url": "https://x.example/status/332",
+"posted": "2026-11-13",
+"author": "user208",
+"query": "brand"
+},
+{
+"run_date": "2026-11-17",
+"source": "X",
+"title": "CSV export in Acme Cloud is limited",
+"text": "Export only gives CSV, no API for bulk migration. Annoying lock-in.",
+"url": "https://x.example/status/333",
+"posted": "2026-11-14",
+"author": "user523",
+"query": "brand"
+},
+{
+"run_date": "2026-11-17",
+"source": "X",
+"title": "Acme Cloud support fixed our API issue in a day",
+"text": "API sync was failing, a manager from Acme Cloud sorted it the next morning. Helpful support.",
+"url": "https://x.example/status/334",
+"posted": "2026-11-15",
+"author": "user309",
+"query": "brand"
+},
+{
+"run_date": "2026-11-17",
+"source": "LinkedIn",
+"title": "Acme Cloud price increase",
+"text": "Our plan went up 30% with two weeks notice. Considering a cancel and refund.",
+"url": "https://linkedin.example/posts/335",
+"posted": "2026-11-15",
+"author": "user237",
+"query": "brand"
+},
+{
+"run_date": "2026-11-17",
+"source": "Reddit",
+"title": "Acme Cloud review after six months at our agency",
+"text": "We run all client reporting in Acme Cloud now. Support is responsive and onboarding was easy.",
+"url": "https://reddit.example/r/saas/336",
+"posted": "2026-11-15",
+"author": "user561",
+"query": "brand"
+},
+{
+"run_date": "2026-11-17",
+"source": "Google",
+"title": "Is Acme Cloud worth it for a small online store?",
+"text": "Looking into Acme Cloud for our shop. Anyone using it with e-commerce?",
+"url": "https://blog.example/337",
+"posted": "2026-11-15",
+"author": "user992",
+"query": "brand"
+},
+{
+"run_date": "2026-11-17",
+"source": "LinkedIn",
+"title": "Acme Cloud chat integration is great",
+"text": "The new chat integration from Acme Cloud saves us an hour a day.",
+"url": "https://linkedin.example/posts/338",
+"posted": "2026-11-13",
+"author": "user111",
+"query": "brand"
+},
+{
+"run_date": "2026-11-17",
+"source": "X",
+"title": "Acme Cloud review after six months at our agency",
+"text": "We run all client reporting in Acme Cloud now. Support is responsive and onboarding was easy.",
+"url": "https://x.example/status/339",
+"posted": "2026-11-10",
+"author": "user716",
+"query": "brand"
+},
+{
+"run_date": "2026-11-17",
+"source": "LinkedIn",
+"title": "CSV export in Acme Cloud is limited",
+"text": "Export only gives CSV, no API for bulk migration. Annoying lock-in.",
+"url": "https://linkedin.example/posts/340",
+"posted": "2026-11-14",
+"author": "user269",
+"query": "brand"
+},
+{
+"run_date": "2026-11-17",
+"source": "LinkedIn",
+"title": "Meet the Acme Cloud team at SaaS Conference",
+"text": "Booth 12. Come say hi to the Acme Cloud team.",
+"url": "https://linkedin.example/posts/341",
+"posted": "2026-11-17",
+"author": "acmecloud",
+"query": "brand"
+},
+{
+"run_date": "2026-11-17",
+"source": "LinkedIn",
+"title": "My first three months at Acme Cloud",
+"text": "What I learned in my first three months at Acme Cloud.",
+"url": "https://linkedin.example/posts/342",
+"posted": "2026-11-17",
+"author": "jane-doe-example",
+"query": "brand"
+},
+{
+"run_date": "2026-11-17",
+"source": "Google",
+"title": "App directory: tools that integrate with Acme Cloud",
+"text": "List of apps that integrate with Acme Cloud.",
+"url": "https://blog.example/343",
+"posted": "2026-11-11",
+"author": "",
+"query": "brand"
+},
+{
+"run_date": "2026-11-17",
+"source": "Google",
+"title": "Acme Cloud partner directory: agencies",
+"text": "Certified agencies in the Acme Cloud partner directory.",
+"url": "https://blog.example/344",
+"posted": "2026-11-15",
+"author": "",
+"query": "brand"
+},
+{
+"run_date": "2026-11-17",
+"source": "Google",
+"title": "Acme Cloud Bakery opens second location",
+"text": "Local bakery news, unrelated.",
+"url": "https://blog.example/345",
+"posted": "2026-11-14",
+"author": "",
+"query": "brand"
+},
+{
+"run_date": "2026-11-17",
+"source": "Google",
+"title": "Hiring now: cashier at Acme Cloud Storage Units",
+"text": "Apply now for a cashier job.",
+"url": "https://blog.example/346",
+"posted": "2026-11-15",
+"author": "",
+"query": "brand"
+},
+{
+"run_date": "2026-11-17",
+"source": "Google",
+"title": "Free Acme Cloud premium license generator",
+"text": "Cracked Acme Cloud premium, promo code generator.",
+"url": "https://blog.example/347",
+"posted": "2026-11-17",
+"author": "",
+"query": "brand"
+}
+]

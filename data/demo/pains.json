@@ -1,0 +1,2252 @@
+[
+{
+"run_date": "2026-10-13",
+"source": "X",
+"title": "Looking for a Competitor C alternative for a 10-person team",
+"text": "Need an alternative to Competitor C that does not charge per seat.",
+"url": "https://x.example/status/26",
+"posted": "2026-10-06",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "Reddit",
+"title": "How to export everything out of Competitor B?",
+"text": "Trying to migrate off Competitor B, export is CSV only. Feels like lock-in.",
+"url": "https://reddit.example/r/saas/27",
+"posted": "2026-10-09",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "Google",
+"title": "How to export everything out of Competitor B?",
+"text": "Trying to migrate off Competitor B, export is CSV only. Feels like lock-in.",
+"url": "https://blog.example/28",
+"posted": "2026-10-09",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "X",
+"title": "How to export everything out of Competitor B?",
+"text": "Trying to migrate off Competitor B, export is CSV only. Feels like lock-in.",
+"url": "https://x.example/status/29",
+"posted": "2026-10-13",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "Reddit",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor A has no API or plugin for our CRM.",
+"url": "https://reddit.example/r/saas/30",
+"posted": "2026-10-06",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "X",
+"title": "Looking for a Competitor A alternative for a 10-person team",
+"text": "Need an alternative to Competitor A that does not charge per seat.",
+"url": "https://x.example/status/31",
+"posted": "2026-10-11",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "Google",
+"title": "How to export everything out of Competitor A?",
+"text": "Trying to migrate off Competitor A, export is CSV only. Feels like lock-in.",
+"url": "https://blog.example/32",
+"posted": "2026-10-06",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "Google",
+"title": "Looking for a Competitor A alternative for a 10-person team",
+"text": "Need an alternative to Competitor A that does not charge per seat.",
+"url": "https://blog.example/33",
+"posted": "2026-10-09",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "X",
+"title": "Competitor C raised prices again",
+"text": "Competitor C price increase of 40% on our plan. Too expensive now.",
+"url": "https://x.example/status/34",
+"posted": "2026-10-07",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "Google",
+"title": "Competitor D outage again?",
+"text": "Competitor D has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://blog.example/35",
+"posted": "2026-10-10",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "Reddit",
+"title": "Competitor A raised prices again",
+"text": "Competitor A price increase of 40% on our plan. Too expensive now.",
+"url": "https://reddit.example/r/saas/36",
+"posted": "2026-10-10",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "Google",
+"title": "How to export everything out of Competitor A?",
+"text": "Trying to migrate off Competitor A, export is CSV only. Feels like lock-in.",
+"url": "https://blog.example/37",
+"posted": "2026-10-11",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "Reddit",
+"title": "Competitor C outage again?",
+"text": "Competitor C has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://reddit.example/r/saas/38",
+"posted": "2026-10-07",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "X",
+"title": "Competitor A support never replies",
+"text": "Opened a ticket with Competitor A support a week ago, no reply.",
+"url": "https://x.example/status/39",
+"posted": "2026-10-11",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "Reddit",
+"title": "How to export everything out of Competitor D?",
+"text": "Trying to migrate off Competitor D, export is CSV only. Feels like lock-in.",
+"url": "https://reddit.example/r/saas/40",
+"posted": "2026-10-06",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "Google",
+"title": "How to export everything out of Competitor C?",
+"text": "Trying to migrate off Competitor C, export is CSV only. Feels like lock-in.",
+"url": "https://blog.example/41",
+"posted": "2026-10-07",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "Google",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor B has no API or plugin for our CRM.",
+"url": "https://blog.example/42",
+"posted": "2026-10-07",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "Reddit",
+"title": "Looking for a Competitor A alternative for a 10-person team",
+"text": "Need an alternative to Competitor A that does not charge per seat.",
+"url": "https://reddit.example/r/saas/43",
+"posted": "2026-10-06",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "Reddit",
+"title": "Competitor A raised prices again",
+"text": "Competitor A price increase of 40% on our plan. Too expensive now.",
+"url": "https://reddit.example/r/saas/44",
+"posted": "2026-10-12",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "Reddit",
+"title": "Looking for a Competitor B alternative for a 10-person team",
+"text": "Need an alternative to Competitor B that does not charge per seat.",
+"url": "https://reddit.example/r/saas/45",
+"posted": "2026-10-08",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "Reddit",
+"title": "Competitor A support never replies",
+"text": "Opened a ticket with Competitor A support a week ago, no reply.",
+"url": "https://reddit.example/r/saas/46",
+"posted": "2026-10-07",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "X",
+"title": "Competitor B raised prices again",
+"text": "Competitor B price increase of 40% on our plan. Too expensive now.",
+"url": "https://x.example/status/47",
+"posted": "2026-10-08",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "Google",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor A has no API or plugin for our CRM.",
+"url": "https://blog.example/48",
+"posted": "2026-10-06",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "Reddit",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor B has no API or plugin for our CRM.",
+"url": "https://reddit.example/r/saas/49",
+"posted": "2026-10-11",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "X",
+"title": "Looking for a Competitor C alternative for a 10-person team",
+"text": "Need an alternative to Competitor C that does not charge per seat.",
+"url": "https://x.example/status/50",
+"posted": "2026-10-06",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "Reddit",
+"title": "How to export everything out of Competitor A?",
+"text": "Trying to migrate off Competitor A, export is CSV only. Feels like lock-in.",
+"url": "https://reddit.example/r/saas/51",
+"posted": "2026-10-10",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "Reddit",
+"title": "Competitor A support never replies",
+"text": "Opened a ticket with Competitor A support a week ago, no reply.",
+"url": "https://reddit.example/r/saas/52",
+"posted": "2026-10-09",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "X",
+"title": "How to export everything out of Competitor D?",
+"text": "Trying to migrate off Competitor D, export is CSV only. Feels like lock-in.",
+"url": "https://x.example/status/53",
+"posted": "2026-10-08",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "Reddit",
+"title": "Competitor A raised prices again",
+"text": "Competitor A price increase of 40% on our plan. Too expensive now.",
+"url": "https://reddit.example/r/saas/54",
+"posted": "2026-10-08",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "Reddit",
+"title": "How to export everything out of Competitor A?",
+"text": "Trying to migrate off Competitor A, export is CSV only. Feels like lock-in.",
+"url": "https://reddit.example/r/saas/55",
+"posted": "2026-10-10",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "Reddit",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor C has no API or plugin for our CRM.",
+"url": "https://reddit.example/r/saas/56",
+"posted": "2026-10-10",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "Reddit",
+"title": "Competitor B support never replies",
+"text": "Opened a ticket with Competitor B support a week ago, no reply.",
+"url": "https://reddit.example/r/saas/57",
+"posted": "2026-10-13",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "Reddit",
+"title": "Competitor D outage again?",
+"text": "Competitor D has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://reddit.example/r/saas/58",
+"posted": "2026-10-08",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "X",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor C has no API or plugin for our CRM.",
+"url": "https://x.example/status/59",
+"posted": "2026-10-08",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "Reddit",
+"title": "Looking for a Competitor A alternative for a 10-person team",
+"text": "Need an alternative to Competitor A that does not charge per seat.",
+"url": "https://reddit.example/r/saas/60",
+"posted": "2026-10-06",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "Google",
+"title": "Competitor A raised prices again",
+"text": "Competitor A price increase of 40% on our plan. Too expensive now.",
+"url": "https://blog.example/61",
+"posted": "2026-10-13",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "X",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor D has no API or plugin for our CRM.",
+"url": "https://x.example/status/62",
+"posted": "2026-10-12",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "Google",
+"title": "How to export everything out of Competitor A?",
+"text": "Trying to migrate off Competitor A, export is CSV only. Feels like lock-in.",
+"url": "https://blog.example/63",
+"posted": "2026-10-10",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-13",
+"source": "Google",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor D has no API or plugin for our CRM.",
+"url": "https://blog.example/64",
+"posted": "2026-10-08",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-20",
+"source": "Google",
+"title": "How to export everything out of Competitor A?",
+"text": "Trying to migrate off Competitor A, export is CSV only. Feels like lock-in.",
+"url": "https://blog.example/88",
+"posted": "2026-10-17",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-20",
+"source": "X",
+"title": "How to export everything out of Competitor B?",
+"text": "Trying to migrate off Competitor B, export is CSV only. Feels like lock-in.",
+"url": "https://x.example/status/89",
+"posted": "2026-10-17",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-20",
+"source": "Reddit",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor A has no API or plugin for our CRM.",
+"url": "https://reddit.example/r/saas/90",
+"posted": "2026-10-14",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-20",
+"source": "Reddit",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor A has no API or plugin for our CRM.",
+"url": "https://reddit.example/r/saas/91",
+"posted": "2026-10-14",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-20",
+"source": "X",
+"title": "Looking for a Competitor A alternative for a 10-person team",
+"text": "Need an alternative to Competitor A that does not charge per seat.",
+"url": "https://x.example/status/92",
+"posted": "2026-10-19",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-20",
+"source": "X",
+"title": "Competitor E raised prices again",
+"text": "Competitor E price increase of 40% on our plan. Too expensive now.",
+"url": "https://x.example/status/93",
+"posted": "2026-10-18",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-20",
+"source": "Google",
+"title": "Competitor E outage again?",
+"text": "Competitor E has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://blog.example/94",
+"posted": "2026-10-17",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-20",
+"source": "Google",
+"title": "How to export everything out of Competitor E?",
+"text": "Trying to migrate off Competitor E, export is CSV only. Feels like lock-in.",
+"url": "https://blog.example/95",
+"posted": "2026-10-13",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-20",
+"source": "Reddit",
+"title": "Competitor E raised prices again",
+"text": "Competitor E price increase of 40% on our plan. Too expensive now.",
+"url": "https://reddit.example/r/saas/96",
+"posted": "2026-10-18",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-20",
+"source": "Google",
+"title": "How to export everything out of Competitor B?",
+"text": "Trying to migrate off Competitor B, export is CSV only. Feels like lock-in.",
+"url": "https://blog.example/97",
+"posted": "2026-10-15",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-20",
+"source": "X",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor A has no API or plugin for our CRM.",
+"url": "https://x.example/status/98",
+"posted": "2026-10-19",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-20",
+"source": "X",
+"title": "How to export everything out of Competitor A?",
+"text": "Trying to migrate off Competitor A, export is CSV only. Feels like lock-in.",
+"url": "https://x.example/status/99",
+"posted": "2026-10-13",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-20",
+"source": "Google",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor C has no API or plugin for our CRM.",
+"url": "https://blog.example/100",
+"posted": "2026-10-15",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-20",
+"source": "Reddit",
+"title": "Competitor B support never replies",
+"text": "Opened a ticket with Competitor B support a week ago, no reply.",
+"url": "https://reddit.example/r/saas/101",
+"posted": "2026-10-19",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-20",
+"source": "Reddit",
+"title": "Competitor E raised prices again",
+"text": "Competitor E price increase of 40% on our plan. Too expensive now.",
+"url": "https://reddit.example/r/saas/102",
+"posted": "2026-10-19",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-20",
+"source": "Reddit",
+"title": "Competitor C outage again?",
+"text": "Competitor C has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://reddit.example/r/saas/103",
+"posted": "2026-10-16",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-20",
+"source": "X",
+"title": "Competitor C raised prices again",
+"text": "Competitor C price increase of 40% on our plan. Too expensive now.",
+"url": "https://x.example/status/104",
+"posted": "2026-10-14",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-20",
+"source": "Google",
+"title": "Competitor B raised prices again",
+"text": "Competitor B price increase of 40% on our plan. Too expensive now.",
+"url": "https://blog.example/105",
+"posted": "2026-10-15",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-20",
+"source": "Reddit",
+"title": "Looking for a Competitor A alternative for a 10-person team",
+"text": "Need an alternative to Competitor A that does not charge per seat.",
+"url": "https://reddit.example/r/saas/106",
+"posted": "2026-10-14",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-20",
+"source": "Reddit",
+"title": "Looking for a Competitor A alternative for a 10-person team",
+"text": "Need an alternative to Competitor A that does not charge per seat.",
+"url": "https://reddit.example/r/saas/107",
+"posted": "2026-10-19",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-20",
+"source": "Reddit",
+"title": "Competitor B outage again?",
+"text": "Competitor B has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://reddit.example/r/saas/108",
+"posted": "2026-10-19",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-20",
+"source": "Google",
+"title": "Competitor E outage again?",
+"text": "Competitor E has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://blog.example/109",
+"posted": "2026-10-20",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-20",
+"source": "Google",
+"title": "Competitor E outage again?",
+"text": "Competitor E has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://blog.example/110",
+"posted": "2026-10-16",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-20",
+"source": "Reddit",
+"title": "Competitor A support never replies",
+"text": "Opened a ticket with Competitor A support a week ago, no reply.",
+"url": "https://reddit.example/r/saas/111",
+"posted": "2026-10-19",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-20",
+"source": "Reddit",
+"title": "Competitor A raised prices again",
+"text": "Competitor A price increase of 40% on our plan. Too expensive now.",
+"url": "https://reddit.example/r/saas/112",
+"posted": "2026-10-17",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-20",
+"source": "Reddit",
+"title": "Competitor D outage again?",
+"text": "Competitor D has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://reddit.example/r/saas/113",
+"posted": "2026-10-16",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-20",
+"source": "Reddit",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor B has no API or plugin for our CRM.",
+"url": "https://reddit.example/r/saas/114",
+"posted": "2026-10-16",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-20",
+"source": "X",
+"title": "Competitor E outage again?",
+"text": "Competitor E has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://x.example/status/115",
+"posted": "2026-10-20",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-20",
+"source": "Reddit",
+"title": "Looking for a Competitor A alternative for a 10-person team",
+"text": "Need an alternative to Competitor A that does not charge per seat.",
+"url": "https://reddit.example/r/saas/116",
+"posted": "2026-10-13",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-20",
+"source": "Reddit",
+"title": "Competitor E raised prices again",
+"text": "Competitor E price increase of 40% on our plan. Too expensive now.",
+"url": "https://reddit.example/r/saas/117",
+"posted": "2026-10-14",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-20",
+"source": "Google",
+"title": "How to export everything out of Competitor B?",
+"text": "Trying to migrate off Competitor B, export is CSV only. Feels like lock-in.",
+"url": "https://blog.example/118",
+"posted": "2026-10-16",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-20",
+"source": "Reddit",
+"title": "How to export everything out of Competitor A?",
+"text": "Trying to migrate off Competitor A, export is CSV only. Feels like lock-in.",
+"url": "https://reddit.example/r/saas/119",
+"posted": "2026-10-15",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-20",
+"source": "Reddit",
+"title": "Competitor C raised prices again",
+"text": "Competitor C price increase of 40% on our plan. Too expensive now.",
+"url": "https://reddit.example/r/saas/120",
+"posted": "2026-10-14",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-20",
+"source": "Reddit",
+"title": "Competitor E outage again?",
+"text": "Competitor E has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://reddit.example/r/saas/121",
+"posted": "2026-10-20",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-27",
+"source": "Reddit",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor C has no API or plugin for our CRM.",
+"url": "https://reddit.example/r/saas/148",
+"posted": "2026-10-26",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-27",
+"source": "X",
+"title": "How to export everything out of Competitor C?",
+"text": "Trying to migrate off Competitor C, export is CSV only. Feels like lock-in.",
+"url": "https://x.example/status/149",
+"posted": "2026-10-26",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-27",
+"source": "Reddit",
+"title": "Competitor C outage again?",
+"text": "Competitor C has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://reddit.example/r/saas/150",
+"posted": "2026-10-24",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-27",
+"source": "Google",
+"title": "How to export everything out of Competitor B?",
+"text": "Trying to migrate off Competitor B, export is CSV only. Feels like lock-in.",
+"url": "https://blog.example/151",
+"posted": "2026-10-20",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-27",
+"source": "X",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor A has no API or plugin for our CRM.",
+"url": "https://x.example/status/152",
+"posted": "2026-10-27",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-27",
+"source": "Reddit",
+"title": "Competitor B support never replies",
+"text": "Opened a ticket with Competitor B support a week ago, no reply.",
+"url": "https://reddit.example/r/saas/153",
+"posted": "2026-10-26",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-27",
+"source": "X",
+"title": "Competitor A support never replies",
+"text": "Opened a ticket with Competitor A support a week ago, no reply.",
+"url": "https://x.example/status/154",
+"posted": "2026-10-23",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-27",
+"source": "Reddit",
+"title": "Competitor B support never replies",
+"text": "Opened a ticket with Competitor B support a week ago, no reply.",
+"url": "https://reddit.example/r/saas/155",
+"posted": "2026-10-20",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-27",
+"source": "Reddit",
+"title": "Looking for a Competitor B alternative for a 10-person team",
+"text": "Need an alternative to Competitor B that does not charge per seat.",
+"url": "https://reddit.example/r/saas/156",
+"posted": "2026-10-24",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-27",
+"source": "X",
+"title": "How to export everything out of Competitor B?",
+"text": "Trying to migrate off Competitor B, export is CSV only. Feels like lock-in.",
+"url": "https://x.example/status/157",
+"posted": "2026-10-20",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-27",
+"source": "Reddit",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor B has no API or plugin for our CRM.",
+"url": "https://reddit.example/r/saas/158",
+"posted": "2026-10-24",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-27",
+"source": "Google",
+"title": "Competitor E outage again?",
+"text": "Competitor E has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://blog.example/159",
+"posted": "2026-10-27",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-27",
+"source": "Google",
+"title": "Competitor D outage again?",
+"text": "Competitor D has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://blog.example/160",
+"posted": "2026-10-23",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-27",
+"source": "Reddit",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor A has no API or plugin for our CRM.",
+"url": "https://reddit.example/r/saas/161",
+"posted": "2026-10-26",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-27",
+"source": "X",
+"title": "Competitor A support never replies",
+"text": "Opened a ticket with Competitor A support a week ago, no reply.",
+"url": "https://x.example/status/162",
+"posted": "2026-10-22",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-27",
+"source": "X",
+"title": "Competitor B raised prices again",
+"text": "Competitor B price increase of 40% on our plan. Too expensive now.",
+"url": "https://x.example/status/163",
+"posted": "2026-10-26",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-27",
+"source": "Google",
+"title": "How to export everything out of Competitor A?",
+"text": "Trying to migrate off Competitor A, export is CSV only. Feels like lock-in.",
+"url": "https://blog.example/164",
+"posted": "2026-10-20",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-27",
+"source": "Reddit",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor A has no API or plugin for our CRM.",
+"url": "https://reddit.example/r/saas/165",
+"posted": "2026-10-20",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-27",
+"source": "X",
+"title": "How to export everything out of Competitor B?",
+"text": "Trying to migrate off Competitor B, export is CSV only. Feels like lock-in.",
+"url": "https://x.example/status/166",
+"posted": "2026-10-25",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-27",
+"source": "X",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor A has no API or plugin for our CRM.",
+"url": "https://x.example/status/167",
+"posted": "2026-10-26",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-27",
+"source": "X",
+"title": "Competitor A outage again?",
+"text": "Competitor A has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://x.example/status/168",
+"posted": "2026-10-21",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-27",
+"source": "Reddit",
+"title": "Looking for a Competitor E alternative for a 10-person team",
+"text": "Need an alternative to Competitor E that does not charge per seat.",
+"url": "https://reddit.example/r/saas/169",
+"posted": "2026-10-27",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-27",
+"source": "X",
+"title": "How to export everything out of Competitor A?",
+"text": "Trying to migrate off Competitor A, export is CSV only. Feels like lock-in.",
+"url": "https://x.example/status/170",
+"posted": "2026-10-26",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-27",
+"source": "Reddit",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor B has no API or plugin for our CRM.",
+"url": "https://reddit.example/r/saas/171",
+"posted": "2026-10-22",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-27",
+"source": "Reddit",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor C has no API or plugin for our CRM.",
+"url": "https://reddit.example/r/saas/172",
+"posted": "2026-10-23",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-27",
+"source": "X",
+"title": "Looking for a Competitor A alternative for a 10-person team",
+"text": "Need an alternative to Competitor A that does not charge per seat.",
+"url": "https://x.example/status/173",
+"posted": "2026-10-25",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-27",
+"source": "Google",
+"title": "Competitor E raised prices again",
+"text": "Competitor E price increase of 40% on our plan. Too expensive now.",
+"url": "https://blog.example/174",
+"posted": "2026-10-22",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-27",
+"source": "Google",
+"title": "Competitor C raised prices again",
+"text": "Competitor C price increase of 40% on our plan. Too expensive now.",
+"url": "https://blog.example/175",
+"posted": "2026-10-27",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-27",
+"source": "Reddit",
+"title": "How to export everything out of Competitor B?",
+"text": "Trying to migrate off Competitor B, export is CSV only. Feels like lock-in.",
+"url": "https://reddit.example/r/saas/176",
+"posted": "2026-10-26",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-27",
+"source": "Google",
+"title": "Looking for a Competitor E alternative for a 10-person team",
+"text": "Need an alternative to Competitor E that does not charge per seat.",
+"url": "https://blog.example/177",
+"posted": "2026-10-20",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-10-27",
+"source": "X",
+"title": "Competitor C support never replies",
+"text": "Opened a ticket with Competitor C support a week ago, no reply.",
+"url": "https://x.example/status/178",
+"posted": "2026-10-20",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "Google",
+"title": "How to export everything out of Competitor C?",
+"text": "Trying to migrate off Competitor C, export is CSV only. Feels like lock-in.",
+"url": "https://blog.example/205",
+"posted": "2026-11-02",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "Reddit",
+"title": "Competitor C support never replies",
+"text": "Opened a ticket with Competitor C support a week ago, no reply.",
+"url": "https://reddit.example/r/saas/206",
+"posted": "2026-11-01",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "Reddit",
+"title": "Competitor B raised prices again",
+"text": "Competitor B price increase of 40% on our plan. Too expensive now.",
+"url": "https://reddit.example/r/saas/207",
+"posted": "2026-10-30",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "Google",
+"title": "Competitor B raised prices again",
+"text": "Competitor B price increase of 40% on our plan. Too expensive now.",
+"url": "https://blog.example/208",
+"posted": "2026-11-02",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "Reddit",
+"title": "Looking for a Competitor A alternative for a 10-person team",
+"text": "Need an alternative to Competitor A that does not charge per seat.",
+"url": "https://reddit.example/r/saas/209",
+"posted": "2026-10-28",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "Reddit",
+"title": "Competitor C outage again?",
+"text": "Competitor C has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://reddit.example/r/saas/210",
+"posted": "2026-11-03",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "Google",
+"title": "Competitor A support never replies",
+"text": "Opened a ticket with Competitor A support a week ago, no reply.",
+"url": "https://blog.example/211",
+"posted": "2026-10-30",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "Reddit",
+"title": "Competitor D outage again?",
+"text": "Competitor D has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://reddit.example/r/saas/212",
+"posted": "2026-10-27",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "Reddit",
+"title": "Competitor A support never replies",
+"text": "Opened a ticket with Competitor A support a week ago, no reply.",
+"url": "https://reddit.example/r/saas/213",
+"posted": "2026-11-03",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "X",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor C has no API or plugin for our CRM.",
+"url": "https://x.example/status/214",
+"posted": "2026-11-03",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "Google",
+"title": "Looking for a Competitor A alternative for a 10-person team",
+"text": "Need an alternative to Competitor A that does not charge per seat.",
+"url": "https://blog.example/215",
+"posted": "2026-11-02",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "Google",
+"title": "Competitor C outage again?",
+"text": "Competitor C has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://blog.example/216",
+"posted": "2026-10-29",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "X",
+"title": "Competitor B raised prices again",
+"text": "Competitor B price increase of 40% on our plan. Too expensive now.",
+"url": "https://x.example/status/217",
+"posted": "2026-10-28",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "Reddit",
+"title": "Competitor D outage again?",
+"text": "Competitor D has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://reddit.example/r/saas/218",
+"posted": "2026-11-03",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "Reddit",
+"title": "Competitor D outage again?",
+"text": "Competitor D has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://reddit.example/r/saas/219",
+"posted": "2026-10-31",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "X",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor E has no API or plugin for our CRM.",
+"url": "https://x.example/status/220",
+"posted": "2026-10-31",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "X",
+"title": "Competitor B raised prices again",
+"text": "Competitor B price increase of 40% on our plan. Too expensive now.",
+"url": "https://x.example/status/221",
+"posted": "2026-10-30",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "Google",
+"title": "Looking for a Competitor E alternative for a 10-person team",
+"text": "Need an alternative to Competitor E that does not charge per seat.",
+"url": "https://blog.example/222",
+"posted": "2026-11-01",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "Reddit",
+"title": "Competitor B raised prices again",
+"text": "Competitor B price increase of 40% on our plan. Too expensive now.",
+"url": "https://reddit.example/r/saas/223",
+"posted": "2026-11-01",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "Reddit",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor A has no API or plugin for our CRM.",
+"url": "https://reddit.example/r/saas/224",
+"posted": "2026-11-01",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "Reddit",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor A has no API or plugin for our CRM.",
+"url": "https://reddit.example/r/saas/225",
+"posted": "2026-11-01",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "X",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor B has no API or plugin for our CRM.",
+"url": "https://x.example/status/226",
+"posted": "2026-11-02",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "X",
+"title": "Looking for a Competitor E alternative for a 10-person team",
+"text": "Need an alternative to Competitor E that does not charge per seat.",
+"url": "https://x.example/status/227",
+"posted": "2026-10-31",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "Google",
+"title": "Competitor B raised prices again",
+"text": "Competitor B price increase of 40% on our plan. Too expensive now.",
+"url": "https://blog.example/228",
+"posted": "2026-11-03",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "Google",
+"title": "Competitor D outage again?",
+"text": "Competitor D has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://blog.example/229",
+"posted": "2026-10-29",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "Reddit",
+"title": "Competitor D outage again?",
+"text": "Competitor D has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://reddit.example/r/saas/230",
+"posted": "2026-11-03",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "X",
+"title": "Looking for a Competitor A alternative for a 10-person team",
+"text": "Need an alternative to Competitor A that does not charge per seat.",
+"url": "https://x.example/status/231",
+"posted": "2026-10-28",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "Reddit",
+"title": "Looking for a Competitor B alternative for a 10-person team",
+"text": "Need an alternative to Competitor B that does not charge per seat.",
+"url": "https://reddit.example/r/saas/232",
+"posted": "2026-10-28",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "X",
+"title": "Competitor E outage again?",
+"text": "Competitor E has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://x.example/status/233",
+"posted": "2026-10-28",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "Google",
+"title": "Looking for a Competitor A alternative for a 10-person team",
+"text": "Need an alternative to Competitor A that does not charge per seat.",
+"url": "https://blog.example/234",
+"posted": "2026-10-31",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "Google",
+"title": "Competitor D outage again?",
+"text": "Competitor D has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://blog.example/235",
+"posted": "2026-10-31",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "Google",
+"title": "Competitor C outage again?",
+"text": "Competitor C has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://blog.example/236",
+"posted": "2026-11-03",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "Google",
+"title": "How to export everything out of Competitor B?",
+"text": "Trying to migrate off Competitor B, export is CSV only. Feels like lock-in.",
+"url": "https://blog.example/237",
+"posted": "2026-11-03",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "Reddit",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor A has no API or plugin for our CRM.",
+"url": "https://reddit.example/r/saas/238",
+"posted": "2026-11-03",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "Reddit",
+"title": "Competitor C outage again?",
+"text": "Competitor C has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://reddit.example/r/saas/239",
+"posted": "2026-10-29",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "Reddit",
+"title": "Competitor C outage again?",
+"text": "Competitor C has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://reddit.example/r/saas/240",
+"posted": "2026-10-30",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-03",
+"source": "X",
+"title": "How to export everything out of Competitor C?",
+"text": "Trying to migrate off Competitor C, export is CSV only. Feels like lock-in.",
+"url": "https://x.example/status/241",
+"posted": "2026-10-30",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "X",
+"title": "Looking for a Competitor A alternative for a 10-person team",
+"text": "Need an alternative to Competitor A that does not charge per seat.",
+"url": "https://x.example/status/274",
+"posted": "2026-11-10",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "Reddit",
+"title": "Competitor C support never replies",
+"text": "Opened a ticket with Competitor C support a week ago, no reply.",
+"url": "https://reddit.example/r/saas/275",
+"posted": "2026-11-10",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "X",
+"title": "Competitor C outage again?",
+"text": "Competitor C has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://x.example/status/276",
+"posted": "2026-11-08",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "Reddit",
+"title": "Competitor A support never replies",
+"text": "Opened a ticket with Competitor A support a week ago, no reply.",
+"url": "https://reddit.example/r/saas/277",
+"posted": "2026-11-10",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "Reddit",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor B has no API or plugin for our CRM.",
+"url": "https://reddit.example/r/saas/278",
+"posted": "2026-11-04",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "Reddit",
+"title": "Looking for a Competitor C alternative for a 10-person team",
+"text": "Need an alternative to Competitor C that does not charge per seat.",
+"url": "https://reddit.example/r/saas/279",
+"posted": "2026-11-09",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "X",
+"title": "How to export everything out of Competitor A?",
+"text": "Trying to migrate off Competitor A, export is CSV only. Feels like lock-in.",
+"url": "https://x.example/status/280",
+"posted": "2026-11-04",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "Google",
+"title": "Competitor D outage again?",
+"text": "Competitor D has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://blog.example/281",
+"posted": "2026-11-10",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "X",
+"title": "Competitor D outage again?",
+"text": "Competitor D has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://x.example/status/282",
+"posted": "2026-11-04",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "X",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor A has no API or plugin for our CRM.",
+"url": "https://x.example/status/283",
+"posted": "2026-11-07",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "Reddit",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor C has no API or plugin for our CRM.",
+"url": "https://reddit.example/r/saas/284",
+"posted": "2026-11-10",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "Google",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor D has no API or plugin for our CRM.",
+"url": "https://blog.example/285",
+"posted": "2026-11-09",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "X",
+"title": "Looking for a Competitor B alternative for a 10-person team",
+"text": "Need an alternative to Competitor B that does not charge per seat.",
+"url": "https://x.example/status/286",
+"posted": "2026-11-03",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "Reddit",
+"title": "Competitor A raised prices again",
+"text": "Competitor A price increase of 40% on our plan. Too expensive now.",
+"url": "https://reddit.example/r/saas/287",
+"posted": "2026-11-08",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "Google",
+"title": "How to export everything out of Competitor C?",
+"text": "Trying to migrate off Competitor C, export is CSV only. Feels like lock-in.",
+"url": "https://blog.example/288",
+"posted": "2026-11-09",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "X",
+"title": "Competitor B support never replies",
+"text": "Opened a ticket with Competitor B support a week ago, no reply.",
+"url": "https://x.example/status/289",
+"posted": "2026-11-08",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "Reddit",
+"title": "Competitor A raised prices again",
+"text": "Competitor A price increase of 40% on our plan. Too expensive now.",
+"url": "https://reddit.example/r/saas/290",
+"posted": "2026-11-08",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "Google",
+"title": "Looking for a Competitor A alternative for a 10-person team",
+"text": "Need an alternative to Competitor A that does not charge per seat.",
+"url": "https://blog.example/291",
+"posted": "2026-11-07",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "Reddit",
+"title": "Competitor B outage again?",
+"text": "Competitor B has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://reddit.example/r/saas/292",
+"posted": "2026-11-03",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "Google",
+"title": "Competitor A outage again?",
+"text": "Competitor A has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://blog.example/293",
+"posted": "2026-11-09",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "Reddit",
+"title": "How to export everything out of Competitor B?",
+"text": "Trying to migrate off Competitor B, export is CSV only. Feels like lock-in.",
+"url": "https://reddit.example/r/saas/294",
+"posted": "2026-11-07",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "Reddit",
+"title": "Competitor B support never replies",
+"text": "Opened a ticket with Competitor B support a week ago, no reply.",
+"url": "https://reddit.example/r/saas/295",
+"posted": "2026-11-03",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "Reddit",
+"title": "Competitor B raised prices again",
+"text": "Competitor B price increase of 40% on our plan. Too expensive now.",
+"url": "https://reddit.example/r/saas/296",
+"posted": "2026-11-04",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "X",
+"title": "Competitor A support never replies",
+"text": "Opened a ticket with Competitor A support a week ago, no reply.",
+"url": "https://x.example/status/297",
+"posted": "2026-11-09",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "Reddit",
+"title": "Competitor A raised prices again",
+"text": "Competitor A price increase of 40% on our plan. Too expensive now.",
+"url": "https://reddit.example/r/saas/298",
+"posted": "2026-11-10",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "Reddit",
+"title": "Competitor C support never replies",
+"text": "Opened a ticket with Competitor C support a week ago, no reply.",
+"url": "https://reddit.example/r/saas/299",
+"posted": "2026-11-05",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "Google",
+"title": "Looking for a Competitor B alternative for a 10-person team",
+"text": "Need an alternative to Competitor B that does not charge per seat.",
+"url": "https://blog.example/300",
+"posted": "2026-11-06",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "Reddit",
+"title": "How to export everything out of Competitor B?",
+"text": "Trying to migrate off Competitor B, export is CSV only. Feels like lock-in.",
+"url": "https://reddit.example/r/saas/301",
+"posted": "2026-11-04",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "Google",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor B has no API or plugin for our CRM.",
+"url": "https://blog.example/302",
+"posted": "2026-11-03",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "Google",
+"title": "Competitor A raised prices again",
+"text": "Competitor A price increase of 40% on our plan. Too expensive now.",
+"url": "https://blog.example/303",
+"posted": "2026-11-03",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "Google",
+"title": "Competitor B raised prices again",
+"text": "Competitor B price increase of 40% on our plan. Too expensive now.",
+"url": "https://blog.example/304",
+"posted": "2026-11-08",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "Reddit",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor B has no API or plugin for our CRM.",
+"url": "https://reddit.example/r/saas/305",
+"posted": "2026-11-08",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "Reddit",
+"title": "Competitor D outage again?",
+"text": "Competitor D has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://reddit.example/r/saas/306",
+"posted": "2026-11-03",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "Reddit",
+"title": "Competitor B support never replies",
+"text": "Opened a ticket with Competitor B support a week ago, no reply.",
+"url": "https://reddit.example/r/saas/307",
+"posted": "2026-11-10",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "X",
+"title": "How to export everything out of Competitor A?",
+"text": "Trying to migrate off Competitor A, export is CSV only. Feels like lock-in.",
+"url": "https://x.example/status/308",
+"posted": "2026-11-09",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "Google",
+"title": "Looking for a Competitor C alternative for a 10-person team",
+"text": "Need an alternative to Competitor C that does not charge per seat.",
+"url": "https://blog.example/309",
+"posted": "2026-11-08",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "Reddit",
+"title": "Looking for a Competitor D alternative for a 10-person team",
+"text": "Need an alternative to Competitor D that does not charge per seat.",
+"url": "https://reddit.example/r/saas/310",
+"posted": "2026-11-07",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "Google",
+"title": "Competitor E raised prices again",
+"text": "Competitor E price increase of 40% on our plan. Too expensive now.",
+"url": "https://blog.example/311",
+"posted": "2026-11-06",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "Reddit",
+"title": "Competitor B raised prices again",
+"text": "Competitor B price increase of 40% on our plan. Too expensive now.",
+"url": "https://reddit.example/r/saas/312",
+"posted": "2026-11-09",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "X",
+"title": "Competitor D outage again?",
+"text": "Competitor D has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://x.example/status/313",
+"posted": "2026-11-08",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-10",
+"source": "X",
+"title": "Competitor E outage again?",
+"text": "Competitor E has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://x.example/status/314",
+"posted": "2026-11-03",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "Reddit",
+"title": "Looking for a Competitor B alternative for a 10-person team",
+"text": "Need an alternative to Competitor B that does not charge per seat.",
+"url": "https://reddit.example/r/saas/348",
+"posted": "2026-11-15",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "Google",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor A has no API or plugin for our CRM.",
+"url": "https://blog.example/349",
+"posted": "2026-11-15",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "X",
+"title": "Competitor A support never replies",
+"text": "Opened a ticket with Competitor A support a week ago, no reply.",
+"url": "https://x.example/status/350",
+"posted": "2026-11-17",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "Reddit",
+"title": "How to export everything out of Competitor C?",
+"text": "Trying to migrate off Competitor C, export is CSV only. Feels like lock-in.",
+"url": "https://reddit.example/r/saas/351",
+"posted": "2026-11-11",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "Google",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor C has no API or plugin for our CRM.",
+"url": "https://blog.example/352",
+"posted": "2026-11-16",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "Reddit",
+"title": "How to export everything out of Competitor B?",
+"text": "Trying to migrate off Competitor B, export is CSV only. Feels like lock-in.",
+"url": "https://reddit.example/r/saas/353",
+"posted": "2026-11-14",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "Reddit",
+"title": "Looking for a Competitor A alternative for a 10-person team",
+"text": "Need an alternative to Competitor A that does not charge per seat.",
+"url": "https://reddit.example/r/saas/354",
+"posted": "2026-11-16",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "X",
+"title": "Competitor E outage again?",
+"text": "Competitor E has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://x.example/status/355",
+"posted": "2026-11-17",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "Google",
+"title": "Competitor D outage again?",
+"text": "Competitor D has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://blog.example/356",
+"posted": "2026-11-13",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "Reddit",
+"title": "Competitor D outage again?",
+"text": "Competitor D has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://reddit.example/r/saas/357",
+"posted": "2026-11-16",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "X",
+"title": "Competitor A support never replies",
+"text": "Opened a ticket with Competitor A support a week ago, no reply.",
+"url": "https://x.example/status/358",
+"posted": "2026-11-14",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "Reddit",
+"title": "How to export everything out of Competitor A?",
+"text": "Trying to migrate off Competitor A, export is CSV only. Feels like lock-in.",
+"url": "https://reddit.example/r/saas/359",
+"posted": "2026-11-12",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "X",
+"title": "Competitor D raised prices again",
+"text": "Competitor D price increase of 40% on our plan. Too expensive now.",
+"url": "https://x.example/status/360",
+"posted": "2026-11-14",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "Google",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor D has no API or plugin for our CRM.",
+"url": "https://blog.example/361",
+"posted": "2026-11-10",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "Reddit",
+"title": "Competitor C support never replies",
+"text": "Opened a ticket with Competitor C support a week ago, no reply.",
+"url": "https://reddit.example/r/saas/362",
+"posted": "2026-11-11",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "X",
+"title": "How to export everything out of Competitor A?",
+"text": "Trying to migrate off Competitor A, export is CSV only. Feels like lock-in.",
+"url": "https://x.example/status/363",
+"posted": "2026-11-14",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "Reddit",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor B has no API or plugin for our CRM.",
+"url": "https://reddit.example/r/saas/364",
+"posted": "2026-11-15",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "Reddit",
+"title": "Competitor A raised prices again",
+"text": "Competitor A price increase of 40% on our plan. Too expensive now.",
+"url": "https://reddit.example/r/saas/365",
+"posted": "2026-11-16",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "X",
+"title": "Competitor E support never replies",
+"text": "Opened a ticket with Competitor E support a week ago, no reply.",
+"url": "https://x.example/status/366",
+"posted": "2026-11-15",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "Reddit",
+"title": "How to export everything out of Competitor A?",
+"text": "Trying to migrate off Competitor A, export is CSV only. Feels like lock-in.",
+"url": "https://reddit.example/r/saas/367",
+"posted": "2026-11-15",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "Reddit",
+"title": "How to export everything out of Competitor B?",
+"text": "Trying to migrate off Competitor B, export is CSV only. Feels like lock-in.",
+"url": "https://reddit.example/r/saas/368",
+"posted": "2026-11-16",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "X",
+"title": "How to export everything out of Competitor A?",
+"text": "Trying to migrate off Competitor A, export is CSV only. Feels like lock-in.",
+"url": "https://x.example/status/369",
+"posted": "2026-11-14",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "Reddit",
+"title": "Competitor D support never replies",
+"text": "Opened a ticket with Competitor D support a week ago, no reply.",
+"url": "https://reddit.example/r/saas/370",
+"posted": "2026-11-11",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "Reddit",
+"title": "Looking for a Competitor A alternative for a 10-person team",
+"text": "Need an alternative to Competitor A that does not charge per seat.",
+"url": "https://reddit.example/r/saas/371",
+"posted": "2026-11-16",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "Reddit",
+"title": "Looking for a Competitor A alternative for a 10-person team",
+"text": "Need an alternative to Competitor A that does not charge per seat.",
+"url": "https://reddit.example/r/saas/372",
+"posted": "2026-11-13",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "Reddit",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor A has no API or plugin for our CRM.",
+"url": "https://reddit.example/r/saas/373",
+"posted": "2026-11-14",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "Google",
+"title": "Competitor C outage again?",
+"text": "Competitor C has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://blog.example/374",
+"posted": "2026-11-13",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "X",
+"title": "Looking for a Competitor A alternative for a 10-person team",
+"text": "Need an alternative to Competitor A that does not charge per seat.",
+"url": "https://x.example/status/375",
+"posted": "2026-11-17",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "X",
+"title": "How to export everything out of Competitor C?",
+"text": "Trying to migrate off Competitor C, export is CSV only. Feels like lock-in.",
+"url": "https://x.example/status/376",
+"posted": "2026-11-10",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "Reddit",
+"title": "Competitor D outage again?",
+"text": "Competitor D has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://reddit.example/r/saas/377",
+"posted": "2026-11-11",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "Reddit",
+"title": "Looking for a Competitor B alternative for a 10-person team",
+"text": "Need an alternative to Competitor B that does not charge per seat.",
+"url": "https://reddit.example/r/saas/378",
+"posted": "2026-11-12",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "Reddit",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor C has no API or plugin for our CRM.",
+"url": "https://reddit.example/r/saas/379",
+"posted": "2026-11-16",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "Reddit",
+"title": "Competitor C support never replies",
+"text": "Opened a ticket with Competitor C support a week ago, no reply.",
+"url": "https://reddit.example/r/saas/380",
+"posted": "2026-11-11",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "X",
+"title": "Looking for a Competitor B alternative for a 10-person team",
+"text": "Need an alternative to Competitor B that does not charge per seat.",
+"url": "https://x.example/status/381",
+"posted": "2026-11-17",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "Reddit",
+"title": "Looking for a Competitor A alternative for a 10-person team",
+"text": "Need an alternative to Competitor A that does not charge per seat.",
+"url": "https://reddit.example/r/saas/382",
+"posted": "2026-11-10",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "Reddit",
+"title": "How to export everything out of Competitor C?",
+"text": "Trying to migrate off Competitor C, export is CSV only. Feels like lock-in.",
+"url": "https://reddit.example/r/saas/383",
+"posted": "2026-11-10",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "X",
+"title": "Competitor A support never replies",
+"text": "Opened a ticket with Competitor A support a week ago, no reply.",
+"url": "https://x.example/status/384",
+"posted": "2026-11-15",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "Reddit",
+"title": "Competitor E outage again?",
+"text": "Competitor E has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://reddit.example/r/saas/385",
+"posted": "2026-11-10",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "Reddit",
+"title": "Competitor A raised prices again",
+"text": "Competitor A price increase of 40% on our plan. Too expensive now.",
+"url": "https://reddit.example/r/saas/386",
+"posted": "2026-11-10",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "Reddit",
+"title": "How to export everything out of Competitor B?",
+"text": "Trying to migrate off Competitor B, export is CSV only. Feels like lock-in.",
+"url": "https://reddit.example/r/saas/387",
+"posted": "2026-11-12",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "Google",
+"title": "Competitor B outage again?",
+"text": "Competitor B has been down for an hour, third outage this month. Broken dashboards.",
+"url": "https://blog.example/388",
+"posted": "2026-11-16",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "Reddit",
+"title": "Any tool that integrates with our CRM?",
+"text": "Competitor D has no API or plugin for our CRM.",
+"url": "https://reddit.example/r/saas/389",
+"posted": "2026-11-12",
+"author": "",
+"query": "pains"
+},
+{
+"run_date": "2026-11-17",
+"source": "Google",
+"title": "Competitor A raised prices again",
+"text": "Competitor A price increase of 40% on our plan. Too expensive now.",
+"url": "https://blog.example/390",
+"posted": "2026-11-15",
+"author": "",
+"query": "pains"
+}
+]
