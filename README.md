@@ -80,14 +80,17 @@ Add four secrets to the repo: `JIRA_BASE_URL`, `JIRA_EMAIL`, `JIRA_API_TOKEN`, `
 ## How it works
 
 ```
-Apify tasks (weekly)  →  scripts/fetch.py   →  data/raw/*.json  (history)
+Apify + OpenAI (weekly) →  scripts/fetch.py →  data/raw/*.json  (history)
+Semrush / other CSV     →  data/import/      ↗
                                                 ↓
 config/sources.json   →  scripts/build.py   →  docs/data.json  →  docs/index.html (GitHub Pages)
                                                 ↓
                          scripts/to_jira.py →  Jira tasks (optional)
 ```
 
-- **Collection:** public Apify actors for Google Search, Reddit, X and LinkedIn. AI Overview checks use the Google Search scraper on a fixed prompt list.
+- **Collection:** public Apify actors for Google Search, Reddit, X and LinkedIn.
+- **AI answers:** Google AI Overview through the Apify Google Search scraper, Gemini through the Apify Gemini scraper, ChatGPT through the OpenAI API with web search. Each checks the same list of buyer prompts. The API answer is a close stand-in for what ChatGPT users see, not a copy of it.
+- **Your other tools:** already pay for Semrush AI Visibility or a rank tracker? Export prompts to CSV, drop the file into `data/import/`, and the results land on the same AI chart.
 - **Cleaning and tagging:** plain keyword rules in `config/sources.json`: brand pattern, noise, own posts, spam, listings, negative words, industries, narratives, pain clusters, competitors. Rules on purpose, so every tag can be explained.
 - **Dashboard:** one static HTML file. No backend, no build step.
 - **Schedule:** a GitHub Action runs weekly, pulls the last Apify runs, rebuilds the data, sends tasks to Jira and commits.
@@ -99,7 +102,7 @@ Everything happens in the browser and takes about an hour. **[Step-by-step guide
 1. Fork the repo and turn on GitHub Pages: the demo goes live.
 2. Put your brand, domain, competitors and topics into `config/sources.json`.
 3. Create Apify tasks for the sources you want.
-4. Add your Apify token and task IDs as GitHub secrets.
+4. Add your Apify token, task IDs and, for ChatGPT, an OpenAI API key as GitHub secrets.
 5. Run the workflow once. From then on it runs weekly.
 6. Optional: add four Jira secrets to get weekly tasks.
 
