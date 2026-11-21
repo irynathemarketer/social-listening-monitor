@@ -25,9 +25,12 @@ jobs:
           python-version: "3.12"
       - name: Demo data (deterministic, regenerated from the script)
         run: python scripts/make_demo.py
-      - name: Fetch from Apify (skipped without APIFY_TOKEN)
+      - name: Fetch from Apify and OpenAI (each source skipped without its secret)
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
+          TASK_AI_GEMINI: ${{ secrets.TASK_AI_GEMINI }}
           TASK_GOOGLE: ${{ secrets.TASK_GOOGLE }}
           TASK_REDDIT: ${{ secrets.TASK_REDDIT }}
           TASK_X: ${{ secrets.TASK_X }}
@@ -49,6 +52,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add docs/data.json data/demo data/raw 2>/dev/null || git add docs/data.json data/demo
+          git add docs/data.json data/demo $(ls -d data/raw 2>/dev/null)
           git diff --cached --quiet || git commit -m "Weekly collection $(date -u +%F)"
           git push
