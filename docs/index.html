@@ -72,21 +72,29 @@ footer { font-size:.8rem; color:var(--muted); border-top:1px solid var(--line); 
 <div class="wrap">
   <header class="head">
     <h1><span id="brand">Brand</span>: brand, market and AI search <span class="badge" id="mode" hidden>demo data</span></h1>
-    <p class="muted" id="sub">Weekly monitor of brand mentions, market pain threads, reviews and AI answers. Collected with Apify, cleaned and tagged by rules in <code>config/sources.json</code>.</p>
+    <p class="muted" id="sub">Is AI recommending you, what do people say, and what should you do this week? Weekly monitor of AI answers, brand mentions, market pain threads and reviews. Collected with Apify, cleaned and tagged by rules in <code>config/sources.json</code>.</p>
     <div class="runbar"><label for="run">Collection from</label><select id="run"></select><span class="muted" id="updated"></span></div>
   </header>
 
   <nav aria-label="Sections">
-    <a href="#kpis">Numbers</a><a href="#signals">Signals</a><a href="#narratives">Narratives</a><a href="#where">Where</a>
-    <a href="#reviews">Reviews</a><a href="#pains">Market pains</a><a href="#competitors">Competitors</a><a href="#ai">AI answers</a><a href="#trends">Trends</a><a href="#method">Method</a>
+    <a href="#kpis">Numbers</a><a href="#ai">AI answers</a><a href="#signals">Signals</a><a href="#narratives">Narratives</a><a href="#where">Where</a>
+    <a href="#reviews">Reviews</a><a href="#pains">Market pains</a><a href="#competitors">Competitors</a><a href="#trends">Trends</a><a href="#method">Method</a>
   </nav>
 
   <section id="kpis">
     <div class="kpis" id="kpi-cards"></div>
   </section>
 
+    <section id="ai">
+    <h2>Does AI name the brand in answers?</h2>
+    <div class="card"><h3>Share of answers that name the brand, by platform</h3><div class="chart" id="ai-chart"></div></div>
+    <details class="more"><summary>Prompts in this collection</summary>
+      <div class="tw"><table><thead><tr><th>Prompt</th><th>Platform</th><th>Brand in answer</th><th class="n">Own site in organic</th></tr></thead><tbody id="ai-rows"></tbody></table></div>
+    </details>
+  </section>
+
   <div class="ov">
-    <section class="card" id="signals"><h2>Signals</h2><p class="muted">What needs a reaction in this collection.</p><div class="alerts" id="alerts"></div></section>
+    <section class="card" id="signals"><h2>Signals</h2><p class="muted">What needs a reaction in this collection. Can be sent to Jira as tasks.</p><div class="alerts" id="alerts"></div></section>
     <section class="card" id="insights"><h2>Takeaways</h2><div id="ins"></div></section>
   </div>
 
@@ -131,15 +139,6 @@ footer { font-size:.8rem; color:var(--muted); border-top:1px solid var(--line); 
       <div class="card"><h3>Named in this collection</h3><div class="chart" id="comp-bars"></div></div>
       <div class="card"><h3>Volume vs share of outage complaints, all collections</h3><p class="muted">Above the dashed line, most complaints are about outages and bugs: customers to win.</p><div class="chart" id="comp-risk"></div></div>
     </div>
-  </section>
-
-  <p class="eyebrow">AI search</p>
-  <section id="ai">
-    <h2>Does AI name the brand in answers?</h2>
-    <div class="card"><h3>Share of answers that name the brand, by platform</h3><div class="chart" id="ai-chart"></div></div>
-    <details class="more"><summary>Prompts in this collection</summary>
-      <div class="tw"><table><thead><tr><th>Prompt</th><th>Platform</th><th>Brand in answer</th><th class="n">Own site in organic</th></tr></thead><tbody id="ai-rows"></tbody></table></div>
-    </details>
   </section>
 
   <p class="eyebrow">Trends</p>
@@ -220,11 +219,11 @@ function stats(run) {
 function kpis(run) {
   const s = stats(run), p = s.prev ? stats(s.prev) : null, all = runs.map(stats);
   const defs = [
+    ['Brand in Google AI Overview', 'ai', '%', 'up'],
     ['Mentions (not own)', 'all', '', 'up', s.pains + ' pain threads in the same collection'],
     ['Third-party mentions', 'third', '', 'up'],
     ['Reviews, 12 months', 'rev', '★', 'up', s.revN + ' reviews'],
     ['Negative share', 'neg', '%', 'down'],
-    ['Brand in Google AI Overview', 'ai', '%', 'up'],
   ];
   const box = $('kpi-cards'); box.replaceChildren();
   defs.forEach(([label, k, unit, good, note]) => {
@@ -258,7 +257,7 @@ function spikes() {
 }
 
 function alerts(run) {
-  const s = stats(run), out = [], add = (lvl, txt, url) => out.push({ lvl, txt, url });
+  const s = stats(run), out = [], add = (lvl, txt, url) => { if (!out.some(o => o.txt === txt)) out.push({ lvl, txt, url }); };
   s.m.filter(r => r.tag === 'third-party' && r.negative).forEach(r => add('high', r.source + ': ' + r.title, r.url));
   const spam = s.m.filter(r => r.tag === 'spam'); if (spam.length) add('medium', spam.length + ' spam or cracked-license posts: report to legal', spam[0].url);
   const ago = (n) => new Date(parse(run) - n * 864e5).toISOString().slice(0, 10);
