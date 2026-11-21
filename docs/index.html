@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Social Listening Monitor</title>
+<meta name="description" content="Weekly brand-mention, market-pain and AI-search monitor built on Apify. Demo with a fictional brand.">
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<style>
+:root { --bg:#fbfaf7; --fg:#1d1d1b; --muted:#6b6a65; --line:#e4e1d9; --panel:#fff; --c1:#2f6fdb; --c2:#d9822b; --c3:#2e9e6b; --c4:#8a5cd1; --bad:#c8402f; --ok:#2e9e6b; --warn:#b7791f; --r:10px; }
+@media (prefers-color-scheme: dark) { :root { --bg:#161614; --fg:#ecebe6; --muted:#9b9a93; --line:#2e2d29; --panel:#1f1f1c; --c1:#6f9df0; --c2:#e9a35c; --c3:#5cc394; --c4:#ad8be3; --bad:#e86b5b; --ok:#5cc394; --warn:#e0a94a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font:15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+.wrap { max-width:1180px; margin:0 auto; padding:24px 20px 80px; display:grid; gap:36px; }
+h1 { font-size:1.9rem; font-weight:600; margin:0; letter-spacing:-.01em; }
+h2 { font-size:1.25rem; font-weight:600; margin:0; }
+h3 { font-size:.95rem; font-weight:600; margin:0; }
+p { margin:0; max-width:75ch; }
+a { color:inherit; }
+.muted { color:var(--muted); font-size:.85rem; }
+.head { display:grid; gap:10px; }
+.badge { display:inline-block; font-size:.75rem; padding:2px 10px; border-radius:999px; border:1px solid var(--warn); color:var(--warn); margin-left:8px; vertical-align:middle; }
+.runbar { display:flex; flex-wrap:wrap; gap:8px 12px; align-items:center; font-size:.85rem; }
+select { font:inherit; padding:4px 8px; border-radius:6px; border:1px solid var(--line); background:var(--panel); color:var(--fg); }
+nav { position:sticky; top:0; z-index:5; background:var(--bg); padding:8px 0; border-bottom:1px solid var(--line); display:flex; gap:6px; overflow-x:auto; }
+nav a { flex:none; padding:5px 12px; border-radius:999px; border:1px solid var(--line); text-decoration:none; font-size:.85rem; }
+nav a:hover { background:var(--panel); }
+section { display:grid; gap:14px; scroll-margin-top:60px; }
+.eyebrow { font-size:.8rem; text-transform:uppercase; letter-spacing:.08em; color:var(--muted); border-top:1px solid var(--line); padding-top:18px; margin-bottom:-18px; }
+.kpis { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:12px; }
+.card { background:var(--panel); border:1px solid var(--line); border-radius:var(--r); padding:16px; display:grid; gap:6px; min-width:0; align-content:start; }
+.big { font-size:2rem; font-weight:600; line-height:1.1; font-variant-numeric:tabular-nums; }
+.delta { font-size:.8rem; font-variant-numeric:tabular-nums; }
+.good { color:var(--ok); } .bad { color:var(--bad); } .flat { color:var(--muted); }
+.grid2 { display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:14px; }
+.chart { position:relative; min-width:0; }
+.chart svg text { fill:var(--muted); font-size:11px; }
+.chart .domain, .chart .tick line { stroke:var(--line); }
+.bars { display:grid; gap:6px; }
+.bar { display:grid; grid-template-columns:minmax(90px,36%) 1fr 3em; gap:8px; align-items:center; font-size:.85rem; }
+.bar .lab { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.track { height:14px; background:var(--line); border-radius:3px; overflow:hidden; }
+.fill { height:100%; border-radius:3px; }
+.val { text-align:right; font-variant-numeric:tabular-nums; }
+.tip { position:absolute; pointer-events:none; background:var(--panel); border:1px solid var(--line); box-shadow:0 4px 14px rgba(0,0,0,.12); border-radius:8px; padding:6px 8px; font-size:.8rem; max-width:260px; z-index:9; }
+.tw { overflow-x:auto; border:1px solid var(--line); border-radius:var(--r); background:var(--panel); }
+table { border-collapse:collapse; width:100%; font-size:.85rem; }
+th, td { text-align:left; padding:8px 10px; border-bottom:1px solid var(--line); vertical-align:top; }
+th { color:var(--muted); font-weight:500; white-space:nowrap; }
+td.n, th.n { text-align:right; font-variant-numeric:tabular-nums; }
+tbody tr:hover { background:var(--bg); }
+.pill { display:inline-block; padding:1px 8px; border-radius:999px; border:1px solid var(--line); white-space:nowrap; font-size:.78rem; }
+.pill.neg { color:var(--bad); border-color:currentColor; } .pill.warn { color:var(--warn); border-color:currentColor; } .pill.yes { color:var(--ok); border-color:currentColor; }
+.alerts { display:grid; gap:6px; }
+.alert { display:grid; grid-template-columns:auto 1fr; gap:10px; align-items:baseline; font-size:.88rem; padding:8px 10px; border:1px solid var(--line); border-radius:8px; background:var(--panel); }
+.ov { display:grid; grid-template-columns:minmax(0,3fr) minmax(0,2fr); gap:14px; }
+@media (max-width:760px) { .ov { grid-template-columns:1fr; } }
+details.more { border:1px solid var(--line); border-radius:var(--r); }
+details.more > summary { padding:10px 14px; cursor:pointer; color:var(--muted); font-size:.85rem; }
+details.more > .tw { border:0; border-top:1px solid var(--line); border-radius:0; }
+.div { display:grid; grid-template-columns:minmax(110px,30%) 1fr 1fr 5em; gap:8px; align-items:center; font-size:.85rem; }
+.div .l { display:flex; justify-content:flex-end; }
+.div span.b { display:block; height:14px; border-radius:3px; }
+.legend { display:flex; flex-wrap:wrap; gap:12px; font-size:.8rem; color:var(--muted); }
+.legend i { display:inline-block; width:10px; height:10px; border-radius:50%; margin-right:4px; }
+.spark { height:46px; }
+footer { font-size:.8rem; color:var(--muted); border-top:1px solid var(--line); padding-top:16px; }
+#method ul { margin:8px 0 0; padding-left:1.2em; display:grid; gap:4px; font-size:.88rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="head">
+    <h1><span id="brand">Brand</span>: brand, market and AI search <span class="badge" id="mode" hidden>demo data</span></h1>
+    <p class="muted" id="sub">Weekly monitor of brand mentions, market pain threads, reviews and AI answers. Collected with Apify, cleaned and tagged by rules in <code>config/sources.json</code>.</p>
+    <div class="runbar"><label for="run">Collection from</label><select id="run"></select><span class="muted" id="updated"></span></div>
+  </header>
+
+  <nav aria-label="Sections">
+    <a href="#kpis">Numbers</a><a href="#signals">Signals</a><a href="#narratives">Narratives</a><a href="#where">Where</a>
+    <a href="#reviews">Reviews</a><a href="#pains">Market pains</a><a href="#competitors">Competitors</a><a href="#ai">AI answers</a><a href="#trends">Trends</a><a href="#method">Method</a>
+  </nav>
+
+  <section id="kpis">
+    <div class="kpis" id="kpi-cards"></div>
+  </section>
+
+  <div class="ov">
+    <section class="card" id="signals"><h2>Signals</h2><p class="muted">What needs a reaction in this collection.</p><div class="alerts" id="alerts"></div></section>
+    <section class="card" id="insights"><h2>Takeaways</h2><div id="ins"></div></section>
+  </div>
+
+  <p class="eyebrow">Brand</p>
+  <section id="narratives">
+    <h2>What people talk about when they mention the brand</h2>
+    <p class="muted">Mentions and reviews, last 12 months. Negative = complaint words or a 1–2★ review.</p>
+    <div class="tw"><table><thead><tr><th>Narrative</th><th class="n">Texts</th><th class="n">Negative</th><th>Where</th><th>Latest</th></tr></thead><tbody id="narr"></tbody></table></div>
+  </section>
+
+  <section id="where">
+    <h2>Who writes about the brand, and where</h2>
+    <p class="muted">Selected collection, noise removed. Own posts excluded from the bars.</p>
+    <div class="grid2">
+      <div class="card"><h3>By platform</h3><div class="chart" id="by-source"></div></div>
+      <div class="card"><h3>By industry</h3><div class="chart" id="by-industry"></div></div>
+    </div>
+    <details class="more"><summary>All mentions in this collection</summary>
+      <div class="tw"><table><thead><tr><th>Platform</th><th>Industry</th><th>Tag</th><th>Text</th><th>Date</th></tr></thead><tbody id="feed"></tbody></table></div>
+    </details>
+  </section>
+
+  <section id="reviews">
+    <h2>Customer reviews</h2>
+    <div class="card"><h3>Reviews per month: all and negative</h3><p class="muted">Red dot = negative spike (3+ negative and above the 12-month mean + 2σ, or 80%+ negative).</p><div class="chart" id="rev-chart"></div></div>
+    <div class="card"><h3>Themes: negative left, positive right</h3><p class="muted" id="rev-note"></p><div id="rev-themes"></div></div>
+  </section>
+
+  <p class="eyebrow">Market</p>
+  <section id="pains">
+    <h2>Market pains</h2>
+    <p class="muted">Threads without the brand: price hikes, outages, people looking for a switch. Each one is a demand signal.</p>
+    <div class="tw"><table><thead><tr><th>Pain cluster</th><th class="n">Reddit</th><th class="n">X</th><th class="n">Forums</th><th class="n">Total</th><th class="n">vs previous</th></tr></thead><tbody id="pain-matrix"></tbody></table></div>
+    <details class="more"><summary>All threads in this collection</summary>
+      <div class="tw"><table><thead><tr><th>Platform</th><th>Cluster</th><th>Providers named</th><th>Text</th><th>Date</th></tr></thead><tbody id="pain-feed"></tbody></table></div>
+    </details>
+  </section>
+
+  <section id="competitors">
+    <h2>Competitors in pain threads</h2>
+    <div class="grid2">
+      <div class="card"><h3>Named in this collection</h3><div class="chart" id="comp-bars"></div></div>
+      <div class="card"><h3>Volume vs share of outage complaints, all collections</h3><p class="muted">Above the dashed line, most complaints are about outages and bugs: customers to win.</p><div class="chart" id="comp-risk"></div></div>
+    </div>
+  </section>
+
+  <p class="eyebrow">AI search</p>
+  <section id="ai">
+    <h2>Does AI name the brand in answers?</h2>
+    <div class="card"><h3>Share of answers that name the brand, by platform</h3><div class="chart" id="ai-chart"></div></div>
+    <details class="more"><summary>Prompts in this collection</summary>
+      <div class="tw"><table><thead><tr><th>Prompt</th><th>Platform</th><th>Brand in answer</th><th class="n">Own site in organic</th></tr></thead><tbody id="ai-rows"></tbody></table></div>
+    </details>
+  </section>
+
+  <p class="eyebrow">Trends</p>
+  <section id="trends">
+    <h2>Own posts vs third-party mentions, by week</h2>
+    <div class="card"><div class="chart" id="own-third"></div></div>
+  </section>
+
+  <details id="method" class="card">
+    <summary><h2 style="display:inline">Method</h2></summary>
+    <ul>
+      <li>Sources: Google Search, Reddit, X and LinkedIn via Apify actors, once a week. AI Overview checks via the Google Search scraper on a fixed prompt list; Gemini monthly.</li>
+      <li>Brand mentions: texts matching the brand pattern. Dropped: job ads and unrelated homonyms. Tagged, not dropped: own posts and employees, spam, directory and partner listings.</li>
+      <li>Negative: keyword rules (outage, broken, price increase, refund…). Repeatable rules, not an AI tone score.</li>
+      <li>Industries, narratives and pain clusters: keyword rules, editable in <code>config/sources.json</code>.</li>
+      <li>Pain threads: brand-free queries around the problems the product solves, plus competitor names.</li>
+      <li>AI share: prompts where the brand is named ÷ prompts that got an answer.</li>
+      <li>Signals: negative third-party mention; spam; 2+ negative reviews in 30 days; negative reviews without a reply in 90 days; review spike; AI share down 10+ pp; a pain cluster up 1.5× to 3+ threads.</li>
+    </ul>
+  </details>
+
+  <footer>Built by Polina Lebedev. Open-source template: Apify → Python → static page on GitHub Pages. <span id="foot-mode"></span></footer>
+</div>
+
+<script>
+(async () => {
+const D = await (await fetch('data.json')).json();
+const $ = (id) => document.getElementById(id);
+const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const C = ['--c1', '--c2', '--c3', '--c4'].map(css);
+const fmtD = (s) => s ? s.slice(8, 10) + '.' + s.slice(5, 7) + '.' + s.slice(0, 4) : '';
+const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+const link = (text, url) => /^https?:\/\//.test(url || '') ? Object.assign(el('a', null, text), { href: url, target: '_blank', rel: 'noopener' }) : document.createTextNode(text || '');
+const pill = (t, cls) => el('span', 'pill ' + (cls || ''), t);
+const count = (arr, f) => arr.reduce((m, x) => (m[f(x)] = (m[f(x)] || 0) + 1, m), {});
+
+$('brand').textContent = D.brand;
+document.title = D.brand + ' — social listening monitor';
+if (D.mode === 'demo') { $('mode').hidden = false; $('foot-mode').textContent = 'All data on this page is generated for a fictional brand.'; }
+$('updated').textContent = 'Built ' + D.updated;
+
+const runs = [...new Set(D.mentions.map(r => r.run_date).concat(D.pains.map(r => r.run_date)))].sort();
+const sel = $('run');
+runs.slice().reverse().forEach((r, i) => sel.add(new Option(fmtD(r) + (i === 0 ? ' (latest)' : ''), r)));
+
+function tipFor(box) {
+  let t = box.querySelector('.tip'); if (!t) { t = el('div', 'tip'); t.hidden = true; box.appendChild(t); }
+  return { show: (txt, ev) => { t.textContent = txt; t.hidden = false; const b = box.getBoundingClientRect(); t.style.left = Math.max(0, Math.min(ev.clientX - b.left + 12, b.width - 200)) + 'px'; t.style.top = (ev.clientY - b.top + 12) + 'px'; }, hide: () => t.hidden = true };
+}
+function bars(box, items, color) {
+  box.replaceChildren(); if (!items.length) { box.append(el('p', 'muted', 'No data in this collection.')); return; }
+  const w = el('div', 'bars'); box.append(w); const tip = tipFor(box); const max = Math.max(1, ...items.map(i => i.value));
+  for (const it of items) {
+    const row = el('div', 'bar'); const tr = el('span', 'track'); const f = el('span', 'fill'); f.style.display = 'block'; f.style.width = (100 * it.value / max) + '%'; f.style.background = color; tr.append(f);
+    row.append(el('span', 'lab', it.label), tr, el('span', 'val', it.value));
+    row.onmousemove = (ev) => tip.show(it.tip || it.label + ': ' + it.value, ev); row.onmouseleave = tip.hide; w.append(row);
+  }
+}
+function svgFor(box, H) { box.replaceChildren(); const W = Math.max(280, box.clientWidth); return [d3.select(box).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`), W]; }
+function legend(box, items) { const l = el('div', 'legend'); items.forEach(([t, c]) => { const s = el('span'); const i = el('i'); i.style.background = c; s.append(i, t); l.append(s); }); box.append(l); }
+const parse = (s) => new Date(s + 'T00:00:00Z');
+
+function stats(run) {
+  const prev = runs[runs.indexOf(run) - 1];
+  const m = D.mentions.filter(r => r.run_date === run);
+  const third = m.filter(r => r.tag === 'third-party');
+  const neg = third.filter(r => r.negative).length + m.filter(r => r.tag === 'spam').length;
+  const base = m.filter(r => r.tag !== 'own').length;
+  const yearAgo = new Date(parse(run) - 365 * 864e5).toISOString().slice(0, 10);
+  const rv = D.reviews.filter(r => r.date > yearAgo && r.date <= run);
+  const aio = D.ai.filter(r => r.run_date === run && r.platform === 'Google AI Overview' && r.in_answer !== 'no answer');
+  const aiShare = aio.length ? Math.round(1000 * aio.filter(r => r.in_answer === 'yes').length / aio.length) / 10 : null;
+  return { run, prev, m, third: third.length, all: base, neg: base ? Math.round(100 * neg / base) : 0,
+    rev: rv.length ? Math.round(10 * d3.mean(rv, r => r.rating)) / 10 : null, revN: rv.length,
+    ai: aiShare, pains: D.pains.filter(r => r.run_date === run).length };
+}
+
+function kpis(run) {
+  const s = stats(run), p = s.prev ? stats(s.prev) : null, all = runs.map(stats);
+  const defs = [
+    ['Mentions (not own)', 'all', '', 'up', s.pains + ' pain threads in the same collection'],
+    ['Third-party mentions', 'third', '', 'up'],
+    ['Reviews, 12 months', 'rev', '★', 'up', s.revN + ' reviews'],
+    ['Negative share', 'neg', '%', 'down'],
+    ['Brand in Google AI Overview', 'ai', '%', 'up'],
+  ];
+  const box = $('kpi-cards'); box.replaceChildren();
+  defs.forEach(([label, k, unit, good, note]) => {
+    const c = el('div', 'card'); c.append(el('span', 'muted', label), el('span', 'big', s[k] == null ? '—' : s[k] + unit));
+    const d = el('span', 'delta flat');
+    if (p && s[k] != null && p[k] != null) {
+      const v = Math.round((s[k] - p[k]) * 10) / 10;
+      d.textContent = (v > 0 ? '+' : '') + v + (unit === '%' ? ' pp' : '') + ' vs previous';
+      if (v !== 0) d.className = 'delta ' + ((v > 0) === (good === 'up') ? 'good' : 'bad');
+    } else d.textContent = note || 'no previous collection';
+    c.append(d);
+    const sp = el('div', 'chart spark'); c.append(sp); box.append(c);
+    requestAnimationFrame(() => {
+      const pts = all.filter(x => x[k] != null); if (pts.length < 2) return;
+      const [svg, W] = svgFor(sp, 46); const x = d3.scalePoint().domain(pts.map(x => x.run)).range([6, W - 6]);
+      const y = d3.scaleLinear().domain(d3.extent(pts, x => x[k])).nice().range([40, 6]);
+      svg.append('path').datum(pts).attr('fill', 'none').attr('stroke', C[0]).attr('stroke-width', 2).attr('d', d3.line().x(d => x(d.run)).y(d => y(d[k])));
+      const tip = tipFor(sp);
+      svg.selectAll(null).data(pts).join('circle').attr('cx', d => x(d.run)).attr('cy', d => y(d[k])).attr('r', d => d.run === run ? 4.5 : 2.5).attr('fill', d => d.run === run ? C[0] : css('--panel')).attr('stroke', C[0])
+        .on('mousemove', (ev, d) => tip.show(fmtD(d.run) + ': ' + d[k] + unit, ev)).on('mouseleave', tip.hide);
+    });
+  });
+}
+
+function spikes() {
+  const months = d3.utcMonths(d3.utcMonth.floor(parse(d3.min(D.reviews, r => r.date))), d3.utcMonth.offset(d3.utcMonth.floor(parse(d3.max(D.reviews, r => r.date))), 1)).map(d => d.toISOString().slice(0, 7));
+  const rows = months.map(mo => { const rs = D.reviews.filter(r => r.date.slice(0, 7) === mo); return { month: mo, n: rs.length, neg: rs.filter(r => r.negative).length }; });
+  rows.forEach((r, i) => { const w = rows.slice(Math.max(0, i - 12), i).map(x => x.neg); const mean = d3.mean(w) || 0, sd = d3.deviation(w) || 0;
+    r.spike = w.length >= 6 && r.neg >= 3 && (r.neg >= mean + 2 * sd || (r.n >= 4 && r.neg / r.n >= .8)); });
+  return rows;
+}
+
+function alerts(run) {
+  const s = stats(run), out = [], add = (lvl, txt, url) => out.push({ lvl, txt, url });
+  s.m.filter(r => r.tag === 'third-party' && r.negative).forEach(r => add('high', r.source + ': ' + r.title, r.url));
+  const spam = s.m.filter(r => r.tag === 'spam'); if (spam.length) add('medium', spam.length + ' spam or cracked-license posts: report to legal', spam[0].url);
+  const ago = (n) => new Date(parse(run) - n * 864e5).toISOString().slice(0, 10);
+  const n30 = D.reviews.filter(r => r.negative && r.date > ago(30) && r.date <= run);
+  if (n30.length >= 2) add('high', n30.length + ' negative reviews in the last 30 days', n30[0].url);
+  const nr = D.reviews.filter(r => r.negative && r.reply !== 'yes' && r.date > ago(90) && r.date <= run);
+  if (nr.length) add('high', nr.length + ' negative reviews in 90 days without a reply', nr[0].url);
+  const sp = spikes().filter(r => r.month <= run.slice(0, 7)).pop(); if (sp && sp.spike) add('high', 'Negative review spike in ' + sp.month + ': ' + sp.neg + ' of ' + sp.n);
+  if (s.prev) { const p = stats(s.prev); if (s.ai != null && p.ai != null && s.ai - p.ai <= -10) add('high', 'AI Overview share down ' + Math.round(p.ai - s.ai) + ' pp');
+    const a = count(D.pains.filter(r => r.run_date === run), r => r.cluster), b = count(D.pains.filter(r => r.run_date === s.prev), r => r.cluster);
+    for (const [k, v] of Object.entries(a)) if (v >= 3 && b[k] && v >= 1.5 * b[k]) add('medium', '“' + k + '” grew: ' + b[k] + ' → ' + v + ' threads'); }
+  const box = $('alerts'); box.replaceChildren();
+  if (!out.length) { box.append(el('p', 'muted', 'Nothing needs a reaction in this collection.')); return; }
+  const ord = { high: 0, medium: 1 }; out.sort((a, b) => ord[a.lvl] - ord[b.lvl]).slice(0, 8).forEach(a => { const r = el('div', 'alert'); const t = el('span'); t.append(link(a.txt, a.url)); r.append(pill(a.lvl, a.lvl === 'high' ? 'neg' : 'warn'), t); box.append(r); });
+}
+
+function insights(run) {
+  const s = stats(run), box = $('ins'); box.replaceChildren();
+  const pa = count(D.pains.filter(r => r.run_date === run), r => r.cluster); const top = Object.entries(pa).sort((a, b) => b[1] - a[1])[0];
+  const comp = compRisk().filter(r => r.n >= 5).sort((a, b) => b.share - a.share)[0];
+  const rv = D.reviews.filter(r => r.date <= run); const themes = {}; rv.filter(r => r.negative).forEach(r => r.themes.forEach(t => themes[t] = (themes[t] || 0) + 1));
+  const worst = Object.entries(themes).sort((a, b) => b[1] - a[1])[0];
+  const items = [
+    top && ['Market', 'Top pain this week: “' + top[0] + '”, ' + top[1] + ' threads.', 'Brief a landing page or article on this exact problem.'],
+    s.ai != null && ['AI search', 'Brand named in ' + s.ai + '% of AI Overview answers.', 'Update the pages AI already cites; add answer-first FAQ blocks.'],
+    worst && ['Reviews', 'Most negative reviews are about “' + worst[0] + '” (' + worst[1] + ').', 'Publish a help article and a reply template for support.'],
+    comp && ['Competitors', comp.competitor + ': ' + comp.share + '% of complaints are about outages and bugs.', 'Test search ads on “' + comp.competitor.toLowerCase() + ' alternative”.'],
+  ].filter(Boolean);
+  const ol = el('ol'); ol.style.cssText = 'margin:0;padding-left:1.2em;display:grid;gap:10px';
+  items.forEach(([a, f, act]) => { const li = el('li'); li.append(el('div', null, f), el('div', 'muted', a + ' → ' + act)); ol.append(li); }); box.append(ol);
+}
+
+function narratives() {
+  const items = D.mentions.filter(r => r.tag !== 'own').map(r => ({ themes: r.themes, src: r.source, neg: r.negative || r.tag === 'spam', date: r.posted || r.run_date }))
+    .concat(D.reviews.map(r => ({ themes: r.themes, src: 'Reviews', neg: r.negative, date: r.date })));
+  const names = [...new Set(items.flatMap(i => i.themes))];
+  const rows = names.map(t => { const h = items.filter(i => i.themes.includes(t)); return { t, n: h.length, neg: Math.round(100 * h.filter(i => i.neg).length / h.length), src: [...new Set(h.map(i => i.src))].join(', '), last: d3.max(h, i => i.date) }; }).sort((a, b) => b.n - a.n);
+  const tb = $('narr'); tb.replaceChildren();
+  rows.forEach(r => { const tr = tb.insertRow(); tr.insertCell().textContent = r.t; const n = tr.insertCell(); n.className = 'n'; n.textContent = r.n;
+    const g = tr.insertCell(); g.className = 'n' + (r.neg >= 50 ? ' bad' : ''); g.textContent = r.neg + '%'; tr.insertCell().textContent = r.src; tr.insertCell().textContent = fmtD(r.last); });
+}
+
+function where(run) {
+  const m = D.mentions.filter(r => r.run_date === run);
+  const pub = m.filter(r => r.tag === 'third-party' || r.tag === 'listing');
+  const bs = count(pub, r => r.source);
+  bars($('by-source'), Object.entries(bs).sort((a, b) => b[1] - a[1]).map(([k, v]) => ({ label: k, value: v, tip: k + ': third-party ' + pub.filter(r => r.source === k && r.tag === 'third-party').length + ', listings ' + pub.filter(r => r.source === k && r.tag === 'listing').length + ', own ' + m.filter(r => r.source === k && r.tag === 'own').length })), C[0]);
+  bars($('by-industry'), Object.entries(count(pub, r => r.industry)).sort((a, b) => b[1] - a[1]).map(([k, v]) => ({ label: k, value: v })), C[1]);
+  const ord = { 'third-party': 0, spam: 1, listing: 2, own: 3 }; const tb = $('feed'); tb.replaceChildren();
+  m.slice().sort((a, b) => ord[a.tag] - ord[b.tag]).forEach(r => { const tr = tb.insertRow(); tr.insertCell().textContent = r.source; tr.insertCell().textContent = r.industry;
+    const t = tr.insertCell(); t.append(pill(r.tag, r.tag === 'spam' ? 'neg' : r.tag === 'listing' ? 'warn' : '')); if (r.negative) t.append(' ', pill('negative', 'neg'));
+    tr.insertCell().append(link(r.title, r.url)); tr.insertCell().textContent = fmtD(r.posted); });
+}
+
+function reviews(run) {
+  const rows = spikes().filter(r => r.month <= run.slice(0, 7)); const box = $('rev-chart'); const [svg, W] = svgFor(box, 240); const m = { t: 14, r: 14, b: 28, l: 30 }, H = 240;
+  const x = d3.scaleUtc().domain(d3.extent(rows, r => parse(r.month + '-01'))).range([m.l, W - m.r]); const y = d3.scaleLinear().domain([0, d3.max(rows, r => r.n) || 1]).nice().range([H - m.b, m.t]);
+  svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).ticks(Math.min(8, W / 80)).tickFormat(d3.utcFormat('%m.%y')));
+  svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4));
+  const line = (f) => d3.line().x(r => x(parse(r.month + '-01'))).y(r => y(r[f]));
+  svg.append('path').datum(rows).attr('fill', 'none').attr('stroke', C[0]).attr('stroke-width', 2).attr('d', line('n'));
+  svg.append('path').datum(rows).attr('fill', 'none').attr('stroke', css('--bad')).attr('stroke-width', 2).attr('d', line('neg'));
+  const tip = tipFor(box);
+  svg.selectAll(null).data(rows).join('circle').attr('cx', r => x(parse(r.month + '-01'))).attr('cy', r => y(r.neg)).attr('r', r => r.spike ? 6 : 3).attr('fill', r => r.spike ? css('--bad') : css('--muted'))
+    .on('mousemove', (ev, r) => tip.show(r.month + ': ' + r.n + ' reviews, ' + r.neg + ' negative' + (r.spike ? ' — spike' : ''), ev)).on('mouseleave', tip.hide);
+  legend(box, [['All reviews', C[0]], ['Negative 1–2★', css('--bad')]]);
+
+  const yearAgo = new Date(parse(run) - 365 * 864e5).toISOString().slice(0, 10); const rv = D.reviews.filter(r => r.date > yearAgo && r.date <= run);
+  const negs = rv.filter(r => r.negative);
+  $('rev-note').textContent = rv.length + ' reviews in 12 months, average ' + (Math.round(10 * d3.mean(rv, r => r.rating)) / 10) + '★, reply rate on negative ' + (negs.length ? Math.round(100 * negs.filter(r => r.reply === 'yes').length / negs.length) : 0) + '%.';
+  const th = [...new Set(rv.flatMap(r => r.themes))].map(t => { const h = rv.filter(r => r.themes.includes(t)); return { t, neg: h.filter(r => r.rating <= 2).length, pos: h.filter(r => r.rating >= 4).length, avg: Math.round(10 * d3.mean(h, r => r.rating)) / 10 }; }).sort((a, b) => b.neg + b.pos - a.neg - a.pos);
+  const b2 = $('rev-themes'); b2.replaceChildren(); const max = Math.max(1, ...th.map(r => Math.max(r.neg, r.pos)));
+  th.forEach(r => { const row = el('div', 'div'); const l = el('span', 'l'); const lb = el('span', 'b'); lb.style.cssText = `width:${100 * r.neg / max}%;background:${css('--bad')}`; l.append(lb);
+    const p = el('span'); const pb = el('span', 'b'); pb.style.cssText = `width:${100 * r.pos / max}%;background:${css('--ok')}`; p.append(pb);
+    row.title = r.t + ': ' + r.neg + ' negative, ' + r.pos + ' positive'; row.append(el('span', null, r.t), l, p, el('span', 'val', r.avg + '★')); b2.append(row); });
+}
+
+function pains(run) {
+  const prev = runs[runs.indexOf(run) - 1]; const cur = D.pains.filter(r => r.run_date === run); const pc = count(D.pains.filter(r => r.run_date === prev), r => r.cluster);
+  const g = {}; cur.forEach(r => { const o = g[r.cluster] || (g[r.cluster] = { c: r.cluster, Reddit: 0, X: 0, Google: 0, total: 0 }); o[r.source]++; o.total++; });
+  const rows = Object.values(g).sort((a, b) => b.total - a.total); const max = Math.max(1, ...rows.flatMap(r => [r.Reddit, r.X, r.Google]));
+  const tb = $('pain-matrix'); tb.replaceChildren();
+  rows.forEach(r => { const tr = tb.insertRow(); tr.insertCell().textContent = r.c;
+    ['Reddit', 'X', 'Google'].forEach(k => { const c = tr.insertCell(); c.className = 'n'; c.textContent = r[k]; if (r[k]) c.style.background = `color-mix(in srgb, ${C[0]} ${Math.round(10 + 45 * r[k] / max)}%, transparent)`; });
+    const t = tr.insertCell(); t.className = 'n'; t.textContent = r.total;
+    const d = tr.insertCell(); d.className = 'n'; const p = pc[r.c]; d.textContent = p == null ? '—' : (r.total - p > 0 ? '+' : '') + (r.total - p); });
+  const fb = $('pain-feed'); fb.replaceChildren();
+  cur.slice().sort((a, b) => b.posted.localeCompare(a.posted)).forEach(r => { const tr = fb.insertRow(); tr.insertCell().textContent = r.source === 'Google' ? 'Forums' : r.source; tr.insertCell().textContent = r.cluster;
+    tr.insertCell().textContent = r.competitors.join(', '); tr.insertCell().append(link(r.title, r.url)); tr.insertCell().textContent = fmtD(r.posted); });
+}
+
+function compRisk() {
+  const g = {}; D.pains.forEach(r => r.competitors.forEach(c => { const o = g[c] || (g[c] = { competitor: c, n: 0, block: 0 }); o.n++; if (/outages/i.test(r.cluster)) o.block++; }));
+  return Object.values(g).map(o => ({ ...o, share: Math.round(100 * o.block / o.n) }));
+}
+function competitors(run) {
+  bars($('comp-bars'), Object.entries(count(D.pains.filter(r => r.run_date === run).flatMap(r => r.competitors), c => c)).sort((a, b) => b[1] - a[1]).map(([k, v]) => ({ label: k, value: v, tip: k + ': ' + v + ' threads' })), C[2]);
+  const rows = compRisk().filter(r => r.n > 0); const box = $('comp-risk'); const H = 260; const [svg, W] = svgFor(box, H); const m = { t: 16, r: 90, b: 34, l: 40 };
+  const x = d3.scaleLinear().domain([0, d3.max(rows, r => r.n) * 1.1]).nice().range([m.l, W - m.r]); const y = d3.scaleLinear().domain([0, 100]).range([H - m.b, m.t]);
+  svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).ticks(5)); svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickFormat(v => v + '%'));
+  svg.append('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y(50)).attr('y2', y(50)).attr('stroke', css('--muted')).attr('stroke-dasharray', '3 3');
+  svg.append('text').attr('x', W - m.r).attr('y', H - 4).attr('text-anchor', 'end').text('threads naming the provider');
+  const tip = tipFor(box); const g = svg.selectAll(null).data(rows).join('g');
+  g.append('circle').attr('cx', r => x(r.n)).attr('cy', r => y(r.share)).attr('r', 6).attr('fill', r => r.share >= 50 ? css('--bad') : C[0])
+    .on('mousemove', (ev, r) => tip.show(r.competitor + ': ' + r.n + ' threads, ' + r.block + ' about outages and bugs (' + r.share + '%)', ev)).on('mouseleave', tip.hide);
+  g.append('text').attr('x', r => x(r.n) + 9).attr('y', r => y(r.share) + 4).text(r => r.competitor);
+}
+
+function ai(run) {
+  const g = {}; D.ai.filter(r => r.run_date <= run && r.in_answer !== 'no answer').forEach(r => { const k = r.run_date + '|' + r.platform; const o = g[k] || (g[k] = { run: r.run_date, p: r.platform, n: 0, y: 0 }); o.n++; if (r.in_answer === 'yes') o.y++; });
+  const rows = Object.values(g).map(o => ({ ...o, share: Math.round(1000 * o.y / o.n) / 10 })).sort((a, b) => a.run.localeCompare(b.run));
+  const box = $('ai-chart'); const H = 220; const [svg, W] = svgFor(box, H); const m = { t: 12, r: 16, b: 28, l: 36 };
+  const x = d3.scaleUtc().domain(d3.extent(rows, r => parse(r.run))).range([m.l, W - m.r]); const y = d3.scaleLinear().domain([0, Math.max(30, d3.max(rows, r => r.share))]).nice().range([H - m.b, m.t]);
+  svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).ticks(6).tickFormat(d3.utcFormat('%d.%m'))); svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickFormat(v => v + '%'));
+  const ps = [...new Set(rows.map(r => r.p))]; const tip = tipFor(box);
+  ps.forEach((p, i) => { const s = rows.filter(r => r.p === p);
+    svg.append('path').datum(s).attr('fill', 'none').attr('stroke', C[i]).attr('stroke-width', 2).attr('d', d3.line().x(r => x(parse(r.run))).y(r => y(r.share)));
+    svg.selectAll(null).data(s).join('circle').attr('cx', r => x(parse(r.run))).attr('cy', r => y(r.share)).attr('r', 4).attr('fill', C[i]).on('mousemove', (ev, r) => tip.show(r.p + ', ' + fmtD(r.run) + ': ' + r.y + ' of ' + r.n + ' (' + r.share + '%)', ev)).on('mouseleave', tip.hide); });
+  legend(box, ps.map((p, i) => [p, C[i]]));
+  const tb = $('ai-rows'); tb.replaceChildren();
+  D.ai.filter(r => r.run_date === run).sort((a, b) => (b.in_answer === 'yes') - (a.in_answer === 'yes')).forEach(r => { const tr = tb.insertRow(); tr.insertCell().textContent = r.prompt; tr.insertCell().textContent = r.platform;
+    tr.insertCell().append(pill(r.in_answer, r.in_answer === 'yes' ? 'yes' : '')); const c = tr.insertCell(); c.className = 'n'; c.textContent = r.organic_pos === '' ? '—' : '#' + r.organic_pos; });
+}
+
+function ownThird(run) {
+  const wk = (s) => d3.utcMonday.floor(parse(s)).toISOString().slice(0, 10); const g = {};
+  D.mentions.filter(r => r.run_date <= run && (r.tag === 'own' || r.tag === 'third-party')).forEach(r => { const w = wk(r.posted || r.run_date); const o = g[w] || (g[w] = { w, own: 0, third: 0 }); r.tag === 'own' ? o.own++ : o.third++; });
+  const rows = Object.values(g).sort((a, b) => a.w.localeCompare(b.w)).slice(-12); const box = $('own-third'); const H = 210; const [svg, W] = svgFor(box, H); const m = { t: 12, r: 12, b: 28, l: 28 };
+  const x0 = d3.scaleBand().domain(rows.map(r => r.w)).range([m.l, W - m.r]).padding(.2); const x1 = d3.scaleBand().domain(['own', 'third']).range([0, x0.bandwidth()]).padding(.1);
+  const y = d3.scaleLinear().domain([0, d3.max(rows, r => Math.max(r.own, r.third)) || 1]).nice().range([H - m.b, m.t]);
+  svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x0).tickFormat(s => s.slice(8) + '.' + s.slice(5, 7))); svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickFormat(d3.format('d')));
+  const col = { own: C[1], third: C[0] }; const tip = tipFor(box);
+  ['own', 'third'].forEach(k => svg.selectAll(null).data(rows).join('rect').attr('x', r => x0(r.w) + x1(k)).attr('width', x1.bandwidth()).attr('y', r => y(r[k])).attr('height', r => y(0) - y(r[k])).attr('fill', col[k]).attr('rx', 2)
+    .on('mousemove', (ev, r) => tip.show('Week of ' + fmtD(r.w) + ': own ' + r.own + ', third-party ' + r.third, ev)).on('mouseleave', tip.hide));
+  legend(box, [['Own posts', col.own], ['Third-party mentions', col.third]]);
+}
+
+function render() { const run = sel.value; kpis(run); alerts(run); insights(run); narratives(); where(run); reviews(run); pains(run); competitors(run); ai(run); ownThird(run); }
+sel.onchange = render; render();
+let t; addEventListener('resize', () => { clearTimeout(t); t = setTimeout(render, 200); });
+})();
+</script>
+</body>
+</html>
