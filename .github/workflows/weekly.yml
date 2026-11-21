@@ -23,8 +23,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Demo data (first run only)
-        run: test -f data/demo/mentions.json || python scripts/make_demo.py
+      - name: Demo data (deterministic, regenerated from the script)
+        run: python scripts/make_demo.py
       - name: Fetch from Apify (skipped without APIFY_TOKEN)
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
@@ -38,6 +38,13 @@ jobs:
         run: python scripts/fetch.py
       - name: Build dashboard data
         run: python scripts/build.py
+      - name: Send this week's actions to Jira (skipped without Jira secrets)
+        env:
+          JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
+          JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
+          JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
+          JIRA_PROJECT_KEY: ${{ secrets.JIRA_PROJECT_KEY }}
+        run: python scripts/to_jira.py
       - name: Commit
         run: |
           git config user.name "github-actions"
