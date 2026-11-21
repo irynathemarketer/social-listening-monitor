@@ -109,15 +109,17 @@ while d <= date(2026, 11, 1):
     d = (d.replace(day=28) + timedelta(days=4)).replace(day=1)
 
 ai = []
+strength = {p: random.random() for p in PROMPTS}  # how close each prompt is to naming the brand
 for k, run in enumerate(RUNS):
     for p in PROMPTS:
         r = random.random()
-        ans = "no answer" if r < 0.06 else "yes" if r < 0.12 + 0.03 * k else "no"
+        # visibility grows slowly week over week, with a little noise
+        ans = "no answer" if r < 0.05 else "yes" if strength[p] + random.uniform(-0.03, 0.03) < 0.10 + 0.02 * k else "no"
         ai.append({"run_date": run.isoformat(), "platform": "Google AI Overview", "prompt": p, "in_answer": ans,
                    "organic_pos": random.choice(["", "", 1, 3, 4, 6, 9]), "snippet": "Acme Cloud offers client dashboards for agencies." if ans == "yes" else ""})
     if k in (1, 5):
         for p in PROMPTS[:5]:
-            ai.append({"run_date": run.isoformat(), "platform": "Gemini", "prompt": p, "in_answer": "yes" if random.random() < 0.3 else "no",
+            ai.append({"run_date": run.isoformat(), "platform": "Gemini", "prompt": p, "in_answer": "yes" if strength[p] < 0.15 + 0.04 * k else "no",
                        "organic_pos": "", "snippet": ""})
 
 for name, rows in [("mentions", mentions), ("pains", pains), ("reviews", reviews), ("ai", ai)]:
