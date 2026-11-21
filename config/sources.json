@@ -1,13 +1,11 @@
 {
-  "brand": "Acme Cloud",
-  "brand_regex": "\\bacme ?cloud\\b",
-  "own_domain": "acmecloud.example",
+  "brand": "WEBKASSA.BY",
+  "brand_regex": "(?i)\\b(?:webkassa(?:\\.by)?|веб\\s?касса(?:\\.бай)?)\\b",
+  "own_domain": "webkassa.by",
   "competitors": [
-    "Competitor A",
-    "Competitor B",
-    "Competitor C",
-    "Competitor D",
-    "Competitor E"
+    "iKassa",
+    "iKassaPay",
+    "4ek"
   ],
   "sources": {
     "google": {
@@ -46,117 +44,120 @@
   "query_templates": {
     "brand": [
       "\"{{BRAND}}\" -site:{{OWN_DOMAIN}}",
-      "\"{{BRAND}}\" review",
-      "\"{{BRAND}}\" alternative"
+      "\"Вебкасса\" -site:{{OWN_DOMAIN}}",
+      "\"WEBKASSA\" отзыв",
+      "\"WEBKASSA.BY\" программная касса"
     ],
     "pains": [
-      "{{COMPETITOR}} alternative",
-      "{{COMPETITOR}} price increase",
-      "{{COMPETITOR}} outage again",
-      "tool for <your category> recommendations"
+      "программная касса для ИП отзывы",
+      "какую программную кассу выбрать в Беларуси",
+      "программная касса для перевозчиков",
+      "онлайн касса для магазина Беларусь",
+      "{{COMPETITOR}} отзывы",
+      "{{COMPETITOR}} альтернатива"
     ]
   },
   "noise": {
-    "drop": "\\b(job|vacancy|hiring now|apply now)\\b|acme cloud(s)? (bakery|storage units)",
-    "own_authors": "^(acmecloud|acme cloud)$",
-    "own_text": "meet the acme cloud team|join acme cloud|(months|years|week) at acme cloud|hiring:.*acme cloud",
-    "listing": "integrates with acme cloud|works with acme cloud|acme cloud partner directory",
-    "spam": "free acme cloud (premium|license)|cracked|promo code generator"
+    "drop": "(?i)\\b(вакансия|вакансии|резюме|требуется сотрудник|job vacancy|hiring now)\\b",
+    "own_authors": "(?i)^(webkassa(?:\\.by)?|веб\\s?касса)$",
+    "own_text": "(?i)подписывайтесь на webkassa|наш сервис webkassa|команда webkassa",
+    "listing": "(?i)каталог компаний|справочник организаций|каталог сайтов|партнеры webkassa",
+    "spam": "(?i)взломанная webkassa|скачать webkassa бесплатно|cracked webkassa"
   },
-  "negative": "\\bscam|outage|down again|broken|bug|terrible|worst|avoid|cancel(l)?ed|refund|price (hike|increase)|still waiting",
+  "negative": "(?i)не работает|ошибка|сбой|зависает|не отвечает|не дозвониться|не помогли|дорого|подорожал|жалоба|плохая поддержка|не возвращают",
   "industries": [
     [
-      "Agencies",
-      "agency|agencies|clients"
+      "Перевозки",
+      "перевозчик|маршрутка|автобус|водител|билет|маршрут"
     ],
     [
-      "E-commerce",
-      "shop|store|e-?commerce"
+      "Розница",
+      "магазин|розниц|торговл|продавец|товар"
     ],
     [
-      "Education",
-      "school|university|teacher|students"
+      "Общепит",
+      "кафе|ресторан|общепит|кофейня"
     ],
     [
-      "Startups",
-      "startup|founder|seed"
+      "Услуги",
+      "услуг|салон|мастер|запись клиент|сервис"
     ],
     [
-      "Reputation",
-      "review|scam|outage|refund|cancel"
+      "Интернет-магазины",
+      "интернет-магазин|онлайн-магазин|доставк|сайт продаж"
     ],
     [
-      "SMB",
+      "Другое",
       "."
     ]
   ],
   "narratives": [
     [
-      "Pricing",
-      "price|pricing|plan|expensive|cheap"
+      "Цена и тарифы",
+      "цен|тариф|стоимост|рубл|byn|подорож"
     ],
     [
-      "Reliability",
-      "outage|down|slow|bug|broken"
+      "Работа кассы",
+      "не работает|ошибк|сбой|завис|скорост|стабильн"
     ],
     [
-      "Support",
-      "support|customer service|helpful|responsive"
+      "Поддержка",
+      "поддержк|оператор|помогли|ответили|дозвон"
     ],
     [
-      "Integrations",
-      "integrat|api|plugin"
+      "Интеграции",
+      "интеграц|1с|api|подключени"
     ],
     [
-      "Onboarding",
-      "onboard|setup|learning curve|easy to start"
+      "Подключение",
+      "регистрац|настройк|подключить|начать работ"
     ],
     [
-      "Data export",
-      "export|migrat|csv"
+      "Личный кабинет и аналитика",
+      "личный кабинет|отчет|аналитик|выручк|товарный учет"
     ],
     [
-      "Events and PR",
-      "conference|webinar|award|launch"
+      "Платежи",
+      "оплат|эквайринг|qr|крок|безналич"
     ],
     [
-      "Hiring and team",
-      "hiring|team|joined"
+      "Транспорт",
+      "перевоз|водител|маршрут|билет"
     ]
   ],
   "pain_clusters": [
     [
-      "Looking for alternative",
-      "alternative|switch(ing)? from|instead of"
+      "Выбор или смена кассы",
+      "какую кассу|выбрать кассу|альтернатив|сменить кассу|перейти с"
     ],
     [
-      "Price increase",
-      "price|pricing|expensive|plan change"
+      "Стоимость",
+      "цен|тариф|стоимост|дорого|подорож"
     ],
     [
-      "Outages and bugs",
-      "outage|down|bug|broken|slow"
+      "Сбои",
+      "не работает|ошибк|сбой|завис"
     ],
     [
-      "Missing integrations",
-      "integrat|api|connect"
+      "Интеграции",
+      "интеграц|1с|api|не подключает"
     ],
     [
-      "Poor support",
-      "support|no reply|ticket"
+      "Поддержка",
+      "поддержк|не отвечают|не дозвон|не помогли"
     ],
     [
-      "Data migration",
-      "export|migrat|lock-?in"
+      "Учет и отчеты",
+      "товарный учет|отчет|аналитик|выручк|документ"
     ]
   ],
   "ai_prompts": [
-    "best reporting tool for marketing agencies",
-    "client dashboard software for small agencies",
-    "Competitor A alternatives",
-    "best analytics tool for online stores",
-    "how to automate client reports",
-    "white-label reporting for agencies",
-    "KPI dashboard for startups"
+    "Какую программную кассу выбрать для ИП в Беларуси?",
+    "Сколько стоит программная касса для ИП в Беларуси?",
+    "Какая онлайн-касса подойдет небольшому магазину в Беларуси?",
+    "Какую программную кассу выбрать для пассажирских перевозок в Беларуси?",
+    "Какая программная касса интегрируется с 1С в Беларуси?",
+    "Какие есть альтернативы iKassa в Беларуси?",
+    "Сравни WEBKASSA.BY, iKassa и 4ek для малого бизнеса"
   ]
 }
