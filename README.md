@@ -94,12 +94,14 @@ config/sources.json   →  scripts/build.py   →  docs/data.json  →  docs/ind
 
 ## Set it up without code
 
-1. Click **Fork** at the top of this page to copy the repo to your account.
-2. In your copy, open **Settings → Pages**, choose **Deploy from a branch**, branch `main`, folder `/docs`, **Save**. The demo goes live in a minute.
-3. Open `config/sources.json`, click the pencil icon and change the brand name, your domain, competitors and rules. **Commit changes**.
-4. In Apify, create one task per source with your queries (examples are in `query_templates`). Copy each task ID.
-5. In **Settings → Secrets and variables → Actions**, add `APIFY_TOKEN` and the task IDs (`TASK_GOOGLE`, `TASK_REDDIT`, …). Add the Jira secrets if you want tickets.
-6. Open **Actions → Weekly collection → Run workflow**. The page switches from demo to live data.
+Everything happens in the browser and takes about an hour. **[Step-by-step guide →](SETUP.md)**
+
+1. Fork the repo and turn on GitHub Pages: the demo goes live.
+2. Put your brand, domain, competitors and topics into `config/sources.json`.
+3. Create Apify tasks for the sources you want.
+4. Add your Apify token and task IDs as GitHub secrets.
+5. Run the workflow once. From then on it runs weekly.
+6. Optional: add four Jira secrets to get weekly tasks.
 
 Run it locally instead:
 
