@@ -1,0 +1,154 @@
+{
+  "brand": "Acme Cloud",
+  "brand_regex": "\\bacme ?cloud\\b",
+  "own_domain": "acmecloud.example",
+  "competitors": [
+    "Competitor A",
+    "Competitor B",
+    "Competitor C",
+    "Competitor D",
+    "Competitor E"
+  ],
+  "sources": {
+    "google": {
+      "actor": "apify/google-search-scraper",
+      "env_task_id": "TASK_GOOGLE"
+    },
+    "reddit": {
+      "actor": "harshmaur/reddit-scraper",
+      "env_task_id": "TASK_REDDIT"
+    },
+    "x": {
+      "actor": "xquik/x-tweet-scraper",
+      "env_task_id": "TASK_X"
+    },
+    "linkedin": {
+      "actor": "harvestapi/linkedin-post-search",
+      "env_task_id": "TASK_LINKEDIN"
+    },
+    "pains_reddit": {
+      "actor": "harshmaur/reddit-scraper",
+      "env_task_id": "TASK_PAINS_REDDIT"
+    },
+    "pains_x": {
+      "actor": "xquik/x-tweet-scraper",
+      "env_task_id": "TASK_PAINS_X"
+    },
+    "ai_aio": {
+      "actor": "apify/google-search-scraper",
+      "env_task_id": "TASK_AI_AIO"
+    }
+  },
+  "query_templates": {
+    "brand": [
+      "\"{{BRAND}}\" -site:{{OWN_DOMAIN}}",
+      "\"{{BRAND}}\" review",
+      "\"{{BRAND}}\" alternative"
+    ],
+    "pains": [
+      "{{COMPETITOR}} alternative",
+      "{{COMPETITOR}} price increase",
+      "{{COMPETITOR}} outage again",
+      "tool for <your category> recommendations"
+    ],
+    "ai_prompts": [
+      "best <your category> tool for small teams",
+      "<your category> software comparison",
+      "{{COMPETITOR}} alternatives"
+    ]
+  },
+  "noise": {
+    "drop": "\\b(job|vacancy|hiring now|apply now)\\b|acme cloud(s)? (bakery|storage units)",
+    "own_authors": "^(acmecloud|acme cloud)$",
+    "own_text": "meet the acme cloud team|join acme cloud|(months|years|week) at acme cloud|hiring:.*acme cloud",
+    "listing": "integrates with acme cloud|works with acme cloud|acme cloud partner directory",
+    "spam": "free acme cloud (premium|license)|cracked|promo code generator"
+  },
+  "negative": "\\bscam|outage|down again|broken|bug|terrible|worst|avoid|cancel(l)?ed|refund|price (hike|increase)|still waiting",
+  "industries": [
+    [
+      "Agencies",
+      "agency|agencies|clients"
+    ],
+    [
+      "E-commerce",
+      "shop|store|e-?commerce"
+    ],
+    [
+      "Education",
+      "school|university|teacher|students"
+    ],
+    [
+      "Startups",
+      "startup|founder|seed"
+    ],
+    [
+      "Reputation",
+      "review|scam|outage|refund|cancel"
+    ],
+    [
+      "SMB",
+      "."
+    ]
+  ],
+  "narratives": [
+    [
+      "Pricing",
+      "price|pricing|plan|expensive|cheap"
+    ],
+    [
+      "Reliability",
+      "outage|down|slow|bug|broken"
+    ],
+    [
+      "Support",
+      "support|customer service|helpful|responsive"
+    ],
+    [
+      "Integrations",
+      "integrat|api|plugin"
+    ],
+    [
+      "Onboarding",
+      "onboard|setup|learning curve|easy to start"
+    ],
+    [
+      "Data export",
+      "export|migrat|csv"
+    ],
+    [
+      "Events and PR",
+      "conference|webinar|award|launch"
+    ],
+    [
+      "Hiring and team",
+      "hiring|team|joined"
+    ]
+  ],
+  "pain_clusters": [
+    [
+      "Looking for alternative",
+      "alternative|switch(ing)? from|instead of"
+    ],
+    [
+      "Price increase",
+      "price|pricing|expensive|plan change"
+    ],
+    [
+      "Outages and bugs",
+      "outage|down|bug|broken|slow"
+    ],
+    [
+      "Missing integrations",
+      "integrat|api|connect"
+    ],
+    [
+      "Poor support",
+      "support|no reply|ticket"
+    ],
+    [
+      "Data migration",
+      "export|migrat|lock-?in"
+    ]
+  ]
+}
