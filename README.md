@@ -4,7 +4,7 @@
 
 An open-source alternative to paid social listening tools, with AI search visibility built in. Apify collects the data, Python cleans and tags it, and a static page on GitHub Pages shows what changed and what to do about it. Runs for a few dollars a month.
 
-**[Live demo →](https://paulythemarketer-source.github.io/social-listening-monitor/)** (fictional SaaS brand "Acme Cloud", generated data)
+**[Live demo →](https://paulythemarketer.github.io/social-listening-monitor/)** (fictional SaaS brand "Acme Cloud", generated data)
 
 ![Dashboard: AI visibility, mentions, signals and takeaways](docs/cover.png)
 
